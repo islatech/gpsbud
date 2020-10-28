@@ -1,0 +1,71 @@
+body{
+    margin: auto;
+  }
+
+  .header {
+          height: 80px;
+    background-color: #FFE3A2;
+    box-shadow: 0px 0px 5px 0px #121212;
+}
+img {
+    width: 80px;
+    height: 60px;
+    padding: 10px 0px 0px 20px;
+}
+  .topnav {
+      float: right;
+     padding: 40px 30px 10px 0px;
+     
+  }
+
+  a {
+      padding-right: 40px;
+      text-decoration: none;
+      color: #0A2911;
+      font-family: Avenir Next;
+      font-weight: bold;
+
+  }
+  
+  .intro {
+      text-align: center;
+      padding-top: 150px;
+      font-family: Avenir Next;
+      color: #0A2911;
+  }
+
+  .searchbar {
+      padding-top: 70px;
+      padding-bottom: 80px;
+  }
+  .searchcontainer{
+    margin-left: 29%;
+    width: 40%;
+    border: 1px solid rgb(211, 210, 210);
+    padding: 10px 0px 10px 30px;
+    height: 20px;
+    border-radius: 60px;
+    outline: none;
+    color: rgb(211, 210, 210);
+
+  }
+
+  /* .searchengine {
+
+  }
+  
+  .mapouter {
+      height:500px;
+      width:100%;
+      margin: 0px;
+    }
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:100%;
+        margin: 0px;
+    } */
+
+  
