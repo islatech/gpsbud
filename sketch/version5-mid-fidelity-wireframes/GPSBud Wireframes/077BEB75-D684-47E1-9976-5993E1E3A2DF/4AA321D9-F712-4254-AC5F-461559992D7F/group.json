@@ -1,0 +1,144 @@
+{
+  "_class": "group",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "4AA321D9-F712-4254-AC5F-461559992D7F",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 517,
+    "width": 1093,
+    "x": 173.5,
+    "y": 863
+  },
+  "groupLayout": {
+    "_class": "MSImmutableFreeformGroupLayout"
+  },
+  "hasClickThrough": false,
+  "hasClippingMask": false,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "group",
+      "id": "3F015D92-C340-4767-90D8-A15D95990142"
+    },
+    {
+      "class": "text",
+      "id": "655A74D1-4F68-49C9-8734-3DE810327B56"
+    },
+    {
+      "class": "shapePath",
+      "id": "1D655912-2E71-457D-A937-29983B0D03D2"
+    },
+    {
+      "class": "text",
+      "id": "B7C8802E-CD88-44E2-A8CA-C296B838CBC9"
+    },
+    {
+      "class": "text",
+      "id": "2990952A-35C2-4319-999F-EBCAEC3E3267"
+    },
+    {
+      "class": "text",
+      "id": "18A9D70C-51DB-4181-A518-79077A20ED45"
+    },
+    {
+      "class": "text",
+      "id": "4F1B4965-0549-477A-85D6-5859D0DE0F68"
+    },
+    {
+      "class": "text",
+      "id": "6FD01B2E-6165-4CBF-9CF0-A654EF039D41"
+    },
+    {
+      "class": "text",
+      "id": "AA9825B0-57AA-4893-955A-339619B32406"
+    },
+    {
+      "class": "text",
+      "id": "0A1A3ADB-549F-447D-A26E-87A868034841"
+    },
+    {
+      "class": "text",
+      "id": "0577D214-CB02-49E0-B824-98752AF6A171"
+    },
+    {
+      "class": "shapePath",
+      "id": "1265C4F6-291C-499F-92B3-47F3745E6E31"
+    },
+    {
+      "class": "group",
+      "id": "9FCB0D05-8DB9-4713-8D23-87C3D8917757"
+    },
+    {
+      "class": "text",
+      "id": "550D75E2-E1FD-4F15-BB59-142EFC93D909"
+    }
+  ],
+  "name": "Donation Summary Section",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "blur": {
+      "_class": "blur",
+      "center": "{0.5, 0.5}",
+      "isEnabled": false,
+      "motionAngle": 0,
+      "radius": 10,
+      "saturation": 1,
+      "type": 0
+    },
+    "borderOptions": {
+      "_class": "borderOptions",
+      "dashPattern": [
+      ],
+      "isEnabled": true,
+      "lineCapStyle": 0,
+      "lineJoinStyle": 0
+    },
+    "borders": [
+    ],
+    "colorControls": {
+      "_class": "colorControls",
+      "brightness": 0,
+      "contrast": 1,
+      "hue": 0,
+      "isEnabled": false,
+      "saturation": 1
+    },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
+    "do_objectID": "90F7019E-EF9D-44E6-A1E1-75199903A3C5",
+    "endMarkerType": 0,
+    "fills": [
+    ],
+    "innerShadows": [
+    ],
+    "miterLimit": 10,
+    "shadows": [
+    ],
+    "startMarkerType": 0,
+    "windingRule": 1
+  }
+}

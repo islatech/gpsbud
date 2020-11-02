@@ -1,0 +1,194 @@
+{
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 1,
+    "green": 1,
+    "red": 1
+  },
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "F54B9AC4-355C-476C-AC2D-7F187B9D6677",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+      {
+        "_class": "exportFormat",
+        "absoluteSize": 0,
+        "fileFormat": "png",
+        "name": "",
+        "namingScheme": 0,
+        "scale": 3,
+        "visibleScaleType": 0
+      }
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 1024,
+    "width": 1440,
+    "x": 357,
+    "y": -1215
+  },
+  "grid": {
+    "_class": "simpleGrid",
+    "gridSize": 20,
+    "isEnabled": false,
+    "thickGridTimes": 10
+  },
+  "groupLayout": {
+    "_class": "MSImmutableFreeformGroupLayout"
+  },
+  "hasBackgroundColor": true,
+  "hasClickThrough": false,
+  "hasClippingMask": false,
+  "horizontalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  },
+  "includeBackgroundColorInExport": true,
+  "includeInCloudUpload": true,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isFlowHome": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 1,
+  "layers": [
+    {
+      "class": "group",
+      "id": "C228BB46-292E-4C09-8FCF-5D472D963815"
+    },
+    {
+      "class": "text",
+      "id": "3B36AB7D-02EC-4FE8-A690-A7D41AC28353"
+    },
+    {
+      "class": "text",
+      "id": "BDAF59F6-17C1-47D6-93F7-1B822305DDB6"
+    },
+    {
+      "class": "text",
+      "id": "D3FFE79D-E5C8-4ECD-A6AE-010AA12B4C7F"
+    },
+    {
+      "class": "text",
+      "id": "FD959963-5609-4E81-9508-6F3ED705FD84"
+    },
+    {
+      "class": "text",
+      "id": "777DCF5B-8F4B-4A6A-9007-CB8D35A061DA"
+    },
+    {
+      "class": "text",
+      "id": "9712EC56-5E36-46F3-B33F-3EA43C54A3D3"
+    },
+    {
+      "class": "group",
+      "id": "85078F50-116F-4EBA-8C0F-32CD6F288523"
+    },
+    {
+      "class": "oval",
+      "id": "5C40387A-97EC-4C34-AD98-7B81233C7211"
+    },
+    {
+      "class": "group",
+      "id": "53778648-F6B2-4C38-B439-60D7623AE402"
+    },
+    {
+      "class": "group",
+      "id": "1E01302D-1E13-4F19-ADAD-7493B8961C3F"
+    },
+    {
+      "class": "group",
+      "id": "6E7D9C14-A92D-4118-901C-4E9063229693"
+    },
+    {
+      "class": "shapePath",
+      "id": "DDA189A7-7A6C-4275-A6E0-AF5B72DC0220"
+    },
+    {
+      "class": "group",
+      "id": "3621A746-C56F-4D9B-B1E7-C505D8F91F51"
+    },
+    {
+      "class": "text",
+      "id": "65EB26A8-2303-4D2F-9A1A-61E24C90058D"
+    }
+  ],
+  "name": "Onboarding: Palette 1 (white predominant)",
+  "nameIsFixed": true,
+  "presetDictionary": {
+    "allowResizedMatching": 0,
+    "height": 1024,
+    "name": "Desktop HD",
+    "offersLandscapeVariant": 0,
+    "width": 1440
+  },
+  "resizesContent": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": true,
+  "style": {
+    "_class": "style",
+    "blur": {
+      "_class": "blur",
+      "center": "{0.5, 0.5}",
+      "isEnabled": false,
+      "motionAngle": 0,
+      "radius": 10,
+      "saturation": 1,
+      "type": 0
+    },
+    "borderOptions": {
+      "_class": "borderOptions",
+      "dashPattern": [
+      ],
+      "isEnabled": true,
+      "lineCapStyle": 0,
+      "lineJoinStyle": 0
+    },
+    "borders": [
+    ],
+    "colorControls": {
+      "_class": "colorControls",
+      "brightness": 0,
+      "contrast": 1,
+      "hue": 0,
+      "isEnabled": false,
+      "saturation": 1
+    },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
+    "do_objectID": "FCB1DF1D-A92D-42BB-ADBA-D7F19C6BD9C4",
+    "endMarkerType": 0,
+    "fills": [
+    ],
+    "innerShadows": [
+    ],
+    "miterLimit": 10,
+    "shadows": [
+    ],
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "verticalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  }
+}

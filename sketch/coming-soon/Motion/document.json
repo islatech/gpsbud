@@ -1,0 +1,305 @@
+{
+  "_class": "document",
+  "assets": {
+    "_class": "assetCollection",
+    "colorAssets": [
+    ],
+    "colors": [
+    ],
+    "do_objectID": "407AF99F-9895-4C1B-95D2-3BAA280894E4",
+    "exportPresets": [
+    ],
+    "gradientAssets": [
+    ],
+    "gradients": [
+    ],
+    "imageCollection": {
+      "_class": "imageCollection",
+      "images": {
+      }
+    },
+    "images": [
+    ]
+  },
+  "colorSpace": 0,
+  "do_objectID": "B4DD0702-947D-4508-B2BA-826EF29A77CC",
+  "fontReferences": [
+    {
+      "_class": "fontReference",
+      "do_objectID": "03ECF8C0-3FC5-4892-95FD-01CA0CA65718",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Black.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Roboto-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0A3CA5D8-4482-4072-B432-73B5826BF3BD",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Medium.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0C0C01E1-6206-4DF2-84A0-EFF547BD94E8",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0D807AEC-0A4D-4086-A2F9-CF30F309FD44",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Thin.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "1069BC8F-4490-4747-B755-A81316EC8356",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "21E26D64-37FE-4FFC-86BA-A8133A8586D7",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "226F3A69-2E86-46BF-83A1-A6CBABBE65E8",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ThinItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ThinItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "23059653-8C2F-4640-8065-C89DB9F41E51",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraBold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "230AE346-E494-4D8E-A803-12469973889D",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "3CC21210-2CE5-410B-BB6C-207B1043099D",
+      "fontFamilyName": "Roboto Condensed",
+      "fontFileName": "RobotoCondensed-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "RobotoCondensed-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4057D997-ECBF-4331-A2C9-FB7AE3B93440",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4AD8F9D1-2B8B-4635-889E-36DC38548881",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "51DEF07A-4710-4524-B774-94C3C728E52D",
+      "fontFamilyName": "Roboto Condensed",
+      "fontFileName": "RobotoCondensed-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "RobotoCondensed-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "6052E675-8522-470D-92E5-996B98F4D63A",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-MediumItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-MediumItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7B5E242C-43ED-448C-A028-94EAF84779D4",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7C482707-1615-48E1-928E-91AE2DEC2313",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-SemiBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-SemiBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "93E9A7B3-7ADC-46D6-82ED-34A6C95B2001",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Roboto-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "97EA4526-466F-4502-BD39-ADA359EA6603",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Thin.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "9B34953D-6AA4-44B1-8A15-25D059F53E77",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Regular.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "BB5972FC-C0FB-48D1-AC52-8109CA2EFA9C",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-RegularItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "CCC59666-E3C2-4B87-8156-43FA2F7A55ED",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-SemiBold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-SemiBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "CD4B7D48-10E9-40A0-A3F2-F232AD2182D1",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Bold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D3322987-245D-4894-A870-95426C82A37F",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Medium.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "F4932B3F-D459-489B-842C-A5977415CEC6",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraLight.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraLight"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "FBC8996B-37E3-4EF0-96B2-C926DDB8B358",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraLightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraLightItalic"
+      ]
+    }
+  ],
+  "foreignLayerStyles": [
+  ],
+  "foreignSwatches": [
+  ],
+  "foreignSymbols": [
+  ],
+  "foreignTextStyles": [
+  ],
+  "layerSymbols": {
+    "_class": "symbolContainer",
+    "objects": [
+    ]
+  },
+  "meta": {
+    "appVersion": "68.2",
+    "build": 102594,
+    "version": 131
+  },
+  "pages": [
+    "Page 1",
+    "Symbols"
+  ],
+  "sharedSwatches": {
+    "_class": "swatchContainer",
+    "objects": [
+    ]
+  }
+}

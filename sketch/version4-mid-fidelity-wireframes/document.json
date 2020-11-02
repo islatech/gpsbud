@@ -1,0 +1,389 @@
+{
+  "_class": "document",
+  "assets": {
+    "_class": "assetCollection",
+    "colorAssets": [
+    ],
+    "colors": [
+    ],
+    "do_objectID": "FF777803-2FD7-4CA7-BCF1-5AC561A4BF35",
+    "exportPresets": [
+    ],
+    "gradientAssets": [
+    ],
+    "gradients": [
+    ],
+    "imageCollection": {
+      "_class": "imageCollection",
+      "images": {
+      }
+    },
+    "images": [
+    ]
+  },
+  "colorSpace": 0,
+  "do_objectID": "BFECBBA2-88AF-4844-BFDF-3F32208E2CB8",
+  "documentState": {
+    "_class": "documentState"
+  },
+  "fontReferences": [
+    {
+      "_class": "fontReference",
+      "do_objectID": "03F0E9A5-3F8E-414D-AFC4-62101BCB3DCE",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraBold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0814958F-A8F1-4813-A33F-8965E501985A",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Light.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "30A6D41F-E379-4814-8184-42CFED884862",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraLightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraLightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "337FF97B-38D4-47DA-9B82-923519671683",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "38C511EB-62BA-4970-A3F1-4B212B2A48F9",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-RegularItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "3FCA5E58-193E-42B6-9FF3-3680B037B5CA",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4CB1DDCA-8E92-4B1E-981C-D754075D9CB8",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Medium.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Rubik-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "5A8D6583-3134-4BB7-B995-1BFED617731A",
+      "fontFamilyName": "Roboto Condensed",
+      "fontFileName": "RobotoCondensed-Light.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "RobotoCondensed-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "795CD5A5-613D-4590-9C05-56F484D68016",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7A0A97C4-24A9-4CFE-8CB5-DE39DE9A43DE",
+      "fontFamilyName": "Roboto Condensed",
+      "fontFileName": "RobotoCondensed-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "RobotoCondensed-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8110AE4E-08AF-4BCE-892B-1FA62BE0F1DC",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8798BE0E-970C-4E2F-B6ED-B5320C8549C0",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8AF07DFD-2D3B-4F33-A76B-855B57F1C7BB",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-SemiBold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-SemiBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "9EF02B5F-3C2F-4815-8811-0E8AC0336088",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Bold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "A672C48D-AAEB-4A13-B00E-B837F61AA44A",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Medium.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "AC8BC287-F55A-43C5-B3F3-C06E8D6F1DB7",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "AD8DCEF5-775A-497A-956B-440D796D39C1",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Thin.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B28DC063-2B2C-420D-92D7-A53C728E3AAB",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-MediumItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-MediumItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B4BC6131-AAAC-4924-8248-88155F0943FB",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B9E23CE1-A21A-4970-9AE8-3B847BEDD60C",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C2B1E0CB-E359-4901-9D03-3644B5C0391B",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-MediumItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-MediumItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C2C4959B-4FAA-46F2-9933-CD00D580C112",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Italic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C836E72A-CB61-4321-8D14-352F916A7101",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraLight.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraLight"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "CF5BE918-7EAA-4BAE-B5F1-075000D4BDD5",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ThinItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ThinItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D41F29C6-8BFF-4498-89E0-354315C14DCC",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Bold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D72EA75A-F909-4B01-AD8D-50C5F8B0D0C4",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-SemiBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-SemiBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "DB25AFD3-258D-4A75-923E-2F2AE4FBF9EB",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E6D85B83-46F2-42FE-BC8A-18B55BF7B80E",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "F4B88CD3-1DB8-4F68-AB1A-0633BE634F94",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "F62C362A-AD6D-421D-9228-7B5BD4BD1D81",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Regular.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Regular"
+      ]
+    }
+  ],
+  "foreignLayerStyles": [
+  ],
+  "foreignSwatches": [
+  ],
+  "foreignSymbols": [
+  ],
+  "foreignTextStyles": [
+  ],
+  "layerSymbols": {
+    "_class": "symbolContainer",
+    "do_objectID": "DBB1CA1F-1CA6-4764-B3ED-15A62F216BF0",
+    "objects": [
+    ]
+  },
+  "meta": {
+    "appVersion": "69.1",
+    "build": 107496,
+    "version": 134
+  },
+  "pages": [
+    "Draft Wireframes",
+    "Onboarding Color Palette Drafts"
+  ],
+  "sharedSwatches": {
+    "_class": "swatchContainer",
+    "do_objectID": "5E2584C3-C6C9-49AD-A6AE-00E08495AC4E",
+    "objects": [
+      {
+        "_class": "swatch",
+        "do_objectID": "BC53DB6A-CF6E-423B-AC71-23A440B5C2B3",
+        "name": "FFFFFF",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "F70231E9-E859-4BDC-8817-57B7C855AB10",
+        "name": "1. #121212",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.07057429105043411,
+          "green": 0.07059336453676224,
+          "red": 0.0705791488289833
+        }
+      }
+    ]
+  },
+  "userInfo": {
+    "com.invisionlabs.sync": {
+      "metadata": "{\"hasSynced\":0,\"hasProjectIdChanged\":0,\"projectId\":0,\"publicLink\":\"\",\"resolution\":2,\"syncAll\":1}"
+    }
+  }
+}
