@@ -1,0 +1,261 @@
+{
+  "_class": "document",
+  "assets": {
+    "_class": "assetCollection",
+    "colorAssets": [
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.07058823529411765,
+          "green": 0.07058823529411765,
+          "red": 0.07058823529411765
+        },
+        "do_objectID": "96530CAE-D8AD-491C-BCFA-D6B5DB48AE37",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.9792628884315491,
+          "green": 0.9878485798835754,
+          "red": 1
+        },
+        "do_objectID": "8A6E1FC6-BE8F-4F58-92CF-B884151C4BBC",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7707201086956522,
+          "green": 0.7707201086956522,
+          "red": 0.7707201086956522
+        },
+        "do_objectID": "A5E302E1-6A4C-4845-8BBB-56DE46353562",
+        "name": ""
+      }
+    ],
+    "colors": [
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.07058823529411765,
+        "green": 0.07058823529411765,
+        "red": 0.07058823529411765
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.9792628884315491,
+        "green": 0.9878485798835754,
+        "red": 1
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.7707201086956522,
+        "green": 0.7707201086956522,
+        "red": 0.7707201086956522
+      }
+    ],
+    "do_objectID": "90F67175-3412-44AB-BA1A-D783EAD21CCD",
+    "exportPresets": [
+    ],
+    "gradientAssets": [
+    ],
+    "gradients": [
+    ],
+    "imageCollection": {
+      "_class": "imageCollection",
+      "images": {
+      }
+    },
+    "images": [
+    ]
+  },
+  "colorSpace": 0,
+  "do_objectID": "6A2099E0-839C-454E-BD54-3F131F6604C4",
+  "fontReferences": [
+    {
+      "_class": "fontReference",
+      "do_objectID": "1930F70E-3782-4074-8322-830F65D624C2",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "2243A01E-AECC-455D-9E5A-62E798A4BCB6",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "2F1894D5-475C-4116-8308-7E96D746C106",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "3D655A08-6578-4EB3-A39A-2BF969CD2616",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Medium.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Rubik-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4014C35C-DAAC-498B-AFB9-E25EA8238AD5",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Regular.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "404ED694-FD76-4C41-9FB9-990AE9CE1B3C",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Thin.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B96C0A3C-75D1-446D-8B3D-DDB34D1C3B40",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Italic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C38DBC4C-A91B-491B-9D45-0CCB420F5DD9",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Medium.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D3BC660F-F779-4DA4-9336-BCDE0A1BE535",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D4A182B5-60E3-42A2-AD39-D4649C195F4E",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "DB219025-BA63-4DCE-A431-2FD12685BDDD",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "DC9C55E6-5E62-41FD-A4F8-649F1003D083",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E19E05BA-701F-4878-9B42-47D6A8A896CF",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Bold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E331B00D-3250-4F9B-BA25-2478CDF7121C",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-MediumItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-MediumItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "ED7F1905-9BAB-41E6-9B71-6B2EBE0740B1",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Roboto-Regular"
+      ]
+    }
+  ],
+  "foreignLayerStyles": [
+  ],
+  "foreignSwatches": [
+  ],
+  "foreignSymbols": [
+  ],
+  "foreignTextStyles": [
+  ],
+  "layerSymbols": {
+    "_class": "symbolContainer",
+    "objects": [
+    ]
+  },
+  "meta": {
+    "appVersion": "68.2",
+    "build": 102594,
+    "version": 131
+  },
+  "pages": [
+    "Page 1"
+  ],
+  "sharedSwatches": {
+    "_class": "swatchContainer",
+    "objects": [
+    ]
+  }
+}

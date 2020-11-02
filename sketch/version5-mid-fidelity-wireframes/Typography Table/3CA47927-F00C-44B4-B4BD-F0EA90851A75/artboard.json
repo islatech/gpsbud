@@ -1,0 +1,169 @@
+{
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 1,
+    "green": 1,
+    "red": 1,
+    "swatchID": "7C9FD100-E85C-44FC-ABC3-CD458EA58BAC"
+  },
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "3CA47927-F00C-44B4-B4BD-F0EA90851A75",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+      {
+        "_class": "exportFormat",
+        "absoluteSize": 0,
+        "fileFormat": "png",
+        "name": "",
+        "namingScheme": 0,
+        "scale": 3,
+        "visibleScaleType": 0
+      }
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 1080,
+    "width": 1080,
+    "x": -540,
+    "y": -540
+  },
+  "groupLayout": {
+    "_class": "MSImmutableFreeformGroupLayout"
+  },
+  "hasBackgroundColor": true,
+  "hasClickThrough": false,
+  "hasClippingMask": false,
+  "horizontalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  },
+  "includeBackgroundColorInExport": true,
+  "includeInCloudUpload": true,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isFlowHome": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "text",
+      "id": "D374BB1D-C6B6-46B0-A29F-DBD005A3C276"
+    },
+    {
+      "class": "text",
+      "id": "39FF1E9E-C0D3-41C6-8558-30700981E9A3"
+    },
+    {
+      "class": "text",
+      "id": "ED359256-DC22-478A-9391-F2AE0ABEDB9B"
+    },
+    {
+      "class": "text",
+      "id": "27D7351D-909D-4AAF-9B61-6F59F4C0ED0F"
+    },
+    {
+      "class": "text",
+      "id": "19632991-808C-408F-9FD9-545E7D9E141C"
+    },
+    {
+      "class": "text",
+      "id": "B7A08540-86BF-4913-8B3C-46260707A7CD"
+    },
+    {
+      "class": "text",
+      "id": "A85FACA7-E177-4E42-96E2-58D2846D07AA"
+    },
+    {
+      "class": "shapePath",
+      "id": "A91BAFC4-E68C-4D31-9218-14685F5214E6"
+    },
+    {
+      "class": "shapePath",
+      "id": "7C0F85C0-EBC8-49A0-B8CE-96A532413E9A"
+    },
+    {
+      "class": "text",
+      "id": "B6369F2B-3C9F-4A86-84AE-CF86A4FF1FED"
+    }
+  ],
+  "name": "gpsbud-typography",
+  "nameIsFixed": true,
+  "presetDictionary": {
+    "allowResizedMatching": 0,
+    "height": 1080,
+    "name": "Post",
+    "offersLandscapeVariant": 0,
+    "width": 1080
+  },
+  "resizesContent": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": true,
+  "style": {
+    "_class": "style",
+    "blur": {
+      "_class": "blur",
+      "center": "{0.5, 0.5}",
+      "isEnabled": false,
+      "motionAngle": 0,
+      "radius": 10,
+      "saturation": 1,
+      "type": 0
+    },
+    "borderOptions": {
+      "_class": "borderOptions",
+      "dashPattern": [
+      ],
+      "isEnabled": true,
+      "lineCapStyle": 0,
+      "lineJoinStyle": 0
+    },
+    "borders": [
+    ],
+    "colorControls": {
+      "_class": "colorControls",
+      "brightness": 0,
+      "contrast": 1,
+      "hue": 0,
+      "isEnabled": false,
+      "saturation": 1
+    },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
+    "do_objectID": "3536A0D1-2F0A-447F-836C-C7C4FF76C83A",
+    "endMarkerType": 0,
+    "fills": [
+    ],
+    "innerShadows": [
+    ],
+    "miterLimit": 10,
+    "shadows": [
+    ],
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "verticalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  }
+}
