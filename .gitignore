@@ -108,4 +108,4 @@ dist
 
 
 # Ignore sketch files
-*.sketch
+**/**/**/**/*.sketch
