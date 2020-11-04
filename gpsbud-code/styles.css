@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+  }
+
+  .header {
+          height: 80px;
+    background-color: #FFE3A2;
+    box-shadow: 0px 0px 5px 0px #121212;
+}
+img.logo {
+    width: 80px;
+    height: 60px;
+    padding: 10px 0px 0px 20px;
+}
+  .topnav {
+      float: right;
+     padding: 40px 30px 10px 0px;
+     
+  }
+
+  a {
+      padding-right: 40px;
+      text-decoration: none;
+      color: #0A2911;
+      font-family: Avenir Next;
+      font-weight: bold;
+
+  }
+  
+  .intro {
+      text-align: center;
+      padding-top: 150px;
+      font-family: Avenir Next;
+      color: #0A2911;
+  }
+
+  img.home-arrow1 {
+      margin-top: 30px;
+  }
+
+  img.home-arrow2 {
+    margin-top: -20px;
+}
+
+  .searchbar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .searchcontainer{
+    /* margin-left: 29%; */
+    width: 600px;
+    border: 1px solid rgb(211, 210, 210);
+    padding: 10px 0px 10px 30px;
+    height: 45px;
+    border-radius: 60px;
+    outline: none;
+    color: rgb(211, 210, 210);
+
+  }
+
+  .sub-menu {
+      position: left;
+      /* display: inline;
+      margin-right: 10px; */
+  }
+
+ li {
+    display: inline;
+    padding-top: 5px;
+ }
+ .page-title {
+     padding-top: 30px;
+    text-align: center;
+    font-family: Avenir Next;
+    color: #0A2911;
+ }
+
+ .library-searchbar {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .library-searchcontainer {
+    /* margin-left: 29%; */
+    width: 40%;
+    border: 1px solid rgb(211, 210, 210);
+    padding: 10px 0px 10px 30px;
+    height: 45px;
+    border-radius: 60px;
+    outline: none;
+    color: rgb(211, 210, 210);
+
+ }
+.button {
+    display: inline;
+    margin-left: 30px;
+}
+ .filter-button {
+     position: left;
+     width: 45%;
+ }
+
+ .sort-by-button {
+     position: right;
+     width: 45%;
+ }
+
+ .container {
+     /* margin: 10px; */
+     padding: 30px;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+
+ }
+ .strain-images {
+     /* margin: 5px; */
+     width: 280px;
+     height: 290px;
+     /* float: left; */
+     padding: 15px 15px 15px 15px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 3px 1px rgb(189, 189, 189);
+     margin: 20px;
+     overflow: hidden;
+     
+ }
+
+img.strain {
+     width: 240px;
+     padding: 5px;
+     height: 180px;
+     box-align: center;
+     text-align: center;
+ }
+ h1.title {
+     font-size: 20px;
+     padding-top: 5px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     font-family: Avenir Next;
+
+ }
+ h3.description {
+     padding-top: 0px;
+     padding-bottom: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     font-size: 16px;
+     font-family: Avenir Next;
+     font-weight: normal;
+ }
+  /* .searchengine {
+  }
+  
+  .mapouter {
+      height:500px;
+      width:100%;
+      margin: 0px;
+    }
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:100%;
+        margin: 0px;
+    } */
