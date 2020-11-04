@@ -1,0 +1,207 @@
+{
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 0.7923317174567768,
+    "green": 0.814651268115942,
+    "red": 0.7645117178870073
+  },
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "FA5774C6-4D12-4168-91C0-41D2C90BD639",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+      {
+        "_class": "exportFormat",
+        "absoluteSize": 0,
+        "fileFormat": "pdf",
+        "name": "",
+        "namingScheme": 0,
+        "scale": 3,
+        "visibleScaleType": 0
+      }
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 1067,
+    "width": 2000,
+    "x": -1985,
+    "y": -1842
+  },
+  "groupLayout": {
+    "_class": "MSImmutableFreeformGroupLayout"
+  },
+  "hasBackgroundColor": true,
+  "hasClickThrough": false,
+  "hasClippingMask": false,
+  "horizontalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  },
+  "includeBackgroundColorInExport": true,
+  "includeInCloudUpload": true,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isFlowHome": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 1,
+  "layers": [
+    {
+      "class": "bitmap",
+      "id": "2CCB85A1-6DE2-4A06-BD5E-6274146D4085"
+    },
+    {
+      "class": "bitmap",
+      "id": "CED05DA0-48C6-42D7-B41E-DBF411269920"
+    },
+    {
+      "class": "text",
+      "id": "8DB4429A-D07A-4B7A-8174-BB31CD2A14BD"
+    },
+    {
+      "class": "text",
+      "id": "A3242892-96B3-4ED7-99BE-CA963CD9679F"
+    },
+    {
+      "class": "text",
+      "id": "FE20AB28-7C92-4336-AD34-22F9724596E9"
+    },
+    {
+      "class": "text",
+      "id": "EBF937D0-7A65-4A12-8244-CC0B96E18A90"
+    },
+    {
+      "class": "text",
+      "id": "3A36B89E-ECF5-4069-BA05-10370567B82A"
+    },
+    {
+      "class": "text",
+      "id": "A49E5546-FE68-4982-9FF7-DF2EFD3331AA"
+    },
+    {
+      "class": "text",
+      "id": "818D00A2-8455-4E7B-8846-AD6A89AA3A5D"
+    },
+    {
+      "class": "text",
+      "id": "7A2C9BFB-21F5-4768-B1FD-AFA876069BA2"
+    },
+    {
+      "class": "bitmap",
+      "id": "BBDA6F4E-6E15-4057-BAC4-3AF06A72C1C1"
+    },
+    {
+      "class": "bitmap",
+      "id": "37497E33-04D1-4D19-9466-C6A2BA651302"
+    },
+    {
+      "class": "bitmap",
+      "id": "6BBBC847-B571-48FA-9B8B-D70337428F99"
+    },
+    {
+      "class": "bitmap",
+      "id": "58C3AB45-7667-4F9D-A7DE-75C950AA5186"
+    },
+    {
+      "class": "shapePath",
+      "id": "17D9B72F-2954-4DCD-94EA-B5FBDA82ECE7"
+    },
+    {
+      "class": "shapePath",
+      "id": "C5663EA8-8EF4-4C66-9714-2FF4780ABA0D"
+    },
+    {
+      "class": "shapePath",
+      "id": "CD436D38-CE6E-403A-A78F-15649AC1EF3E"
+    },
+    {
+      "class": "shapePath",
+      "id": "2BD48E91-64B4-4CB6-95D1-D7F8B0056A29"
+    },
+    {
+      "class": "shapePath",
+      "id": "2B218338-B9D4-4E5F-8EB2-35885B651F46"
+    },
+    {
+      "class": "shapePath",
+      "id": "AA072E5E-1C56-4C08-89E1-78588189ADEB"
+    },
+    {
+      "class": "shapePath",
+      "id": "6AB17B48-96A8-49A7-9812-F3C4EC40D827"
+    }
+  ],
+  "name": "Second Version of GPSBud Wireframes",
+  "nameIsFixed": true,
+  "presetDictionary": {
+  },
+  "resizesContent": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": true,
+  "style": {
+    "_class": "style",
+    "blur": {
+      "_class": "blur",
+      "center": "{0.5, 0.5}",
+      "isEnabled": false,
+      "motionAngle": 0,
+      "radius": 0.8164931618697694,
+      "saturation": 1,
+      "type": 0
+    },
+    "borderOptions": {
+      "_class": "borderOptions",
+      "dashPattern": [
+      ],
+      "isEnabled": true,
+      "lineCapStyle": 0,
+      "lineJoinStyle": 0
+    },
+    "borders": [
+    ],
+    "colorControls": {
+      "_class": "colorControls",
+      "brightness": 0,
+      "contrast": 1,
+      "hue": 0,
+      "isEnabled": false,
+      "saturation": 1
+    },
+    "contextSettings": {
+      "_class": "graphicsContextSettings",
+      "blendMode": 0,
+      "opacity": 1
+    },
+    "do_objectID": "FF2F18A9-2063-4E0A-AEEA-E906ABD27D26",
+    "endMarkerType": 0,
+    "fills": [
+    ],
+    "innerShadows": [
+    ],
+    "miterLimit": 10,
+    "shadows": [
+    ],
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "verticalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  }
+}

@@ -1,0 +1,1695 @@
+{
+  "_class": "document",
+  "assets": {
+    "_class": "assetCollection",
+    "colorAssets": [
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.07057429105043411,
+          "green": 0.07059336453676224,
+          "red": 0.0705791488289833
+        },
+        "do_objectID": "E05C6654-3E4A-4743-B8E2-DDD991BDAEAD",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6198199728260869,
+          "green": 0.6198199728260869,
+          "red": 0.6198199728260869
+        },
+        "do_objectID": "6B1C005F-7939-4164-AD07-246A3D6FBCF5",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 0.2795290646853147,
+          "blue": 0,
+          "green": 0,
+          "red": 0
+        },
+        "do_objectID": "4EB76BEF-C194-41C7-BCEB-5DA9B13FE493",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7305253623188406,
+          "green": 0.7305253623188406,
+          "red": 0.7305253623188406
+        },
+        "do_objectID": "20B47098-2D2D-4CC7-AD60-273C0F4BB936",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.9792628884315491,
+          "green": 0.9878485798835754,
+          "red": 1
+        },
+        "do_objectID": "1B292C3D-1492-4413-AEF0-6FFA1242F111",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 0.8109975961538461,
+          "blue": 0.6198199728260869,
+          "green": 0.6198199728260869,
+          "red": 0.6198199728260869
+        },
+        "do_objectID": "BE689D45-A1ED-4DB4-BB8B-35EDAA45420F",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 0.1676955856643357,
+          "blue": 0,
+          "green": 0,
+          "red": 0
+        },
+        "do_objectID": "0C2D0B98-9B8A-495A-A9D9-0AE3F057D824",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 0.5,
+          "blue": 0,
+          "green": 0,
+          "red": 0
+        },
+        "do_objectID": "DC4C736D-1EE4-458C-9CC2-0487AACA0329",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.796078431372549,
+          "green": 0.796078431372549,
+          "red": 0.796078431372549
+        },
+        "do_objectID": "5EDA0EFB-3692-46D2-862B-BB1D3D11FDC2",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.592,
+          "green": 0.592,
+          "red": 0.592
+        },
+        "do_objectID": "C6B30125-58C3-495E-B55F-AD30B496B2B9",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6156862745098038,
+          "green": 0.7176470588235294,
+          "red": 0.3333333333333333
+        },
+        "do_objectID": "00054855-7BDD-4679-8DAA-4E486A957883",
+        "name": ""
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4274509803921568,
+          "green": 0.7333333333333333,
+          "red": 0.9882352941176471
+        },
+        "do_objectID": "3BF698CB-763B-418B-BE40-BECD2C79EA2D",
+        "name": "First Palette"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6431372549019607,
+          "green": 0.7176470588235294,
+          "red": 0.9411764705882353
+        },
+        "do_objectID": "01955BC8-347F-4360-9074-C67F2FCBD671",
+        "name": "First Palette"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7098039215686275,
+          "green": 0.8196078431372549,
+          "red": 0.9450980392156862
+        },
+        "do_objectID": "CE003B5F-791B-4D06-B39E-328CBE359691",
+        "name": "First Palette"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6509803921568628,
+          "green": 0.5568627450980392,
+          "red": 0.3372549019607843
+        },
+        "do_objectID": "EBF22DFB-959F-4929-BB97-921B3BC06831",
+        "name": "First Palette"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4470588235294117,
+          "green": 0.3725490196078431,
+          "red": 0.1882352941176471
+        },
+        "do_objectID": "327405AC-DF54-40EE-88D3-BB84C6FB7BEE",
+        "name": "First Palette"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.1529411764705882,
+          "green": 0.4,
+          "red": 0.9490196078431372
+        },
+        "do_objectID": "61C7A278-9AAA-4C49-9A0C-D7FF8109B2C9",
+        "name": "Second"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4235294117647059,
+          "green": 0.6352941176470588,
+          "red": 0.9764705882352941
+        },
+        "do_objectID": "5ED4A89E-E681-42D8-AC7E-308B37324557",
+        "name": "Second"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.9333333333333333,
+          "green": 0.9333333333333333,
+          "red": 0.9372549019607843
+        },
+        "do_objectID": "6CE3193C-68D2-4D6E-AB7A-5F4BAFC8ADD2",
+        "name": "Second"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.8196078431372549,
+          "green": 0.8431372549019608,
+          "red": 0.6078431372549019
+        },
+        "do_objectID": "76DEDDB8-0229-49B7-8272-59359F74EB2C",
+        "name": "Second"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4745098039215686,
+          "green": 0.3647058823529412,
+          "red": 0.196078431372549
+        },
+        "do_objectID": "765FE21E-1FDB-476D-8A7F-D74187FB7975",
+        "name": "Second"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6588235294117647,
+          "green": 0.7254901960784313,
+          "red": 0.5607843137254902
+        },
+        "do_objectID": "4C5581A8-15B7-4ECE-A260-2C4AA2D24844",
+        "name": "Third"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.8313725490196078,
+          "green": 0.9803921568627451,
+          "red": 0.996078431372549
+        },
+        "do_objectID": "23420093-13AF-4AA5-8DE8-230D8FD94F81",
+        "name": "Third"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7294117647058823,
+          "green": 0.8156862745098039,
+          "red": 0.9882352941176471
+        },
+        "do_objectID": "C0115EE7-A477-4EBB-9BBB-BC9AE6B3C18F",
+        "name": "Third"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.5529411764705883,
+          "green": 0.5098039215686274,
+          "red": 0.9450980392156862
+        },
+        "do_objectID": "B23543B3-5809-4F4E-8194-37938C237E42",
+        "name": "Third"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4117647058823529,
+          "green": 0.3647058823529412,
+          "red": 0.4627450980392157
+        },
+        "do_objectID": "29F3A414-DF9D-487E-BB36-26590A604E3E",
+        "name": "Third"
+      },
+      {
+        "_class": "MSImmutableColorAsset",
+        "color": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.489356884057971,
+          "green": 0.489356884057971,
+          "red": 0.489356884057971
+        },
+        "do_objectID": "7D78EFF0-0661-458F-B0DD-B4FAFCE861C0",
+        "name": ""
+      }
+    ],
+    "colors": [
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.07057429105043411,
+        "green": 0.07059336453676224,
+        "red": 0.0705791488289833
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.6198199728260869,
+        "green": 0.6198199728260869,
+        "red": 0.6198199728260869
+      },
+      {
+        "_class": "color",
+        "alpha": 0.2795290646853147,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.7305253623188406,
+        "green": 0.7305253623188406,
+        "red": 0.7305253623188406
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.9792628884315491,
+        "green": 0.9878485798835754,
+        "red": 1
+      },
+      {
+        "_class": "color",
+        "alpha": 0.8109975961538461,
+        "blue": 0.6198199728260869,
+        "green": 0.6198199728260869,
+        "red": 0.6198199728260869
+      },
+      {
+        "_class": "color",
+        "alpha": 0.1676955856643357,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      {
+        "_class": "color",
+        "alpha": 0.5,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.796078431372549,
+        "green": 0.796078431372549,
+        "red": 0.796078431372549
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.592,
+        "green": 0.592,
+        "red": 0.592
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.6156862745098038,
+        "green": 0.7176470588235294,
+        "red": 0.3333333333333333
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.4274509803921568,
+        "green": 0.7333333333333333,
+        "red": 0.9882352941176471
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.6431372549019607,
+        "green": 0.7176470588235294,
+        "red": 0.9411764705882353
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.7098039215686275,
+        "green": 0.8196078431372549,
+        "red": 0.9450980392156862
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.6509803921568628,
+        "green": 0.5568627450980392,
+        "red": 0.3372549019607843
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.4470588235294117,
+        "green": 0.3725490196078431,
+        "red": 0.1882352941176471
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.1529411764705882,
+        "green": 0.4,
+        "red": 0.9490196078431372
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.4235294117647059,
+        "green": 0.6352941176470588,
+        "red": 0.9764705882352941
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.9333333333333333,
+        "green": 0.9333333333333333,
+        "red": 0.9372549019607843
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.8196078431372549,
+        "green": 0.8431372549019608,
+        "red": 0.6078431372549019
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.4745098039215686,
+        "green": 0.3647058823529412,
+        "red": 0.196078431372549
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.6588235294117647,
+        "green": 0.7254901960784313,
+        "red": 0.5607843137254902
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.8313725490196078,
+        "green": 0.9803921568627451,
+        "red": 0.996078431372549
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.7294117647058823,
+        "green": 0.8156862745098039,
+        "red": 0.9882352941176471
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.5529411764705883,
+        "green": 0.5098039215686274,
+        "red": 0.9450980392156862
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.4117647058823529,
+        "green": 0.3647058823529412,
+        "red": 0.4627450980392157
+      },
+      {
+        "_class": "color",
+        "alpha": 1,
+        "blue": 0.489356884057971,
+        "green": 0.489356884057971,
+        "red": 0.489356884057971
+      }
+    ],
+    "do_objectID": "B8A99CF8-B396-4703-8E1E-CAD1E0EE3337",
+    "exportPresets": [
+    ],
+    "gradientAssets": [
+    ],
+    "gradients": [
+    ],
+    "imageCollection": {
+      "_class": "imageCollection",
+      "images": {
+      }
+    },
+    "images": [
+    ]
+  },
+  "colorSpace": 0,
+  "do_objectID": "E070C13F-598F-409C-84DD-6A67AC737CE3",
+  "documentState": {
+    "_class": "documentState"
+  },
+  "fontReferences": [
+    {
+      "_class": "fontReference",
+      "do_objectID": "0D12A404-CE00-466F-958C-26A04FFEB3B1",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0DBA41B3-F81D-4EA4-9310-CEC3357195EB",
+      "fontFamilyName": "Oxygen",
+      "fontFileName": "Oxygen-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Oxygen-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "0ED4C49A-A4A3-4DEA-91D2-14E9AFB25B2F",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Black.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "18E132A0-6992-414E-B9FD-98940041C3FB",
+      "fontFamilyName": "Source Sans Pro",
+      "fontFileName": "SourceSansPro-Italic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "SourceSansPro-It"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "2273AA83-8E7F-4030-982A-00E7A9BB9445",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Regular.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "2435887F-A801-4542-8694-0BFE29476DDF",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-ThinItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-ThinItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "28BC104B-DA31-4050-9BD2-124F578A0845",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "2DA3D08E-09B3-4744-991A-C6A7929BC997",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-BlackItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "30E529E9-483C-4818-BB09-E6E938F7A90F",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-BlackItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-BlackItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "328BBBDA-F8CF-47C9-BB54-92D60E1BD729",
+      "fontFamilyName": "Montserrat",
+      "fontFileName": "Montserrat-Regular.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Montserrat-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "350CA79F-2EEF-4BF7-A82E-426172E6D0CE",
+      "fontFamilyName": "Oxygen",
+      "fontFileName": "Oxygen-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Oxygen-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "35B4CB8C-9BFC-4A95-AFF8-27721C54DDA7",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Italic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "364EEF3A-27A4-4E9C-BBF6-C56BB79F9F2C",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "41943213-AC6B-4EDB-9BC6-784BF1C398CC",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Regular.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "47102EE8-FA91-44A5-A2EA-33BB56AE49CB",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Bold.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4A5ED197-590F-4350-809B-2CB33BB9D6CE",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-MediumItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-MediumItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4C9C09B5-399F-45B8-B49D-76C7B6CD633B",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Thin.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4CB1697C-F8DA-416B-8BA4-543DA8F9B86C",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-SemiboldItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-SemiboldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4CF7945B-CBD7-45FA-9A70-8C819CE459E4",
+      "fontFamilyName": "Lato",
+      "fontFileName": ".15708.otf",
+      "options": 0,
+      "postscriptNames": [
+        "Lato-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "4E7F961B-A102-43FE-8E8E-23357743AA8B",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraLight.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraLight"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "5E6599B4-D026-48CA-8CD9-D5F179C45079",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "66BEB254-87F9-4D78-B71D-F4862B69DF8B",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Ultralight.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Ultralight"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7282BD7B-47FC-4083-AA5F-EB543BDE180A",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-SemiBoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-SemiBoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7666B05A-67CC-4864-BC4B-E4ADE820638E",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Semibold.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Semibold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7A8F0501-C964-4F40-B91D-E57EB85C8539",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "7BA4D0C3-DC8B-41F2-82BD-91F7255529D1",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "80239543-1352-4308-A157-1CE961607477",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8097C19F-E8EB-4875-BE7C-CE09040BAE12",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-LightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "84C6D45E-5705-4335-A123-946C849B8031",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Thin.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "85C72D87-DA27-4624-8725-30728CF394F8",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-BoldItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "89A0F4C5-9311-4607-9A5B-C6520F0A3199",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Regular.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8A6B4592-A1A0-46BF-80FF-88BC269AAF10",
+      "fontFamilyName": "Roboto Condensed",
+      "fontFileName": "RobotoCondensed-Light.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "RobotoCondensed-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8D043C31-B97B-4391-BE09-1B0A4EE25E81",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-LightItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-LightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8DC18B0A-0657-41EA-897E-8AAD3FBA7192",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "8F18B3C2-BE4B-4494-810B-D4838B455394",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Thin.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Thin"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "9A532BAF-3FC0-4907-8C24-D33376F3A33A",
+      "fontFamilyName": "Montserrat",
+      "fontFileName": "Montserrat-Bold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Montserrat-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "A33BB15A-98C2-4E45-B736-16DB1A10EE45",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-HeavyItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-HeavyItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "A391D611-39D1-42D9-B003-8F67B7CFD9C5",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Bold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "AC3CB2D6-CD1C-4C8F-A3F9-A3E848D66020",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-SemiBold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-SemiBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "ACA685F3-0A34-4EB7-A072-7F3A7F9D83AF",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Bold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B147B03A-18D9-404F-8692-2A49390F97F1",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-RegularItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B5721912-3393-4739-A07E-9FE533B612EB",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraLightItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraLightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B77256EB-BCB3-413F-ACDB-93E5B037250B",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Black.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Black"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "B91C44D9-3DC7-4698-9067-ACEE13AEFD3C",
+      "fontFamilyName": "Oxygen",
+      "fontFileName": "Oxygen-Bold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Oxygen-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "BCD942E2-523D-4C80-B656-B97AC6673170",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-MediumItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-MediumItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "BE638657-96A9-46BB-A380-E5AAA306FFE3",
+      "fontFamilyName": "Source Sans Pro",
+      "fontFileName": "SourceSansPro-Bold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "SourceSansPro-Bold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C2D3890C-1DDD-44DC-A8D3-49F1259FEE58",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Heavy.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Heavy"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C9529A5E-6888-4BEE-8D7D-809E4D51346A",
+      "fontFamilyName": "Roboto",
+      "fontFileName": "Roboto-Medium.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Roboto-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "C9530646-6838-474B-B6FD-335CC88C02BA",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "Poppins-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "CDCD88FA-EE0E-4BC0-933B-009C15AEF8BC",
+      "fontFamilyName": "Source Sans Pro",
+      "fontFileName": "SourceSansPro-Semibold.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "SourceSansPro-Semibold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "CE6E9215-68AA-48F4-80B1-7AA604A5BED0",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-BoldItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-BoldItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D11BEF88-4BEC-4554-8038-A33377FF1254",
+      "fontFamilyName": "Source Sans Pro",
+      "fontFileName": ".17265.otf",
+      "options": 2,
+      "postscriptNames": [
+        "SourceSansPro-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "D944BFCD-0B9B-43AC-8AFF-627A1F354666",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Medium.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E089C4DF-6DF9-4E50-99AB-9E249498EF75",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-RegularItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Italic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E68BB5FB-3EFF-46C4-A542-2A9D19FA21F9",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ThinItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ThinItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E6E9AF26-C883-49A0-9B03-43894E65D96A",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-Light.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E82D1762-A802-45BE-89AF-86716122A386",
+      "fontFamilyName": "Roboto Condensed",
+      "fontFileName": "RobotoCondensed-Regular.ttf",
+      "options": 2,
+      "postscriptNames": [
+        "RobotoCondensed-Regular"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "E8B3162B-A138-435E-9FB5-AE3BCA73E7FD",
+      "fontFamilyName": "SF Compact Text",
+      "fontFileName": "SF-Compact-Text-UltralightItalic.otf",
+      "options": 0,
+      "postscriptNames": [
+        "SFCompactText-UltralightItalic"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "EB92D382-6A9E-4B3E-A129-F7C38EB6EFA8",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Light.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Light"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "EDDE95CF-1947-4F9D-89AB-470B756F910D",
+      "fontFamilyName": "Galvji",
+      "fontFileName": "Galvji.ttc",
+      "options": 0,
+      "postscriptNames": [
+        "Galvji",
+        "Galvji-Bold",
+        "Galvji-BoldOblique",
+        "Galvji-Oblique"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "EE04B572-B037-44CC-A8DD-9369199E3363",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-ExtraBold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-ExtraBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "EEE70099-AF78-4928-A802-43738FB65524",
+      "fontFamilyName": "Montserrat",
+      "fontFileName": "Montserrat-SemiBold.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Montserrat-SemiBold"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "F32EBA49-2667-432F-9568-72A90B53634E",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-Medium.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "F3F4F792-9BEF-4D1C-BA0A-98703FD8BBE8",
+      "fontFamilyName": "Poppins",
+      "fontFileName": "Poppins-Medium.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Poppins-Medium"
+      ]
+    },
+    {
+      "_class": "fontReference",
+      "do_objectID": "F643AC63-FF5E-481A-99D7-375DCD7F781E",
+      "fontFamilyName": "Rubik",
+      "fontFileName": "Rubik-MediumItalic.ttf",
+      "options": 0,
+      "postscriptNames": [
+        "Rubik-MediumItalic"
+      ]
+    }
+  ],
+  "foreignLayerStyles": [
+  ],
+  "foreignSwatches": [
+  ],
+  "foreignSymbols": [
+  ],
+  "foreignTextStyles": [
+  ],
+  "layerSymbols": {
+    "_class": "symbolContainer",
+    "do_objectID": "CF4CE411-5B94-409C-84DD-6165AC52058E",
+    "objects": [
+    ]
+  },
+  "meta": {
+    "appVersion": "69.1",
+    "build": 107496,
+    "version": 134
+  },
+  "pages": [
+    "GPSBud Wireframes",
+    "Typography Table",
+    "Symbols"
+  ],
+  "sharedSwatches": {
+    "_class": "swatchContainer",
+    "do_objectID": "D940E011-5B94-409C-84DD-6165AC520B82",
+    "objects": [
+      {
+        "_class": "swatch",
+        "do_objectID": "932B0720-5D22-4743-B8E2-DDD991BDAEAD",
+        "name": "1. #121212",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.07057429105043411,
+          "green": 0.07059336453676224,
+          "red": 0.0705791488289833
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "186B612B-1A51-4164-AD07-246A3D6FBCF5",
+        "name": "2. #9E9E9E",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6198199728260869,
+          "green": 0.6198199728260869,
+          "red": 0.6198199728260869
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "3DC00A9B-A2FC-41C7-BCEB-5DA9B13FE493",
+        "name": "3. #000000",
+        "value": {
+          "_class": "color",
+          "alpha": 0.2795290646853147,
+          "blue": 0,
+          "green": 0,
+          "red": 0
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "53C311EC-4E45-4CC7-AD60-273C0F4BB936",
+        "name": "4. #BABABA",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7305253623188406,
+          "green": 0.7305253623188406,
+          "red": 0.7305253623188406
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "685E4D49-77FA-4413-AEF0-6FFA1242F111",
+        "name": "5. #FFFCFA",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.9792628884315491,
+          "green": 0.9878485798835754,
+          "red": 1
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "CD1FFC31-C285-4DB4-BB8B-35EDAA45420F",
+        "name": "6. #9E9E9E",
+        "value": {
+          "_class": "color",
+          "alpha": 0.8109975961538461,
+          "blue": 0.6198199728260869,
+          "green": 0.6198199728260869,
+          "red": 0.6198199728260869
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7F5A6AEC-F8E2-495A-A9D9-0AE3F057D824",
+        "name": "7. #000000",
+        "value": {
+          "_class": "color",
+          "alpha": 0.1676955856643357,
+          "blue": 0,
+          "green": 0,
+          "red": 0
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "AF3B1219-7D8C-458C-9CC2-0487AACA0329",
+        "name": "8. #000000",
+        "value": {
+          "_class": "color",
+          "alpha": 0.5,
+          "blue": 0,
+          "green": 0,
+          "red": 0
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "2DAD6F8F-55FA-46D2-862B-BB1D3D11FDC2",
+        "name": "9. #CBCBCB",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.796078431372549,
+          "green": 0.796078431372549,
+          "red": 0.796078431372549
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "B5C46051-3BAB-495E-B55F-AD30B496B2B9",
+        "name": "10. #979797",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.592,
+          "green": 0.592,
+          "red": 0.592
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "73722921-18B5-4679-8DAA-4E486A957883",
+        "name": "11. #55B79D",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6156862745098038,
+          "green": 0.7176470588235294,
+          "red": 0.3333333333333333
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4881F9BF-1553-418B-BE40-BECD2C79EA2D",
+        "name": "12. First Palette",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4274509803921568,
+          "green": 0.7333333333333333,
+          "red": 0.9882352941176471
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "72E23ABC-5717-4360-9074-C67F2FCBD671",
+        "name": "13. First Palette",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6431372549019607,
+          "green": 0.7176470588235294,
+          "red": 0.9411764705882353
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "BD775A2B-1A73-4D06-B39E-328CBE359691",
+        "name": "14. First Palette",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7098039215686275,
+          "green": 0.8196078431372549,
+          "red": 0.9450980392156862
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "98854C8F-F6F7-4929-BB97-921B3BC06831",
+        "name": "15. First Palette",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6509803921568628,
+          "green": 0.5568627450980392,
+          "red": 0.3372549019607843
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "410364D8-BC3C-40EE-88D3-BB84C6FB7BEE",
+        "name": "16. First Palette",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4470588235294117,
+          "green": 0.3725490196078431,
+          "red": 0.1882352941176471
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "12B0C30C-F9C2-4C49-9A0C-D7FF8109B2C9",
+        "name": "17. Second",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.1529411764705882,
+          "green": 0.4,
+          "red": 0.9490196078431372
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "2DA3C9EA-85E9-42D8-AC7E-308B37324557",
+        "name": "18. Second",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4235294117647059,
+          "green": 0.6352941176470588,
+          "red": 0.9764705882352941
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "1F947848-0BBA-4D6E-AB7A-5F4BAFC8ADD2",
+        "name": "19. Second",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.9333333333333333,
+          "green": 0.9333333333333333,
+          "red": 0.9372549019607843
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "05A9BCCC-6141-49B7-8272-59359F74EB2C",
+        "name": "20. Second",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.8196078431372549,
+          "green": 0.8431372549019608,
+          "red": 0.6078431372549019
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "0528836A-7CB3-476D-8A7F-D74187FB7975",
+        "name": "21. Second",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4745098039215686,
+          "green": 0.3647058823529412,
+          "red": 0.196078431372549
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "3F22E0DC-76DF-4ECE-A260-2C4AA2D24844",
+        "name": "22. Third",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6588235294117647,
+          "green": 0.7254901960784313,
+          "red": 0.5607843137254902
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "503561E7-70C7-4AA5-8DE8-230D8FD94F81",
+        "name": "23. Third",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.8313725490196078,
+          "green": 0.9803921568627451,
+          "red": 0.996078431372549
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "B3663F93-C71F-4EBB-9BBB-BC9AE6B3C18F",
+        "name": "24. Third",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.7294117647058823,
+          "green": 0.8156862745098039,
+          "red": 0.9882352941176471
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C14222C7-3B61-4F4E-8194-37938C237E42",
+        "name": "25. Third",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.5529411764705883,
+          "green": 0.5098039215686274,
+          "red": 0.9450980392156862
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "5A84C560-BCF5-487E-BB36-26590A604E3E",
+        "name": "26. Third",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.4117647058823529,
+          "green": 0.3647058823529412,
+          "red": 0.4627450980392157
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "0E0F8E84-6509-458F-B0DD-B4FAFCE861C0",
+        "name": "27. #7D7D7D",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.489356884057971,
+          "green": 0.489356884057971,
+          "red": 0.489356884057971
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "7C9FD100-E85C-44FC-ABC3-CD458EA58BAC",
+        "name": "FFFFFF",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "294E629C-69C4-470A-8313-C1C12B83D3EE",
+        "name": "Logo",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.05490196078431372,
+          "green": 0.7607843137254902,
+          "red": 1
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "4C6C99D8-7E8C-4A4D-A565-CFBC41D915C9",
+        "name": "Logo Color",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.2274509803921569,
+          "green": 0.4156862745098039,
+          "red": 0.00392156862745098
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "21845132-5F5D-4A76-A6DE-7DA2181FB897",
+        "name": "Logo color",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.1372549019607843,
+          "green": 0.611764705882353,
+          "red": 0.2745098039215687
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "B8C9AAFB-4FF1-47D9-AB1F-09908D124CD4",
+        "name": "D46253",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.3249582025683697,
+          "green": 0.3849831705809475,
+          "red": 0.8329087409420289
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "F47E62B5-4030-4C88-A3E3-35D5176B6DBE",
+        "name": "C76237",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.2156862745098039,
+          "green": 0.3843137254901961,
+          "red": 0.7803921568627451
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "89B433E1-4F47-46E9-BA51-B99795234295",
+        "name": "FFE3A2",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.6359946646341463,
+          "green": 0.8882369982104403,
+          "red": 1
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C448B5D2-D127-4B77-A527-0BE75C1BE5F1",
+        "name": "0A2911",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.06666666666666667,
+          "green": 0.1607843137254902,
+          "red": 0.0392156862745098
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "C1D6394E-EFE4-4A1D-BC8B-22921A6E1D54",
+        "name": "FFF2D4",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.8327362804878049,
+          "green": 0.9486438973088649,
+          "red": 1
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "D71E7B1A-8ABB-466C-80C1-B3E69A3E75D3",
+        "name": "darker green",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.04254564334800352,
+          "green": 0.1034307065217391,
+          "red": 0.02478749992233066
+        }
+      },
+      {
+        "_class": "swatch",
+        "do_objectID": "55EE4197-19B8-4C0B-AB96-5B4D5B06F49F",
+        "name": "66A186",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.5254901960784314,
+          "green": 0.6313725490196078,
+          "red": 0.4
+        }
+      }
+    ]
+  },
+  "userInfo": {
+    "com.invisionlabs.sync": {
+      "metadata": "{\"hasSynced\":0,\"hasProjectIdChanged\":0,\"projectId\":0,\"publicLink\":\"\",\"resolution\":2,\"syncAll\":1}"
+    },
+    "com.marvelprototyping.marvelsketchplugin": {
+      "design_scale": "1",
+      "export_scale": "1",
+      "handoff_enabled": "false",
+      "project_pk": "5253144",
+      "prototyping_enabled": "true"
+    }
+  }
+}
