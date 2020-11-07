@@ -225,6 +225,50 @@ img.library-item {
     width: 100%;
 }
 
+.container-profile {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+.userpicture {
+border-radius: 100px;
+width: 120px;
+height: 120px;
+}
+
+.user-section {
+    margin-right: 10%;
+    margin-left: 0%;
+    
+}
+.profile-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.basic-info-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+
+.device-verification-section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-orders {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
  /* .bottom-container {
     margin-left: 50px;
     margin-right: 50px;
@@ -233,7 +277,7 @@ img.library-item {
 } */
 
 
- }
+ 
 
  /* hr {
      margin-top: -5px;
