@@ -20,9 +20,6 @@ img.logo {
      padding: 40px 30px 10px 0px;
      font-weight: bold;
      font-family: Avenir Next;
-
-
-     
   }
 
   a {
@@ -63,7 +60,6 @@ img.logo {
     border-radius: 60px;
     outline: none;
     color: rgb(211, 210, 210);
-
   }
 
   .sub-menu {
@@ -107,24 +103,23 @@ img.logo {
     border-radius: 60px;
     outline: none;
     color: rgb(211, 210, 210);
-
  }
+
 .button {
     display: inline;
     margin-left: 30px;
 }
+
  .filter-button {
      position: left;
      width: 45%;
      font-family: Avenir Next;
-
  }
 
  .sort-by-button {
      position: right;
      width: 45%;
      font-family: Avenir Next;
-
  }
 
  .container {
@@ -133,8 +128,8 @@ img.logo {
      display: flex;
      flex-flow: row wrap;
      justify-content: space-around;
-
  }
+
  .strain-images {
      /* margin: 5px; */
      width: 280px;
@@ -145,8 +140,7 @@ img.logo {
      box-shadow: 1px 1px 3px 1px rgb(189, 189, 189);
      margin: 20px;
      overflow: hidden;
-     
- }
+}
 
 img.library-item {
      width: 240px;
@@ -155,6 +149,7 @@ img.library-item {
      box-align: center;
      text-align: center;
  }
+
  h1.title {
      font-size: 20px;
      padding-top: 5px;
@@ -198,7 +193,6 @@ img.library-item {
      padding-top: 20px;
      margin-bottom: 0px;
      font-family: Avenir Next;
-
  }
 
  hr.top-container {
@@ -213,13 +207,11 @@ img.library-item {
      flex-wrap: wrap;
      align-content: space-around;
      margin-left: 50px;
-    margin-right: 50px;
-     
-
+    margin-right: 50px; 
  }
 
  hr.bottom-container {
-    padding-top: 0px;
+    padding-top: px;
     margin-top: 0px;
     margin-left: 0px;
     width: 100%;
@@ -244,17 +236,15 @@ height: 120px;
     margin-left: 0%;
     
 }
+
 .profile-section {
     margin-left: 10%;
     margin-right: 10%;
-    
-}
+ }
 
 .basic-info-section {
     margin-left: 10%;
-    margin-right: 10%;
-    
-    
+    margin-right: 10%;   
 }
 
 .device-verification-section {
@@ -268,6 +258,65 @@ height: 120px;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
+
+.library-image-icons {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF2D4;
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+  }
+  .switch-input {
+    display: none;
+  }
+  .switch-label {
+    display: block;
+    width: 48px;
+    height: 24px;
+    text-indent: -150%;
+    clip: rect(0 0 0 0);
+    color: transparent;
+    user-select: none;
+  }
+  .switch-label::before,
+  .switch-label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+  .switch-label::before {
+    width: 100%;
+    height: 100%;
+    background-color: #dedede;
+    border-radius: 9999em;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+  }
+  .switch-label::after {
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+    -webkit-transition: left 0.25s ease;
+    transition: left 0.25s ease;
+  }
+  .switch-input:checked + .switch-label::before {
+    background-color: #66A186;
+  }
+  .switch-input:checked + .switch-label::after {
+    left: 24px;
+  }
+  
 
  /* .bottom-container {
     margin-left: 50px;
