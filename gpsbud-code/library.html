@@ -7,22 +7,30 @@
 </head>
     <body>
    
-      <div class="header">
-          <img src="images/gpsbudlogo.png" class="logo" />
-        <div class="topnav" id="myTopnav">
-            <a href="home.html">Home</a>
-            <a href="profile.html">My Profile</a>
-            <a href="library.html">Library</a>
-            <a href="#cart">Cart</a>
+        <div class="header">
+            <img src="images/gpsbudlogo.png" class="logo" />
+          <div class="topnav" id="myTopnav">
+              <a href="home.html" class="active">Home</a>
+              
+              <div class="dropdown">
+                <button class="dropbtn">My Profile</button>
+                <!-- <a href="profile.html" class="dropdown"></a> -->
+                <div class="dropdown-content">
+                  <a href="caregivers.html">Caregiver Profile</a>
+                  <a href="patients.html">Patient Profile</a>
+                </div>
+              <a href="library.html">Library</a>
+              <a href="#cart">Cart</a>
+            </div>
           </div>
         </div>
             
-        <div class="sub-menu">
-            <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="library.html">Library</a></li> 
-            </ul>
-        </div>
+        
+        <ul class="breadcrumb">
+            <li><a href="home.html">Home</a></li>
+            <li class="active-title">Library</li>
+          </ul>
+       
         <div class="page-title">
             <h1>Strain Library</h1>
         </div>
