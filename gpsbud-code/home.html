@@ -11,7 +11,14 @@
           <img src="images/gpsbudlogo.png" class="logo" />
         <div class="topnav" id="myTopnav">
             <a href="home.html" class="active">Home</a>
-            <a href="profile.html">My Profile</a>
+            
+            <div class="dropdown">
+              <button class="dropbtn">My Profile</button>
+              <!-- <a href="profile.html" class="dropdown"></a> -->
+              <div class="dropdown-content">
+                <a href="caregivers.html">Caregiver Profile</a>
+                <a href="patients.html">Patient Profile</a>
+              </div>
             <a href="library.html">Library</a>
             <a href="#cart">Cart</a>
           </div>
@@ -27,15 +34,18 @@
                 <input type="text" class="searchcontainer" placeholder="Ex.: Back Pain, Harlequin, Insomnia">
             </div>
     </div>
+<!-- Age verification Modal -->
+   <div class="age-verification-modal">
+     <div class="age-verification-content">
+       <h3>Age Verification</h3>
+       <p>Hey! We are pretty sure you ar eover the limit, but just making sure!</p>
+       <h4>Are you over 21+ years old?</h4>
+       <button type="button" class="deny">No</button>
+       <button type="button" class="agree">Yes</button>
+       <h5>By entering this site you are agreeing to the <a href="*">Terms of Use</a>and<a href="*">Privacy Policy</a>.</h5>
+     </div>
 
-    <!-- <div>
-      <div class="mapouter">
-        <div class="gmap_canvas">
-          <iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-          </iframe>
-          <a href="https://www.whatismyip-address.com/divi-discount/"></a>
-        </div>
-        </div>
-    </div> -->
+   </div>
+
   </body>
   </html>
