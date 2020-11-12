@@ -109,3 +109,7 @@ dist
 
 # Ignore sketch files
 **/**/**/**/*.sketch
+
+#lock files
+package-lock.json
+yarn.lock
