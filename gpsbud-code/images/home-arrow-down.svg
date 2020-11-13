@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="24px" viewBox="0 0 84 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow Down</title>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="1b-patient-search-engine-enabled" transform="translate(-678.000000, -352.000000)" stroke="#016A3A" stroke-width="3">
+            <g id="Arrow-Down-Icon" transform="translate(680.000000, 344.000000)">
+                <polyline id="Arrow-Down" points="0 10 40 30 80 10"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

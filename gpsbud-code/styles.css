@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+  }
+
+  .header {
+          height: 80px;
+    background-color: #FFE3A2;
+    box-shadow: 0px 0px 5px 0px #121212;
+    grid-area: header;
+}
+img.logo {
+    width: 80px;
+    height: 60px;
+    padding: 10px 0px 0px 20px;
+}
+  .topnav {
+     float: right;
+     padding: 40px 30px 10px 0px;
+     font-weight: bold;
+     font-family: Avenir Next;
+  }
+
+  a {
+      /* padding-right: 10px; */
+      text-decoration: none;
+      color: #0A2911;
+      font-family: Avenir Next;
+      
+
+  }
+  
+  .intro {
+      text-align: center;
+      padding-top: 110px;
+      font-family: Avenir Next;
+      color: #0A2911;
+  }
+
+  img.home-arrow1 {
+      margin-top: 30px;
+  }
+
+  img.home-arrow2 {
+    margin-top: -20px;
+}
+
+  .searchbar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .searchcontainer{
+    /* margin-left: 29%; */
+    width: 50%;
+    border: 1px solid rgb(165, 165, 165);
+    padding: 10px 0px 10px 30px;
+    height: 45px;
+    border-radius: 60px;
+    outline: none;
+    color: rgb(211, 210, 210);
+  }
+
+  .active-title {
+    font-family: Avenir Next;
+    font-weight: bold;
+  }
+
+ /* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  font-family: Avenir Next;
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+ li {
+    display: inline;
+    padding-top: 5px;
+ }
+
+ .content-title {
+    font-family: Avenir Next;
+    font-weight: bold;
+
+ }
+ .page-title {
+     padding-top: 30px;
+    text-align: center;
+    font-family: Avenir Next;
+    color: #0A2911;
+ }
+
+ .library-searchbar {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .library-searchcontainer {
+    /* margin-left: 29%; */
+    width: 50%;
+    border: 1px solid rgb(211, 210, 210);
+    padding: 10px 0px 10px 30px;
+    height: 45px;
+    border-radius: 60px;
+    outline: none;
+    color: rgb(211, 210, 210);
+ }
+
+.button {
+    display: inline;
+    margin-left: 30px;
+}
+
+ .filter-button {
+     position: left;
+     width: 45%;
+     font-family: Avenir Next;
+ }
+
+ .sort-by-button {
+     position: right;
+     width: 45%;
+     font-family: Avenir Next;
+ }
+
+ .container {
+     /* margin: 10px; */
+     padding: 30px;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+ }
+
+ .strain-images {
+     /* margin: 5px; */
+     width: 280px;
+     height: 290px;
+     /* float: left; */
+     padding: 15px 15px 15px 15px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 3px 1px rgb(189, 189, 189);
+     margin: 20px;
+     overflow: hidden;
+}
+
+img.library-item {
+     width: 240px;
+     padding: 5px;
+     height: 180px;
+     box-align: center;
+     text-align: center;
+ }
+
+ h1.title {
+     font-size: 20px;
+     padding-top: 5px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     font-family: Avenir Next;
+
+ }
+ h3.description {
+     padding-top: 0px;
+     padding-bottom: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     font-size: 16px;
+     font-family: Avenir Next;
+     font-weight: normal;
+ }
+
+ img.strain {
+     width: 40%;
+     height: 60%;
+     margin-top: 50px;
+     margin-bottom: 40px;
+     margin-right: 180px;
+     margin-left: 40px;
+ }
+
+ .attributes-section {
+    font-family: Avenir Next;
+    padding-top: 20px;
+ }
+
+ .bottom-container {
+    font-family: Avenir Next;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+
+ .title-underlined {
+     padding-bottom: 0px;
+     padding-top: 20px;
+     margin-bottom: 0px;
+     font-family: Avenir Next;
+ }
+
+ hr.top-container {
+     padding-top: 0px;
+     margin-top: 0px;
+     margin-left: 0px;
+     width: 400px;
+ }
+
+ .top-container {
+     display: flex;
+     flex-wrap: wrap;
+     align-content: space-around;
+     margin-left: 50px;
+    margin-right: 50px; 
+ }
+
+ hr.bottom-container {
+    padding-top: px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+.container-profile {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.side-menu {
+    font-family: Avenir Next;
+}
+.userpicture {
+border-radius: 100px;
+width: 120px;
+height: 120px;
+}
+
+.user-section {
+    margin-right: 5%;
+    margin-left: 10%;
+    font-family: Avenir Next;
+    
+}
+
+
+
+.profile-section {
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+ .caregiver-section {
+ 
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+
+.basic-info-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Avenir Next;
+   
+}
+.store-info-section {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Avenir Next;
+}
+
+.device-verification-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Avenir Next;
+
+}
+
+.container-orders {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.library-image-icons {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF2D4;
+    padding: 8px;
+    margin: 0px 5px 5px 5px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+  }
+  .switch-input {
+    display: none;
+  }
+  .switch-label {
+    display: block;
+    width: 48px;
+    height: 24px;
+    text-indent: -150%;
+    clip: rect(0 0 0 0);
+    color: transparent;
+    user-select: none;
+  }
+  .switch-label::before,
+  .switch-label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+  .switch-label::before {
+    width: 100%;
+    height: 100%;
+    background-color: #dedede;
+    border-radius: 9999em;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+  }
+  .switch-label::after {
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+    -webkit-transition: left 0.25s ease;
+    transition: left 0.25s ease;
+  }
+  .switch-input:checked + .switch-label::before {
+    background-color: #66A186;
+  }
+  .switch-input:checked + .switch-label::after {
+    left: 24px;
+  }
+  
+
+    /* Style The Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }

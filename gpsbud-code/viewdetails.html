@@ -1,0 +1,87 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GPSBud</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+   
+    <div class="header">
+        <img src="images/gpsbudlogo.png" class="logo" />
+      <div class="topnav" id="myTopnav">
+          <a href="home.html" class="active">Home</a>
+          
+          <div class="dropdown">
+            <button class="dropbtn">My Profile</button>
+            <!-- <a href="profile.html" class="dropdown"></a> -->
+            <div class="dropdown-content">
+              <a href="caregivers.html">Caregiver Profile</a>
+              <a href="patients.html">Patient Profile</a>
+            </div>
+          <a href="library.html">Library</a>
+          <a href="#cart">Cart</a>
+        </div>
+      </div>
+    </div>
+  <div class="container-orders">
+  <div class="user-section">
+          <div>
+          <img src="images/bowie.jpg" class="userpicture" />
+          <h3>Happy Lamb</h3>
+          <h4>Review</h4>
+          </div>
+          <div class="side-menu">
+            <a href="profile.html" >Profile</a>
+            <br />
+            <a href="patientsorders.html">Orders</a>
+            <br />
+            <a href="viewdetails.html" class="side-menu-active">View Details</a>
+            <br />
+            <a href="mywallet.html">My Wallet</a>
+          </div>
+  </div>
+  <div class="view-details-section">
+        <div class="page-title">
+          <h1>Order Details:</h1>
+          <p class="title-underlined">Placed on October 2, 2020</p>
+      </div>
+      <div>
+          <input type="submit" name="chat-caregiver" value="Chat with Caregiver" />
+      </div>
+      <div class="product-section">
+        <h3 class="title-underlined">Product</h3>
+        <hr />
+        <div>
+            <h4>Name/Strain</h4>
+            <h4>Golden Goat</h4>
+
+            <h4>Attributes</h4>
+            <h4>Hybrid</h4>
+
+            <h4>Type</h4>
+            <h4>Seed</h4>
+
+            <h4>Quantity</h4>
+            <h4>07 grams</h4>
+        </div>
+      </div>
+      <div class="donation-info-section"> 
+          <h3 class="title-underlined">Donation Info<span>In process</span></h3>
+          <hr />
+      </div>
+      <div>
+          <h4>Donation completed with:</h4>
+          <h2>GPSBud Account</h2>
+
+          <h4>Minimum donation:</h4>
+          <h2>0.001386 ETH</h2>
+      </div>
+      <div class="donation-code-section">
+          <h3 class="title-underlined">Donation Code<span>Show this QR code to Caregiver to fulfill transaction.</span></h3>
+      </div>
+      <div>
+          <h4>Code for Caregiver:</h4>
+          <input type="submit" name="show-code" value="Show Code" />
+      </div>
+  </div>
