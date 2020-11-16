@@ -40,39 +40,40 @@ class SecurityView extends Component {
         </a>,
       ],
     },
-    {
-      title: formatMessage({ id: 'accountandsettings.security.phone' }, {}),
-      description: `${formatMessage(
-        { id: 'accountandsettings.security.phone-description' },
-        {},
-      )}：138****8293`,
-      actions: [
-        <a key="Modify">
-          <FormattedMessage id="accountandsettings.security.modify" defaultMessage="Modify" />
-        </a>,
-      ],
-    },
-    {
-      title: formatMessage({ id: 'accountandsettings.security.question' }, {}),
-      description: formatMessage({ id: 'accountandsettings.security.question-description' }, {}),
-      actions: [
-        <a key="Set">
-          <FormattedMessage id="accountandsettings.security.set" defaultMessage="Set" />
-        </a>,
-      ],
-    },
-    {
-      title: formatMessage({ id: 'accountandsettings.security.email' }, {}),
-      description: `${formatMessage(
-        { id: 'accountandsettings.security.email-description' },
-        {},
-      )}：ant***sign.com`,
-      actions: [
-        <a key="Modify">
-          <FormattedMessage id="accountandsettings.security.modify" defaultMessage="Modify" />
-        </a>,
-      ],
-    },
+    // {
+    //   title: formatMessage({ id: 'accountandsettings.security.phone' }, {}),
+    //   description: `${formatMessage(
+    //     { id: 'accountandsettings.security.phone-description' },
+    //     {},
+    //   )}：138****8293`,
+    //   actions: [
+    //     <a key="Modify">
+    //       <FormattedMessage id="accountandsettings.security.modify" defaultMessage="Modify" />
+    //     </a>,
+    //   ],
+    // },
+    // {
+    //   title: formatMessage({ id: 'accountandsettings.security.question' }, {}),
+    //   description: formatMessage({ id: 'accountandsettings.security.question-description' }, {}),
+    //   actions: [
+    //     <a key="Set">
+    //       <FormattedMessage id="accountandsettings.security.set" defaultMessage="Set" />
+    //     </a>,
+    //   ],
+    // },
+    // {
+    //   title: formatMessage({ id: 'accountandsettings.security.email' }, {}),
+    //   description: `${formatMessage(
+    //     { id: 'accountandsettings.security.email-description' },
+    //     {},
+    //   )}：ant***sign.com`,
+    //   actions: [
+    //     <a key="Modify">
+    //       <FormattedMessage id="accountandsettings.security.modify" defaultMessage="Modify" />
+    //     </a>,
+    //   ],
+    // },
+    // {
     {
       title: formatMessage({ id: 'accountandsettings.security.mfa' }, {}),
       description: formatMessage({ id: 'accountandsettings.security.mfa-description' }, {}),
