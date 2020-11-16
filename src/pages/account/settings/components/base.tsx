@@ -119,17 +119,18 @@ class BaseView extends Component<BaseViewProps> {
             </Form.Item>
             <Form.Item
               name="name"
-              label={formatMessage({ id: 'accountandsettings.basic.nickname' })}
+              label={formatMessage({ id: 'accountandsettings.basic.username' })}
               rules={[
                 {
                   required: true,
-                  message: formatMessage({ id: 'accountandsettings.basic.nickname-message' }, {}),
+                  message: formatMessage({ id: 'accountandsettings.basic.username-message' }, {}),
                 },
               ]}
             >
               <Input />
+              
             </Form.Item>
-            <Form.Item
+            {/* <Form.Item
               name="profile"
               label={formatMessage({ id: 'accountandsettings.basic.profile' })}
               rules={[
@@ -184,7 +185,7 @@ class BaseView extends Component<BaseViewProps> {
               ]}
             >
               <Input />
-            </Form.Item>
+            </Form.Item> */}
             <Form.Item
               name="phone"
               label={formatMessage({ id: 'accountandsettings.basic.phone' })}
