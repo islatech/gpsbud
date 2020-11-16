@@ -2,13 +2,20 @@
 
 @pro-header-hover-bg: rgba(0, 0, 0, 0.025);
 
+
 .menu {
+  
   :global(.anticon) {
     margin-right: 8px;
+    
   }
+  
   :global(.ant-dropdown-menu-item) {
     min-width: 160px;
+    color: #121212;
+    
   }
+  
 }
 
 .right {
@@ -17,30 +24,37 @@
   height: 48px;
   margin-left: auto;
   overflow: hidden;
+  
+  
   .action {
+    
     display: flex;
     align-items: center;
     height: 100%;
     padding: 0 12px;
     cursor: pointer;
     transition: all 0.3s;
+    
     > span {
       vertical-align: middle;
     }
     &:hover {
-      background: @pro-header-hover-bg;
+      background-color: #cbe4d8;
     }
     &:global(.opened) {
       background: @pro-header-hover-bg;
+      
     }
+    
   }
-  .search {
-    padding: 0 12px;
-    &:hover {
-      background: transparent;
-    }
-  }
+  // .search {
+  //   padding: 0 12px;
+  //   &:hover {
+  //     background: #FFE3A2;;
+  //   }
+  // }
   .account {
+    
     .avatar {
       margin: ~'calc((@{layout-header-height} - 24px) / 2)' 0;
       margin-right: 8px;
@@ -70,6 +84,7 @@
       color: @text-color;
       > span {
         color: @text-color;
+        
       }
       &:hover {
         color: rgba(255, 255, 255, 0.85);
@@ -79,9 +94,11 @@
       }
     }
   }
+  background: #FFE3A2;
 }
 
 @media only screen and (max-width: @screen-md) {
+  
   :global(.ant-divider-vertical) {
     vertical-align: unset;
   }

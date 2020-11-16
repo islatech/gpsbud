@@ -7,16 +7,19 @@
   padding-top: 16px;
   padding-bottom: 16px;
   overflow: auto;
-  background-color: @menu-bg;
+  background-color: #FFFFFF;
   .leftMenu {
     width: 224px;
     border-right: @border-width-base @border-style-base @border-color-split;
+    
     :global {
       .ant-menu-inline {
         border: none;
       }
       .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
         font-weight: bold;
+        color: #121212;
+        background-color: #FFE3A2;
       }
     }
   }

@@ -43,16 +43,16 @@ class Settings extends Component<SettingsProps, SettingsState> {
       ),
       binding: (
         <FormattedMessage
-          id="accountandsettings.menuMap.binding"
-          defaultMessage="Account Binding"
+          id="accountandsettings.menuMap.verification"
+          defaultMessage="Device Verification"
         />
       ),
-      notification: (
-        <FormattedMessage
-          id="accountandsettings.menuMap.notification"
-          defaultMessage="New Message Notification"
-        />
-      ),
+      // notification: (
+      //   <FormattedMessage
+      //     id="accountandsettings.menuMap.notification"
+      //     defaultMessage="New Message Notification"
+      //   />
+      // ),
     };
     this.state = {
       mode: 'inline',
