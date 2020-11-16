@@ -113,3 +113,7 @@ dist
 #lock files
 package-lock.json
 yarn.lock
+
+
+# umi file
+.umi
