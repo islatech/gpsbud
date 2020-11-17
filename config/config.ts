@@ -59,36 +59,96 @@ export default defineConfig({
           Routes: ['src/pages/Authorized'],
           authority: ['admin', 'user'],
           routes: [
-            {
-              path: '/',
-              redirect: '/dashboard/analysis',
+            // {
+            //   path: '/',
+            //   redirect: '/dashboard/analysis',
+            // },
+            // {
+            //   path: '/dashboard',
+            //   name: 'dashboard',
+            //   icon: 'dashboard',
+            //   routes: [
+                // {
+                //   path: '/',
+                //   redirect: '/dashboard/analysis',
+                // },
+                // {
+                //   name: 'analysis',
+                //   icon: 'smile',
+                //   path: '/dashboard/analysis',
+                //   component: './dashboard/analysis',
+                // },
+                // {
+                //   name: 'monitor',
+                //   icon: 'smile',
+                //   path: '/dashboard/monitor',
+                //   component: './dashboard/monitor',
+                // },
+                {
+                  name: 'account',
+              icon: 'user',
+              path: '/account',
+              routes: [
+                  //   path: '/',
+                  //   redirect: '/account/center',
+                  // },
+                  {
+                    name: 'center',
+                    icon: 'smile',
+                    path: '/account/center',
+                    component: './account/center',
+                  },
+                  {
+                    name: 'settings',
+                    icon: 'smile',
+                    path: '/account/settings',
+                    component: './account/settings',
+                },
+              ],
             },
+            // {
+            //   name: 'account',
+            //   icon: 'user',
+            //   path: '/account',
+            //   routes: [
+            //     {
+            //       path: '/',
+            //       redirect: '/account/center',
+            //     },
+            //     {
+            //       name: 'center',
+            //       icon: 'smile',
+            //       path: '/account/center',
+            //       component: './account/center',
+            //     },
+            //     {
+            //       name: 'settings',
+            //       icon: 'smile',
+            //       path: '/account/settings',
+            //       component: './account/settings',
+            //     },
+            //   ],
+            // },
             {
-              path: '/dashboard',
-              name: 'dashboard',
-              icon: 'dashboard',
+              path: '/profile',
+              name: 'profile',
+              icon: 'profile',
               routes: [
                 {
                   path: '/',
-                  redirect: '/dashboard/analysis',
+                  redirect: '/profile/basic',
                 },
                 {
-                  name: 'analysis',
+                  name: 'basic',
                   icon: 'smile',
-                  path: '/dashboard/analysis',
-                  component: './dashboard/analysis',
+                  path: '/profile/basic',
+                  component: './profile/basic',
                 },
                 {
-                  name: 'monitor',
+                  name: 'advanced',
                   icon: 'smile',
-                  path: '/dashboard/monitor',
-                  component: './dashboard/monitor',
-                },
-                {
-                  name: 'workplace',
-                  icon: 'smile',
-                  path: '/dashboard/workplace',
-                  component: './dashboard/workplace',
+                  path: '/profile/advanced',
+                  component: './profile/advanced',
                 },
               ],
             },
@@ -179,29 +239,29 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              path: '/profile',
-              name: 'profile',
-              icon: 'profile',
-              routes: [
-                {
-                  path: '/',
-                  redirect: '/profile/basic',
-                },
-                {
-                  name: 'basic',
-                  icon: 'smile',
-                  path: '/profile/basic',
-                  component: './profile/basic',
-                },
-                {
-                  name: 'advanced',
-                  icon: 'smile',
-                  path: '/profile/advanced',
-                  component: './profile/advanced',
-                },
-              ],
-            },
+            // {
+            //   path: '/profile',
+            //   name: 'profile',
+            //   icon: 'profile',
+            //   routes: [
+            //     {
+            //       path: '/',
+            //       redirect: '/profile/basic',
+            //     },
+            //     {
+            //       name: 'basic',
+            //       icon: 'smile',
+            //       path: '/profile/basic',
+            //       component: './profile/basic',
+            //     },
+            //     {
+            //       name: 'advanced',
+            //       icon: 'smile',
+            //       path: '/profile/advanced',
+            //       component: './profile/advanced',
+            //     },
+            //   ],
+            // },
             {
               name: 'result',
               icon: 'CheckCircleOutlined',
@@ -254,58 +314,58 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              name: 'account',
-              icon: 'user',
-              path: '/account',
-              routes: [
-                {
-                  path: '/',
-                  redirect: '/account/center',
-                },
-                {
-                  name: 'center',
-                  icon: 'smile',
-                  path: '/account/center',
-                  component: './account/center',
-                },
-                {
-                  name: 'settings',
-                  icon: 'smile',
-                  path: '/account/settings',
-                  component: './account/settings',
-                },
-              ],
-            },
-            {
-              name: 'editor',
-              icon: 'highlight',
-              path: '/editor',
-              routes: [
-                {
-                  path: '/',
-                  redirect: '/editor/flow',
-                },
-                {
-                  name: 'flow',
-                  icon: 'smile',
-                  path: '/editor/flow',
-                  component: './editor/flow',
-                },
-                {
-                  name: 'mind',
-                  icon: 'smile',
-                  path: '/editor/mind',
-                  component: './editor/mind',
-                },
-                {
-                  name: 'koni',
-                  icon: 'smile',
-                  path: '/editor/koni',
-                  component: './editor/koni',
-                },
-              ],
-            },
+            // {
+            //   name: 'account',
+            //   icon: 'user',
+            //   path: '/account',
+            //   routes: [
+            //     {
+            //       path: '/',
+            //       redirect: '/account/center',
+            //     },
+            //     {
+            //       name: 'center',
+            //       icon: 'smile',
+            //       path: '/account/center',
+            //       component: './account/center',
+            //     },
+            //     {
+            //       name: 'settings',
+            //       icon: 'smile',
+            //       path: '/account/settings',
+            //       component: './account/settings',
+            //     },
+            //   ],
+            // },
+            // {
+            //   name: 'editor',
+            //   icon: 'highlight',
+            //   path: '/editor',
+            //   routes: [
+            //     {
+            //       path: '/',
+            //       redirect: '/editor/flow',
+            //     },
+                // {
+                //   name: 'flow',
+                //   icon: 'smile',
+                //   path: '/editor/flow',
+                //   component: './editor/flow',
+                // },
+                // {
+                //   name: 'mind',
+                //   icon: 'smile',
+                //   path: '/editor/mind',
+                //   component: './editor/mind',
+                // },
+                // {
+                //   name: 'koni',
+                //   icon: 'smile',
+                //   path: '/editor/koni',
+                //   component: './editor/koni',
+                // },
+              // ],
+            // },
             {
               component: '404',
             },
