@@ -29,13 +29,13 @@ const covers = [
   'https://gw.alipayobjects.com/zos/rmsportal/iXjVmWVHbCJAyqvDxdtx.png',
   'https://gw.alipayobjects.com/zos/rmsportal/gLaIAoVWTtLbBWZNYEMg.png',
 ];
-const desc = [
-  'It is an innter thing that they cannot reach, they cannot reach',
-  'Hope is a good thing, maybe the best, good things will not die out',
-  'Life is like a box of chocolate, and the results are often unexpected',
-  'There were so many taverns in town, and she walked into my taverns.',
-  'At that time, I just thought about what I wanted, never wanted what I had.',
-];
+// const desc = [
+//   'It is an innter thing that they cannot reach, they cannot reach',
+//   'Hope is a good thing, maybe the best, good things will not die out',
+//   'Life is like a box of chocolate, and the results are often unexpected',
+//   'There were so many taverns in town, and she walked into my taverns.',
+//   'At that time, I just thought about what I wanted, never wanted what I had.',
+// ];
 
 const user = [
   'Pay a little',
