@@ -52,39 +52,48 @@ export function getRoutes() {
         ],
         "routes": [
           {
-            "path": "/",
-            "redirect": "/dashboard/analysis",
-            "exact": true
+            "name": "account",
+            "icon": "user",
+            "path": "/account",
+            "routes": [
+              {
+                "name": "center",
+                "icon": "smile",
+                "path": "/account/center",
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__center' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/account/center'), loading: LoadingComponent}),
+                "exact": true
+              },
+              {
+                "name": "settings",
+                "icon": "smile",
+                "path": "/account/settings",
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__settings' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings'), loading: LoadingComponent}),
+                "exact": true
+              }
+            ]
           },
           {
-            "path": "/dashboard",
-            "name": "dashboard",
-            "icon": "dashboard",
+            "path": "/profile",
+            "name": "profile",
+            "icon": "profile",
             "routes": [
               {
                 "path": "/",
-                "redirect": "/dashboard/analysis",
+                "redirect": "/profile/basic",
                 "exact": true
               },
               {
-                "name": "analysis",
+                "name": "basic",
                 "icon": "smile",
-                "path": "/dashboard/analysis",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__dashboard__analysis' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis'), loading: LoadingComponent}),
+                "path": "/profile/basic",
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__basic' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic'), loading: LoadingComponent}),
                 "exact": true
               },
               {
-                "name": "monitor",
+                "name": "advanced",
                 "icon": "smile",
-                "path": "/dashboard/monitor",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__dashboard__monitor' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor'), loading: LoadingComponent}),
-                "exact": true
-              },
-              {
-                "name": "workplace",
-                "icon": "smile",
-                "path": "/dashboard/workplace",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__dashboard__workplace' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/workplace'), loading: LoadingComponent}),
+                "path": "/profile/advanced",
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__advanced' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced'), loading: LoadingComponent}),
                 "exact": true
               }
             ]
@@ -189,32 +198,6 @@ export function getRoutes() {
             ]
           },
           {
-            "path": "/profile",
-            "name": "profile",
-            "icon": "profile",
-            "routes": [
-              {
-                "path": "/",
-                "redirect": "/profile/basic",
-                "exact": true
-              },
-              {
-                "name": "basic",
-                "icon": "smile",
-                "path": "/profile/basic",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__basic' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic'), loading: LoadingComponent}),
-                "exact": true
-              },
-              {
-                "name": "advanced",
-                "icon": "smile",
-                "path": "/profile/advanced",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__advanced' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced'), loading: LoadingComponent}),
-                "exact": true
-              }
-            ]
-          },
-          {
             "name": "result",
             "icon": "CheckCircleOutlined",
             "path": "/result",
@@ -269,65 +252,6 @@ export function getRoutes() {
                 "icon": "smile",
                 "path": "/exception/500",
                 "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__exception__500' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/exception/500'), loading: LoadingComponent}),
-                "exact": true
-              }
-            ]
-          },
-          {
-            "name": "account",
-            "icon": "user",
-            "path": "/account",
-            "routes": [
-              {
-                "path": "/",
-                "redirect": "/account/center",
-                "exact": true
-              },
-              {
-                "name": "center",
-                "icon": "smile",
-                "path": "/account/center",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__center' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/account/center'), loading: LoadingComponent}),
-                "exact": true
-              },
-              {
-                "name": "settings",
-                "icon": "smile",
-                "path": "/account/settings",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__settings' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings'), loading: LoadingComponent}),
-                "exact": true
-              }
-            ]
-          },
-          {
-            "name": "editor",
-            "icon": "highlight",
-            "path": "/editor",
-            "routes": [
-              {
-                "path": "/",
-                "redirect": "/editor/flow",
-                "exact": true
-              },
-              {
-                "name": "flow",
-                "icon": "smile",
-                "path": "/editor/flow",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__editor__flow' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/flow'), loading: LoadingComponent}),
-                "exact": true
-              },
-              {
-                "name": "mind",
-                "icon": "smile",
-                "path": "/editor/mind",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__editor__mind' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/mind'), loading: LoadingComponent}),
-                "exact": true
-              },
-              {
-                "name": "koni",
-                "icon": "smile",
-                "path": "/editor/koni",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__editor__koni' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/koni'), loading: LoadingComponent}),
                 "exact": true
               }
             ]
