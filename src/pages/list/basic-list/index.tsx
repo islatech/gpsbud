@@ -123,16 +123,16 @@ export const BasicList: FC<BasicListProps> = (props) => {
     }
   };
 
-  const extraContent = (
-    <div className={styles.extraContent}>
-      <RadioGroup defaultValue="all">
-        <RadioButton value="all">All of them</RadioButton>
-        <RadioButton value="progress">进行中</RadioButton>
-        <RadioButton value="waiting">等待中</RadioButton>
-      </RadioGroup>
-      <Search className={styles.extraContentSearch} placeholder="Please enter" onSearch={() => ({})} />
-    </div>
-  );
+  // const extraContent = (
+  //   <div className={styles.extraContent}>
+  //     <RadioGroup defaultValue="all">
+  //       <RadioButton value="all">All of them</RadioButton>
+  //       <RadioButton value="progress">进行中</RadioButton>
+  //       <RadioButton value="waiting">等待中</RadioButton>
+  //     </RadioGroup>
+  //     <Search className={styles.extraContentSearch} placeholder="Please enter" onSearch={() => ({})} />
+  //   </div>
+  // );
 
   const MoreBtn: React.FC<{
     item: BasicListItemDataType;
@@ -187,7 +187,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
     <div>
       <PageContainer>
         <div className={styles.standardList}>
-          <Card bordered={false}>
+          {/* <Card bordered={false}>
             <Row>
               <Col sm={8} xs={24}>
                 <Info title="My to-do" value="8 Missions" bordered />
@@ -199,7 +199,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
                 <Info title="Number of tasks completed this week" value="24 Missions" />
               </Col>
             </Row>
-          </Card>
+          </Card> */}
 
           <Card
             className={styles.listCard}

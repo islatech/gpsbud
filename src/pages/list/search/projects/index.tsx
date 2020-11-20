@@ -102,8 +102,8 @@ const Projects: FC<ProjectsProps> = ({
             });
           }}
         >
-          <StandardFormRow title="Category" block style={{ paddingBottom: 11 }}>
-            <FormItem name="category">
+          <StandardFormRow title="Strain Library">
+            {/* <FormItem name="category">
               <TagSelect expandable>
                 <TagSelect.Option value="cat1">Category 1</TagSelect.Option>
                 <TagSelect.Option value="cat2">Category 2</TagSelect.Option>
@@ -118,25 +118,26 @@ const Projects: FC<ProjectsProps> = ({
                 <TagSelect.Option value="cat11">Category 11</TagSelect.Option>
                 <TagSelect.Option value="cat12">Category 12</TagSelect.Option>
               </TagSelect>
-            </FormItem>
+            </FormItem> */}
           </StandardFormRow>
-          <StandardFormRow title="Other options" grid last>
+          <StandardFormRow>
             <Row gutter={16}>
               <Col lg={8} md={10} sm={10} xs={24}>
+                {/* search bar for library */}
                 <FormItem {...formItemLayout} label="Author" name="author">
                   <Select placeholder="Unlimited" style={{ maxWidth: 200, width: '100%' }}>
                     <Option value="lisa">Wang Zhaojun</Option>
                   </Select>
                 </FormItem>
               </Col>
-              <Col lg={8} md={10} sm={10} xs={24}>
+              {/* <Col lg={8} md={10} sm={10} xs={24}>
                 <FormItem {...formItemLayout} label="Praise" name="rate">
                   <Select placeholder="Unlimited" style={{ maxWidth: 200, width: '100%' }}>
                     <Option value="good">Excellent</Option>
                     <Option value="normal">Ordinary</Option>
                   </Select>
                 </FormItem>
-              </Col>
+              </Col> */}
             </Row>
           </StandardFormRow>
         </Form>

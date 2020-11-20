@@ -129,7 +129,7 @@ class BaseView extends Component<BaseViewProps> {
             >
               <Input />
             </Form.Item>
-            <Form.Item
+            {/* <Form.Item
               name="profile"
               label={formatMessage({ id: 'accountandsettings.basic.profile' })}
               rules={[
@@ -143,8 +143,8 @@ class BaseView extends Component<BaseViewProps> {
                 placeholder={formatMessage({ id: 'accountandsettings.basic.profile-placeholder' })}
                 rows={4}
               />
-            </Form.Item>
-            <Form.Item
+            </Form.Item> */}
+            {/* <Form.Item
               name="country"
               label={formatMessage({ id: 'accountandsettings.basic.country' })}
               rules={[
@@ -184,7 +184,7 @@ class BaseView extends Component<BaseViewProps> {
               ]}
             >
               <Input />
-            </Form.Item>
+            </Form.Item> */}
             <Form.Item
               name="phone"
               label={formatMessage({ id: 'accountandsettings.basic.phone' })}
@@ -202,7 +202,7 @@ class BaseView extends Component<BaseViewProps> {
               <Button htmlType="submit" type="primary">
                 <FormattedMessage
                   id="accountandsettings.basic.update"
-                  defaultMessage="Update Information"
+                  defaultMessage="Save Information"
                 />
               </Button>
             </Form.Item>

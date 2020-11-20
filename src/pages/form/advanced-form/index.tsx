@@ -18,12 +18,12 @@ const fieldLabels = {
   approver: 'Approver',
   dateRange: 'Effective Date',
   type: 'Warehouse Type',
-  name2: 'Mission Name',
-  url2: 'Mission Description',
-  owner2: 'Executor',
-  approver2: 'Responsible Person',
-  dateRange2: 'Effective Date',
-  type2: 'Mission Types',
+  name2: 'Name/Strain',
+  url2: 'Type',
+  owner2: 'Attributes',
+  approver2: 'Effects',
+  // dateRange2: 'Short Description',
+  type2: 'Short Description',
 };
 
 const tableData = [
@@ -126,8 +126,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
     >
-      <PageContainer content="Advanced forms are common in scenarios where large quantities of data are entered and submitted at once.">
-        <Card title="Warehouse management" className={styles.card} bordered={false}>
+      <PageContainer content="Your products will be uploaded in this page with their info.">
+        <Card title="Product Image" className={styles.card} bordered={false}>
           <Row gutter={16}>
             <Col lg={6} md={12} sm={24}>
               <Form.Item
@@ -201,7 +201,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
             </Col>
           </Row>
         </Card>
-        <Card title="Mission Management" className={styles.card} bordered={false}>
+        <Card title="Basic Info" className={styles.card} bordered={false}>
           <Row gutter={16}>
             <Col lg={6} md={12} sm={24}>
               <Form.Item
@@ -247,7 +247,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                 </Select>
               </Form.Item>
             </Col>
-            <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
+            {/* <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
               <Form.Item
                 label={fieldLabels.dateRange2}
                 name="dateRange2"
@@ -264,7 +264,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                   }}
                 />
               </Form.Item>
-            </Col>
+            </Col> */}
             <Col xl={{ span: 8, offset: 2 }} lg={{ span: 10 }} md={{ span: 24 }} sm={24}>
               <Form.Item
                 label={fieldLabels.type2}
@@ -279,7 +279,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
             </Col>
           </Row>
         </Card>
-        <Card title="Member Management" bordered={false}>
+        <Card title="Products List" bordered={false}>
           <Form.Item name="members">
             <TableForm />
           </Form.Item>

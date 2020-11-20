@@ -80,7 +80,7 @@ const TableList: React.FC<{}> = () => {
   const [selectedRowsState, setSelectedRows] = useState<TableListItem[]>([]);
   const columns: ProColumns<TableListItem>[] = [
     {
-      title: 'Rule name',
+      title: 'Order',
       dataIndex: 'name',
       tip: 'The rule name is a unique key',
       formItemProps: {
@@ -96,12 +96,12 @@ const TableList: React.FC<{}> = () => {
       },
     },
     {
-      title: 'Description',
+      title: 'Date',
       dataIndex: 'desc',
       valueType: 'textarea',
     },
     {
-      title: 'Number of service calls',
+      title: 'Donation',
       dataIndex: 'callNo',
       sorter: true,
       hideInForm: true,
@@ -119,7 +119,7 @@ const TableList: React.FC<{}> = () => {
       },
     },
     {
-      title: 'Last scheduled time',
+      title: 'Chat with Patient',
       dataIndex: 'updatedAt',
       sorter: true,
       valueType: 'dateTime',
@@ -135,25 +135,25 @@ const TableList: React.FC<{}> = () => {
         return defaultRender(item);
       },
     },
-    {
-      title: 'Operation',
-      dataIndex: 'option',
-      valueType: 'option',
-      render: (_, record) => (
-        <>
-          <a
-            onClick={() => {
-              handleUpdateModalVisible(true);
-              setStepFormValues(record);
-            }}
-          >
-            Configuration
-          </a>
-          <Divider type="vertical" />
-          <a href="">Subscribe to alerts</a>
-        </>
-      ),
-    },
+    // {
+    //   title: 'Operation',
+    //   dataIndex: 'option',
+    //   valueType: 'option',
+    //   render: (_, record) => (
+    //     <>
+    //       <a
+    //         onClick={() => {
+    //           handleUpdateModalVisible(true);
+    //           setStepFormValues(record);
+    //         }}
+    //       >
+    //         Configuration
+    //       </a>
+    //       <Divider type="vertical" />
+    //       <a href="">Subscribe to alerts</a>
+    //     </>
+    //   ),
+    // },
   ];
 
   return (

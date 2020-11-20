@@ -12,15 +12,16 @@ const titles = [
   'Vue',
   'Webpack',
 ];
+
+// pic of strain library here
 const avatars = [
-  'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png', // Alipay
-  'https://gw.alipayobjects.com/zos/rmsportal/zOsKZmFRdUtvpqCImOVY.png', // Angular
-  'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png', // Ant Design
-  'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
-  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
-  'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
-  'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
-  'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
+  'https://unsplash.com/photos/muuZhItgQoE', // Alipay
+  'https://unsplash.com/photos/Ld9FQlMez8g', // Ant Design
+  'https://unsplash.com/photos/muuZhItgQoE', // Ant Design Pro
+  'https://unsplash.com/photos/Ld9FQlMez8g', // Bootstrap
+  'https://unsplash.com/photos/muuZhItgQoE', // React
+  'https://unsplash.com/photos/Ld9FQlMez8g', // Vue
+  'https://unsplash.com/photos/muuZhItgQoE', // Webpack
 ];
 
 const covers = [

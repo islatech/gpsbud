@@ -47,12 +47,12 @@ class Settings extends Component<SettingsProps, SettingsState> {
           defaultMessage="Account Binding"
         />
       ),
-      notification: (
-        <FormattedMessage
-          id="accountandsettings.menuMap.notification"
-          defaultMessage="New Message Notification"
-        />
-      ),
+      // notification: (
+      //   <FormattedMessage
+      //     id="accountandsettings.menuMap.notification"
+      //     defaultMessage="New Message Notification"
+      //   />
+      // ),
     };
     this.state = {
       mode: 'inline',

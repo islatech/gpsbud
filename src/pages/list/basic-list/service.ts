@@ -1,5 +1,5 @@
 import request from 'umi-request';
-import { BasicListItemDataType } from './data.d';
+import { BasicListItemDataType } from './data';
 
 interface ParamsType extends Partial<BasicListItemDataType> {
   count?: number;

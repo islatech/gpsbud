@@ -40,7 +40,7 @@ class CardList extends Component<CardListProps, CardListState> {
 
     const content = (
       <div className={styles.pageHeaderContent}>
-        <p>
+        {/* <p>
           Paragraph description: Ant gold suit service design platform ant.design, with minimal workload, seamless access to Ant gold suit ecosystem，
 Provide experience solutions that span design and development。
         </p>
@@ -57,7 +57,7 @@ Provide experience solutions that span design and development。
             <img alt="" src="https://gw.alipayobjects.com/zos/rmsportal/ohOEPSYdDTNnyMbGuyLb.svg" />{' '}
             Product documentation
           </a>
-        </div>
+        </div> */}
       </div>
     );
 
@@ -108,13 +108,13 @@ Provide experience solutions that span design and development。
                   </List.Item>
                 );
               }
-              return (
-                <List.Item>
-                  <Button type="dashed" className={styles.newButton}>
-                    <PlusOutlined /> New products
-                  </Button>
-                </List.Item>
-              );
+              // return (
+              //   <List.Item>
+              //     <Button type="dashed" className={styles.newButton}>
+              //       <PlusOutlined /> New products
+              //     </Button>
+              //   </List.Item>
+              // );
             }}
           />
         </div>
