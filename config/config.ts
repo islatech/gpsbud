@@ -378,6 +378,14 @@ export default defineConfig({
   theme: {
     // ...darkTheme,
     'primary-color': defaultSettings.primaryColor,
+    'info-color': "#F0F0F0"
+    // 'uccess-color': '@green-6',
+    // 'error-color':  '@red-5;',
+    // 'highlight-color': '@red-5',
+    // 'warning-color': ' @gold-6;',
+    // 'normal-color': '#d9d9d9',
+    // 'white': '#ff',
+    // 'black': "#000"
   },
   // @ts-ignore
   title: false,
