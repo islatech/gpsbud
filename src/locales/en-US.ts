@@ -4,6 +4,9 @@ import menu from './en-US/menu';
 import pwa from './en-US/pwa';
 import settingDrawer from './en-US/settingDrawer';
 import settings from './en-US/settings';
+import userandlogin from './es-US/userandlogin';
+import theme from './en-US/theme';
+import register from './en-US/register';
 
 export default {
   'navBar.lang': 'Languages',
@@ -19,4 +22,7 @@ export default {
   ...settings,
   ...pwa,
   ...component,
+  ...userandlogin,
+  ...theme,
+  ...register,
 };

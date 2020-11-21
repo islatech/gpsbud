@@ -1,7 +1,7 @@
 import { Effect, history, Reducer } from 'umi';
 import { message } from 'antd';
 import { parse } from 'qs';
-import { fakeAccountLogin, getFakeCaptcha } from './service';
+import { fakeAccountLogin, getFakeCaptcha } from '@/services/login';
 
 export function getPageQuery() {
   return parse(window.location.href.split('?')[1]);
@@ -26,10 +26,10 @@ export function setAuthority(authority: string | string[]) {
 export interface StateType {
   status?: 'ok' | 'error';
   type?: string;
-  currentAuthority?: 'user' | 'guest' | 'admin';
+  currentAuthority?: 'guest' | 'user' | 'patient' | 'caregiver' | 'admin';
 }
 
-export interface ModelType {
+export interface UserAndLoginModelType {
   namespace: string;
   state: StateType;
   effects: {
@@ -41,8 +41,8 @@ export interface ModelType {
   };
 }
 
-const Model: ModelType = {
-  namespace: 'userAndlogin',
+const UserAndLoginModel: UserAndLoginModelType = {
+  namespace: 'userandlogin',
 
   state: {
     status: undefined,
@@ -94,4 +94,4 @@ const Model: ModelType = {
   },
 };
 
-export default Model;
+export default UserAndLoginModel;

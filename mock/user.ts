@@ -3,14 +3,14 @@ import { Request, Response } from 'express';
 function getFakeCaptcha(req: Request, res: Response) {
   return res.json('captcha-xxx');
 }
-// 代码中会兼容本地 service mock 以及部署站点的静态数据
+// The code is compatible with local service mock and static data for the deployment site
 export default {
-  // 支持值为 Object 和 Array
+  // Support values for Object and Array
   'GET /api/currentUser': {
-    name: 'Serati Ma',
-    avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
-    userid: '00000001',
-    email: 'antdesign@alipay.com',
+    name: 'maced',
+    avatar: 'https://s3.amazonaws.com/profile_photos/1195271994730893.EyG5TTIoO6NJebL0iY9n_128x128.png',
+    userid: '00000004',
+    email: 'maced@islandtech.xyz',
     signature: 'All rivers run into sea, tolerance is great',
     title: 'Interaction expert',
     group: 'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
@@ -42,44 +42,44 @@ export default {
     ],
     notifyCount: 12,
     unreadCount: 11,
-    country: 'China',
+    country: 'United States',
     geographic: {
       province: {
-        label: 'Zhejiang province',
+        label: 'Puerto Rico',
         key: '330000',
       },
       city: {
-        label: 'Hagzhou city',
+        label: 'San Juan',
         key: '330100',
       },
     },
-    address: 'No. 77 gongzhuan Road, West Lake District, Xihu district, Xihu district, China',
-    phone: '0752-268888888',
+    address: '123 Street Address, San Juan, Puerto Rico 00926',
+    phone: '555-555-5555',
   },
-  // GET POST 可省略
+  // GET POST can be omitted
   'GET /api/users': [
     {
       key: '1',
-      name: 'John Brown',
-      age: 32,
-      address: 'New York No. 1 Lake Park',
+      name: 'xcesiv',
+      age: 30,
+    address: '123 Street Address, San Juan, Puerto Rico 00926',
     },
     {
       key: '2',
-      name: 'Jim Green',
-      age: 42,
-      address: 'London No. 1 Lake Park',
+      name: 'coqui',
+      age: 30,
+    address: '123 Street Address, San Juan, Puerto Rico 00926',
     },
     {
       key: '3',
-      name: 'Joe Black',
-      age: 32,
-      address: 'Sidney No. 1 Lake Park',
+      name: 'twizzle',
+      age: 30,
+    address: '123 Street Address, San Juan, Puerto Rico 00926',
     },
   ],
   'POST /api/login/account': (req: Request, res: Response) => {
     const { password, userName, type } = req.body;
-    if (password === 'ant.design' && userName === 'admin') {
+    if (password === 'islatech' && userName === 'admin') {
       res.send({
         status: 'ok',
         type,
@@ -87,11 +87,27 @@ export default {
       });
       return;
     }
-    if (password === 'ant.design' && userName === 'user') {
+    if (password === 'islatech' && userName === 'user') {
       res.send({
         status: 'ok',
         type,
         currentAuthority: 'user',
+      });
+      return;
+    }
+    if (password === 'islatech' && userName === 'patient') {
+      res.send({
+        status: 'ok',
+        type,
+        currentAuthority: 'patient',
+      });
+      return;
+    }
+    if (password === 'islatech' && userName === 'caregiver') {
+      res.send({
+        status: 'ok',
+        type,
+        currentAuthority: 'caregiver',
       });
       return;
     }

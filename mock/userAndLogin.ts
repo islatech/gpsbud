@@ -8,7 +8,7 @@ function getFakeCaptcha(req: Request, res: Response) {
 export default {
   'POST  /api/login/account': (req: Request, res: Response) => {
     const { password, userName, type } = req.body;
-    if (password === 'ant.design' && userName === 'admin') {
+    if (password === 'islatech' && userName === 'admin') {
       res.send({
         status: 'ok',
         type,
@@ -16,11 +16,27 @@ export default {
       });
       return;
     }
-    if (password === 'ant.design' && userName === 'user') {
+    if (password === 'islatech' && userName === 'user') {
       res.send({
         status: 'ok',
         type,
         currentAuthority: 'user',
+      });
+      return;
+    }
+    if (password === 'islatech' && userName === 'patient') {
+      res.send({
+        status: 'ok',
+        type,
+        currentAuthority: 'patient',
+      });
+      return;
+    }
+    if (password === 'islatech' && userName === 'caregiver') {
+      res.send({
+        status: 'ok',
+        type,
+        currentAuthority: 'caregiver',
       });
       return;
     }

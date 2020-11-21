@@ -1,13 +1,13 @@
 import { Effect, Reducer } from 'umi';
 
-import { fakeRegister } from './service';
+import { fakeRegister } from '@/services/register';
 
 export interface StateType {
   status?: 'ok' | 'error';
   currentAuthority?: 'user' | 'guest' | 'admin';
 }
 
-export interface ModelType {
+export interface RegisterModelType {
   namespace: string;
   state: StateType;
   effects: {
@@ -18,7 +18,7 @@ export interface ModelType {
   };
 }
 
-const Model: ModelType = {
+const RegisterModel: RegisterModelType = {
   namespace: 'userAndregister',
 
   state: {
@@ -45,4 +45,4 @@ const Model: ModelType = {
   },
 };
 
-export default Model;
+export default RegisterModel;

@@ -2,7 +2,7 @@ import { Form, Button, Col, Input, Popover, Progress, Row, Select, message } fro
 import React, { FC, useState, useEffect } from 'react';
 import { Link, connect, history, FormattedMessage, formatMessage, Dispatch } from 'umi';
 
-import { StateType } from './model';
+import { StateType } from '@/models/register';
 import styles from './style.less';
 
 const FormItem = Form.Item;
