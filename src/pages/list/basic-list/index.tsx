@@ -123,16 +123,16 @@ export const BasicList: FC<BasicListProps> = (props) => {
     }
   };
 
-  // const extraContent = (
-  //   <div className={styles.extraContent}>
-  //     <RadioGroup defaultValue="all">
-  //       <RadioButton value="all">All of them</RadioButton>
-  //       <RadioButton value="progress">进行中</RadioButton>
-  //       <RadioButton value="waiting">等待中</RadioButton>
-  //     </RadioGroup>
-  //     <Search className={styles.extraContentSearch} placeholder="Please enter" onSearch={() => ({})} />
-  //   </div>
-  // );
+  const extraContent = (
+    <div className={styles.extraContent}>
+      <RadioGroup defaultValue="all">
+        <RadioButton value="all">All of them</RadioButton>
+        <RadioButton value="progress">Processing</RadioButton>
+        <RadioButton value="waiting">Waiting</RadioButton>
+      </RadioGroup>
+      <Search className={styles.extraContentSearch} placeholder="Please enter" onSearch={() => ({})} />
+    </div>
+  );
 
   const MoreBtn: React.FC<{
     item: BasicListItemDataType;
@@ -200,16 +200,16 @@ export const BasicList: FC<BasicListProps> = (props) => {
               </Col>
             </Row>
           </Card> */}
-
+          
           <Card
             className={styles.listCard}
             bordered={false}
             title="Basic List"
             style={{ marginTop: 24 }}
             bodyStyle={{ padding: '0 32px 40px 32px' }}
-            extra={extraContent}
+            // extra={extraContent}
           >
-            <Button
+            {/* <Button
               type="dashed"
               style={{ width: '100%', marginBottom: 8 }}
               onClick={showModal}
@@ -217,8 +217,8 @@ export const BasicList: FC<BasicListProps> = (props) => {
             >
               <PlusOutlined />
               Add
-            </Button>
-
+            </Button> */}
+            
             <List
               size="large"
               rowKey="id"

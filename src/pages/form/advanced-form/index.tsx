@@ -12,12 +12,12 @@ const { Option } = Select;
 const { RangePicker } = DatePicker;
 
 const fieldLabels = {
-  name: 'Warehouse Name',
-  url: 'Warehouse domain name',
-  owner: 'Warehouse manager',
-  approver: 'Approver',
-  dateRange: 'Effective Date',
-  type: 'Warehouse Type',
+  // name: 'Warehouse Name',
+  // url: 'Warehouse domain name',
+  // owner: 'Warehouse manager',
+  // approver: 'Approver',
+  // dateRange: 'Effective Date',
+  // type: 'Warehouse Type',
   name2: 'Name/Strain',
   url2: 'Type',
   owner2: 'Attributes',
@@ -129,7 +129,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
       <PageContainer content="Your products will be uploaded in this page with their info.">
         <Card title="Product Image" className={styles.card} bordered={false}>
           <Row gutter={16}>
-            <Col lg={6} md={12} sm={24}>
+            {/* <Col lg={6} md={12} sm={24}>
               <Form.Item
                 label={fieldLabels.name}
                 name="name"
@@ -137,8 +137,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
               >
                 <Input placeholder="Please enter Warehouse Name and surname" />
               </Form.Item>
-            </Col>
-            <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
+            </Col> */}
+            {/* <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
               <Form.Item
                 label={fieldLabels.url}
                 name="url"
@@ -151,8 +151,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                   placeholder="Please enter"
                 />
               </Form.Item>
-            </Col>
-            <Col xl={{ span: 8, offset: 2 }} lg={{ span: 10 }} md={{ span: 24 }} sm={24}>
+            </Col> */}
+            {/* <Col xl={{ span: 8, offset: 2 }} lg={{ span: 10 }} md={{ span: 24 }} sm={24}>
               <Form.Item
                 label={fieldLabels.owner}
                 name="owner"
@@ -163,10 +163,10 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                   <Option value="mao">Chow Mau Mau</Option>
                 </Select>
               </Form.Item>
-            </Col>
+            </Col> */}
           </Row>
           <Row gutter={16}>
-            <Col lg={6} md={12} sm={24}>
+            {/* <Col lg={6} md={12} sm={24}>
               <Form.Item
                 label={fieldLabels.approver}
                 name="approver"
@@ -177,8 +177,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                   <Option value="mao">Chow Mau Mau</Option>
                 </Select>
               </Form.Item>
-            </Col>
-            <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
+            </Col> */}
+            {/* <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
               <Form.Item
                 label={fieldLabels.dateRange}
                 name="dateRange"
@@ -186,8 +186,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
               >
                 <RangePicker placeholder={['Start Date', 'End Date']} style={{ width: '100%' }} />
               </Form.Item>
-            </Col>
-            <Col xl={{ span: 8, offset: 2 }} lg={{ span: 10 }} md={{ span: 24 }} sm={24}>
+            </Col> */}
+            {/* <Col xl={{ span: 8, offset: 2 }} lg={{ span: 10 }} md={{ span: 24 }} sm={24}>
               <Form.Item
                 label={fieldLabels.type}
                 name="type"
@@ -198,7 +198,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                   <Option value="public">Public</Option>
                 </Select>
               </Form.Item>
-            </Col>
+            </Col> */}
           </Row>
         </Card>
         <Card title="Basic Info" className={styles.card} bordered={false}>

@@ -51,26 +51,26 @@ const Step1: React.FC<Step1Props> = (props) => {
         initialValues={data}
       >
         <Form.Item
-          label="付款账户"
+          label="Payment Account"
           name="payAccount"
-          rules={[{ required: true, message: 'Please select付款账户' }]}
+          rules={[{ required: true, message: 'Please select payment account' }]}
         >
           <Select placeholder="test@example.com">
             <Option value="ant-design@alipay.com">ant-design@alipay.com</Option>
           </Select>
         </Form.Item>
-        <Form.Item label="收款账户">
+        <Form.Item label="Receivers Account">
           <Input.Group compact>
             <Select defaultValue="alipay" style={{ width: 100 }}>
-              <Option value="alipay">支付宝</Option>
-              <Option value="bank">银行账户</Option>
+              <Option value="alipay">Alipay</Option>
+              <Option value="bank">Bank Accounts</Option>
             </Select>
             <Form.Item
               noStyle
               name="receiverAccount"
               rules={[
-                { required: true, message: 'Please enter收款人账户' },
-                { type: 'email', message: '账户名应为邮箱格式' },
+                { required: true, message: 'Please enter beneficiary account' },
+                { type: 'email', message: 'The account name should be in email format' },
               ]}
             >
               <Input style={{ width: 'calc(100% - 100px)' }} placeholder="test@example.com" />
@@ -78,24 +78,24 @@ const Step1: React.FC<Step1Props> = (props) => {
           </Input.Group>
         </Form.Item>
         <Form.Item
-          label="收款人姓名"
+          label="Receivers Name"
           name="receiverName"
-          rules={[{ required: true, message: 'Please enter收款人姓名' }]}
+          rules={[{ required: true, message: 'Please enter payee name' }]}
         >
-          <Input placeholder="Please enter收款人姓名" />
+          <Input placeholder="Please enter payee name" />
         </Form.Item>
         <Form.Item
-          label="转账金额"
+          label="Transfer Amount"
           name="amount"
           rules={[
-            { required: true, message: 'Please enter转账金额' },
+            { required: true, message: 'Please enter transfer amount' },
             {
               pattern: /^(\d+)((?:\.\d+)?)$/,
-              message: 'Please enter合法金额数字',
+              message: 'Please enter legal amount',
             },
           ]}
         >
-          <Input prefix="$" placeholder="Please enter金额" />
+          <Input prefix="$" placeholder="Please enter amount" />
         </Form.Item>
         <Form.Item
           wrapperCol={{
@@ -107,20 +107,20 @@ const Step1: React.FC<Step1Props> = (props) => {
           }}
         >
           <Button type="primary" onClick={onValidateForm}>
-            下一步
+            Next Step
           </Button>
         </Form.Item>
       </Form>
       <Divider style={{ margin: '40px 0 24px' }} />
       <div className={styles.desc}>
-        <h3>说明</h3>
-        <h4>转账到支付宝账户</h4>
+        <h3>Description</h3>
+        <h4>Transfer to Alipay account</h4>
         <p>
-          如果需要，这里可以放一些关于产品的常见问题说明。如果需要，这里可以放一些关于产品的常见问题说明。如果需要，这里可以放一些关于产品的常见问题说明。
+        If necessary, some common questions about the product can be put here.
         </p>
-        <h4>转账到银行卡</h4>
+        <h4>Transfer to bank card</h4>
         <p>
-          如果需要，这里可以放一些关于产品的常见问题说明。如果需要，这里可以放一些关于产品的常见问题说明。如果需要，这里可以放一些关于产品的常见问题说明。
+          If necessary, some common questions about the product can be put here.
         </p>
       </div>
     </>

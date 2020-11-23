@@ -40,13 +40,13 @@ const Articles: React.FC<Partial<ModalState>> = (props) => {
                 {item.title}
               </a>
             }
-            description={
-              <span>
-                <Tag>Ant Design</Tag>
-                <Tag>Design Language</Tag>
-                <Tag>Ant gold suit</Tag>
-              </span>
-            }
+            // description={
+            //   <span>
+            //     <Tag>Ant Design</Tag>
+            //     <Tag>Design Language</Tag>
+            //     <Tag>Ant gold suit</Tag>
+            //   </span>
+            // }
           />
           <ArticleListContent data={item} />
         </List.Item>

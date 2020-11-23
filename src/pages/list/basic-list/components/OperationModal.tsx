@@ -51,7 +51,7 @@ const OperationModal: FC<OperationModalProps> = (props) => {
 
   const modalFooter = done
     ? { footer: null, onCancel: onDone }
-    : { okText: '保存', onOk: handleSubmit, onCancel };
+    : { okText: 'Save', onOk: handleSubmit, onCancel };
 
   const getModalContent = () => {
     if (done) {
@@ -62,7 +62,7 @@ const OperationModal: FC<OperationModalProps> = (props) => {
           subTitle="A series of information descriptions ,very short can also be punctuated."
           extra={
             <Button type="primary" onClick={onDone}>
-              知道了
+              Got It!
             </Button>
           }
           className={styles.formResult}
@@ -90,16 +90,16 @@ const OperationModal: FC<OperationModalProps> = (props) => {
             style={{ width: '100%' }}
           />
         </Form.Item>
-        <Form.Item
+        {/* <Form.Item
           name="owner"
-          label="Mission负责人"
+          label="Mission"
           rules={[{ required: true, message: 'Please select Task leader' }]}
         >
           <Select placeholder="Please select">
             <Select.Option value="Fu Xiaoxiao">Fu Xiaoxiao</Select.Option>
             <Select.Option value="Chow Mau Mau">Chow Mau Mau</Select.Option>
           </Select>
-        </Form.Item>
+        </Form.Item> */}
         <Form.Item
           name="subDescription"
           label="Product Description"

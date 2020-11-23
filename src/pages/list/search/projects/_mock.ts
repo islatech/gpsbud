@@ -2,14 +2,14 @@ import { Request, Response } from 'express';
 import { ListItemDataType } from './data.d';
 
 const titles = [
-  'Alipay',
-  'Angular',
-  'Ant Design',
-  'Ant Design Pro',
-  'Bootstrap',
-  'React',
-  'Vue',
-  'Webpack',
+  'Lemon Haze',
+  'Acapulco Gold',
+  'Sour Diesel',
+  'Blue Dream',
+  'Afghan Kush',
+  'White Widow',
+  'Fruity Pebbles',
+  'Maui Wowie',
 ];
 const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png', // Alipay
@@ -29,12 +29,16 @@ const covers = [
   'https://gw.alipayobjects.com/zos/rmsportal/gLaIAoVWTtLbBWZNYEMg.png',
 ];
 const desc = [
-  'It is an inner thning that they cannot reach, they cannot touch',
-  'Hope is a good thing, maybe the best, good things will not die out',
-  'Life is like a box of chocolate, and the results are often unexpected',
-  'There were so many taverns in town, and she walked into my taverns.',
-  'At that time, I just thought about what I wanted, never wanted what I had.',
+  'Happy | Uplifted',
+  'Happy | Energizing',
+  'Energetic | Talkative',
+  'Creative | Uplifted',
+  'Hungry | Sleepy',
+  'Talkative | Euphoric',
+  'Giggly | Happy',
+  'Energetic | Uplifted',
 ];
+
 const user = [
   'Pay a little',
   'Qui Lili',
@@ -78,21 +82,21 @@ function fakeList(count: number): ListItemDataType[] {
       content:
         'Paragraph schematic: Ant Financial design platform ant.design, with minimal workload, seamless access to Ant Financial ecosystem, providing experience solutions across design and development.Ant Financial design platform ant.design, with minimal workload, seamless access to Ant Financial ecosystem, providing experience solutions across design and development.',
       members: [
-        {
-          avatar: 'https://gw.alipayobjects.com/zos/rmsportal/ZiESqWwCXBRQoaPONSJe.png',
-          name: 'Qu Lili',
-          id: 'member1',
-        },
-        {
-          avatar: 'https://gw.alipayobjects.com/zos/rmsportal/tBOxZPlITHqwlGjsJWaF.png',
-          name: 'Wang Zhaojun',
-          id: 'member2',
-        },
-        {
-          avatar: 'https://gw.alipayobjects.com/zos/rmsportal/sBxjgqiuHMGRkIjqlQCd.png',
-          name: 'Dong Nana',
-          id: 'member3',
-        },
+        // {
+        //   avatar: 'https://gw.alipayobjects.com/zos/rmsportal/ZiESqWwCXBRQoaPONSJe.png',
+        //   name: 'Qu Lili',
+        //   id: 'member1',
+        // },
+        // {
+        //   avatar: 'https://gw.alipayobjects.com/zos/rmsportal/tBOxZPlITHqwlGjsJWaF.png',
+        //   name: 'Wang Zhaojun',
+        //   id: 'member2',
+        // },
+        // {
+        //   avatar: 'https://gw.alipayobjects.com/zos/rmsportal/sBxjgqiuHMGRkIjqlQCd.png',
+        //   name: 'Dong Nana',
+        //   id: 'member3',
+        // },
       ],
     });
   }

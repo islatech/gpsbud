@@ -213,7 +213,7 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
           }
           return (
             <span>
-              <a onClick={(e) => saveRow(e, record.key)}>保存</a>
+              <a onClick={(e) => saveRow(e, record.key)}>Save</a>
               <Divider type="vertical" />
               <a onClick={(e) => cancel(e, record.key)}>Cancel</a>
             </span>
@@ -241,14 +241,14 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
         pagination={false}
         rowClassName={(record) => (record.editable ? styles.editable : '')}
       />
-      <Button
+      {/* <Button
         style={{ width: '100%', marginTop: 16, marginBottom: 8 }}
         type="dashed"
         onClick={newMember}
       >
         <PlusOutlined />
         New members
-      </Button>
+      </Button> */}
     </>
   );
 };

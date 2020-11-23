@@ -268,22 +268,22 @@ class Advanced extends Component<
     return (
       <PageContainer
         title="Single Number：234231029431"
-        extra={action}
-        className={styles.pageHeader}
-        content={description}
-        extraContent={extra}
-        tabActiveKey={tabActiveKey}
-        onTabChange={this.onTabChange}
-        tabList={[
-          {
-            key: 'detail',
-            tab: 'Details',
-          },
-          {
-            key: 'rule',
-            tab: 'Rules',
-          },
-        ]}
+        // extra={action}
+        // className={styles.pageHeader}
+        // content={description}
+        // extraContent={extra}
+        // tabActiveKey={tabActiveKey}
+        // onTabChange={this.onTabChange}
+        // tabList={[
+        //   {
+        //     key: 'detail',
+        //     tab: 'Details',
+        //   },
+        //   {
+        //     key: 'rule',
+        //     tab: 'Rules',
+        //   },
+        // ]}
       >
         <div className={styles.main}>
           <GridContent>
@@ -357,9 +357,9 @@ class Advanced extends Component<
                 </Descriptions>
               </Card>
             </Card>
-            <Card title="User call records for nearly half a year" style={{ marginBottom: 24 }} bordered={false}>
+            {/* <Card title="User call records for nearly half a year" style={{ marginBottom: 24 }} bordered={false}>
               <Empty />
-            </Card>
+            </Card> */}
             <Card
               className={styles.tabsCard}
               bordered={false}

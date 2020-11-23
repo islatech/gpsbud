@@ -37,13 +37,13 @@ const StepForm: React.FC<StepFormProps> = ({ current }) => {
   }, [current]);
 
   return (
-    <PageContainer content="将一个冗长或用户不熟悉的表单Mission分成多个步骤，指导用户完成。">
+    <PageContainer content="Divide a lengthy or unfamiliar form into multiple steps to guide users through. Mission">
       <Card bordered={false}>
         <>
           <Steps current={currentStep} className={styles.steps}>
-            <Step title="填写转账信息" />
-            <Step title="Confirmation转账信息" />
-            <Step title="完成" />
+            <Step title="Fill in the transfer information" />
+            <Step title="Confirmation" />
+            <Step title="Carry Out" />
           </Steps>
           {stepComponent}
         </>

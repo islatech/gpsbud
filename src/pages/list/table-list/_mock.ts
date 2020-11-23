@@ -17,9 +17,11 @@ const genList = (current: number, pageSize: number) => {
         'https://gw.alipayobjects.com/zos/rmsportal/eeHMaZBwmTvLdIwMfBpg.png',
         'https://gw.alipayobjects.com/zos/rmsportal/udxAbMEhpwthVVcjLXik.png',
       ][i % 2],
-      name: `TradeCode ${index}`,
+      name: `3BR4 ${index}`,
       owner: 'Qu Lili',
-      desc: 'Here is a description',
+      desc: 'Date will go here',
+      // review the code for this one
+      // updatedAt: new Date('2020-06-24'),
       callNo: Math.floor(Math.random() * 1000),
       status: (Math.floor(Math.random() * 10) % 4).toString(),
       updatedAt: new Date(),

@@ -17,11 +17,11 @@ const ArticleListContent: React.FC<ApplicationsProps> = ({
 }) => (
   <div className={styles.listContent}>
     <div className={styles.description}>{content}</div>
-    <div className={styles.extra}>
+    {/* <div className={styles.extra}>
       <Avatar src={avatar} size="small" />
       <a href={href}>{owner}</a> Published in <a href={href}>{href}</a>
       <em>{moment(updatedAt).format('YYYY-MM-DD HH:mm')}</em>
-    </div>
+    </div> */}
   </div>
 );
 

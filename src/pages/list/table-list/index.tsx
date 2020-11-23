@@ -105,35 +105,36 @@ const TableList: React.FC<{}> = () => {
       dataIndex: 'callNo',
       sorter: true,
       hideInForm: true,
-      renderText: (val: string) => `${val} Million`,
+      renderText: (val: string) => `${val} eth`,
     },
     {
       title: 'Status',
       dataIndex: 'status',
       hideInForm: true,
       valueEnum: {
-        0: { text: 'Close', status: 'Default' },
-        1: { text: 'Running', status: 'Processing' },
-        2: { text: 'Its online', status: 'Success' },
-        3: { text: 'Exception', status: 'Error' },
+        0: { text: 'Unfulfilled', status: 'Processing' },
+        1: { text: 'Fulfilled', status: 'Success' },
+        // 2: { text: 'Its online', status: 'Success' },
+        // 3: { text: 'Exception', status: 'Error' },
       },
     },
     {
       title: 'Chat with Patient',
-      dataIndex: 'updatedAt',
-      sorter: true,
-      valueType: 'dateTime',
-      hideInForm: true,
-      renderFormItem: (item, { defaultRender, ...rest }, form) => {
-        const status = form.getFieldValue('status');
-        if (`${status}` === '0') {
-          return false;
-        }
-        if (`${status}` === '3') {
-          return <Input {...rest} placeholder="Please enter the reason for the exception!" />;
-        }
-        return defaultRender(item);
-      },
+      // chat button to direct to chat
+      // dataIndex: 'updatedAt',
+      // sorter: true,
+      // valueType: 'dateTime',
+      // hideInForm: true,
+      // renderFormItem: (item, { defaultRender, ...rest }, form) => {
+      //   const status = form.getFieldValue('status');
+      //   if (`${status}` === '0') {
+      //     return false;
+      //   }
+      //   if (`${status}` === '3') {
+      //     return <Input {...rest} placeholder="Please enter the reason for the exception!" />;
+      //   }
+      //   return defaultRender(item);
+      // },
     },
     // {
     //   title: 'Operation',
@@ -165,11 +166,11 @@ const TableList: React.FC<{}> = () => {
         search={{
           labelWidth: 120,
         }}
-        toolBarRender={() => [
-          <Button type="primary" onClick={() => handleModalVisible(true)}>
-            <PlusOutlined /> New
-          </Button>,
-        ]}
+        // toolBarRender={() => [
+        //   <Button type="primary" onClick={() => handleModalVisible(true)}>
+        //     <PlusOutlined /> New
+        //   </Button>,
+        // ]}
         request={(params, sorter, filter) => queryRule({ ...params, sorter, filter })}
         columns={columns}
         rowSelection={{
@@ -180,23 +181,23 @@ const TableList: React.FC<{}> = () => {
         <FooterToolbar
           extra={
             <div>
-              Selected <a style={{ fontWeight: 600 }}>{selectedRowsState.length}</a> 项&nbsp;&nbsp;
-              <span>
-                Total number of service calls {selectedRowsState.reduce((pre, item) => pre + item.callNo, 0)} Million
-              </span>
+              Selected <a style={{ fontWeight: 600 }}>{selectedRowsState.length}</a> Item &nbsp;&nbsp;
+              {/* <span>
+                Total number of orders {selectedRowsState.reduce((pre, item) => pre + item.callNo, 0)} Million
+              </span> */}
             </div>
           }
         >
-          <Button
+          <Button type="primary"
             onClick={async () => {
               await handleRemove(selectedRowsState);
               setSelectedRows([]);
               actionRef.current?.reloadAndRest?.();
             }}
           >
-            Batch delete
+            Delete Order
           </Button>
-          <Button type="primary">Batch approbal</Button>
+          {/* <Button type="primary">Batch approbal</Button> */}
         </FooterToolbar>
       )}
       <CreateForm onCancel={() => handleModalVisible(false)} modalVisible={createModalVisible}>
