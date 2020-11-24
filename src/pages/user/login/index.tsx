@@ -2,7 +2,7 @@ import { AlipayCircleOutlined, TaobaoCircleOutlined, WeiboCircleOutlined } from 
 import { Alert, Checkbox } from 'antd';
 import React, { useState } from 'react';
 import { Dispatch, Link, connect } from 'umi';
-import { StateType } from '@/models/userandlogin';
+import { StateType } from '@/models/userAndLogin'';
 import styles from './style.less';
 import { LoginParamsType } from '@/services/login';
 import LoginFrom from './components/Login';
@@ -10,7 +10,7 @@ import LoginFrom from './components/Login';
 const { Tab, UserName, Password, Mobile, Captcha, Submit } = LoginFrom;
 interface LoginProps {
   dispatch: Dispatch;
-  userandlogin: StateType;
+  userAndLogin: StateType;
   submitting?: boolean;
 }
 
@@ -28,15 +28,15 @@ const LoginMessage: React.FC<{
 );
 
 const Login: React.FC<LoginProps> = (props) => {
-  const { userandlogin = {}, submitting } = props;
-  const { status, type: loginType } = userandlogin;
+  const { userAndLogin = {}, submitting } = props;
+  const { status, type: loginType } = userAndLogin;
   const [autoLogin, setAutoLogin] = useState(true);
   const [type, setType] = useState<string>('account');
 
   const handleSubmit = (values: LoginParamsType) => {
     const { dispatch } = props;
     dispatch({
-      type: 'userandlogin/login',
+      type: 'userAndLogin/login',
       payload: {
         ...values,
         type,
@@ -133,17 +133,17 @@ const Login: React.FC<LoginProps> = (props) => {
 
 export default connect(
   ({
-    userandlogin,
+    userAndLogin,
     loading,
   }: {
-    userandlogin: StateType;
+    userAndLogin: StateType;
     loading: {
       effects: {
         [key: string]: boolean;
       };
     };
   }) => ({
-    userandlogin,
-    submitting: loading.effects['userandlogin/login'],
+    userAndLogin,
+    submitting: loading.effects['userAndLogin/login'],
   }),
 )(Login);

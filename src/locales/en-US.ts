@@ -4,7 +4,7 @@ import menu from './en-US/menu';
 import pwa from './en-US/pwa';
 import settingDrawer from './en-US/settingDrawer';
 import settings from './en-US/settings';
-import userandlogin from './es-US/userandlogin';
+import userAndLogin from './en-US/userAndLogin';
 import theme from './en-US/theme';
 import register from './en-US/register';
 
@@ -22,7 +22,7 @@ export default {
   ...settings,
   ...pwa,
   ...component,
-  ...userandlogin,
+  ...userAndLogin,
   ...theme,
   ...register,
 };

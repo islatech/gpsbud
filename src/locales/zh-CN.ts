@@ -5,7 +5,7 @@ import pwa from './zh-CN/pwa';
 import settingDrawer from './zh-CN/settingDrawer';
 import settings from './zh-CN/settings';
 import theme from './zh-CN/theme';
-import userandlogin from './zh-CN/userandlogin';
+import userAndLogin from './zh-CN/userAndLogin';
 
 export default {
   'navBar.lang': '语言',
@@ -22,5 +22,5 @@ export default {
   ...pwa,
   ...component,
   ...theme,
-  ...userandlogin,
+  ...userAndLogin,
 };

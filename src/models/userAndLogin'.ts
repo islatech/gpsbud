@@ -42,7 +42,7 @@ export interface UserAndLoginModelType {
 }
 
 const UserAndLoginModel: UserAndLoginModelType = {
-  namespace: 'userandlogin',
+  namespace: 'userAndLogin',
 
   state: {
     status: undefined,
