@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Request, Response } from 'express';
-import { CardListItemDataType } from './data.d';
+import { CardListItemDataType } from './data';
 
 const titles = [
   'Alipay',

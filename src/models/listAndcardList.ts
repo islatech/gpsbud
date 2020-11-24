@@ -1,7 +1,7 @@
 import { Effect, Reducer } from 'umi';
 
-import { CardListItemDataType } from './data.d';
-import { queryFakeList } from './service';
+import { CardListItemDataType } from '../../mock/data';
+import { queryFakeList } from '@/services/listAndcardList';
 
 export interface StateType {
   list: CardListItemDataType[];
