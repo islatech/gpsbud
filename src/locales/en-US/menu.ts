@@ -22,6 +22,8 @@ export default {
   'menu.form.step-form.result': 'Step Form(finished)',
   'menu.form.advanced-form': 'Product Details',
   'menu.list': 'List',
+  'menu.list.applications': 'Applications',
+  'menu.list.Library': 'Library',
   'menu.list.table-list': 'Store Orders',
   'menu.list.basic-list': 'Product Page',
   'menu.list.card-list': 'Store Page',
