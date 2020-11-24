@@ -116,4 +116,4 @@ yarn.lock
 
 
 # umi file
-.umi
+src/.umi
