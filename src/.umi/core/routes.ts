@@ -71,14 +71,14 @@ export function getRoutes() {
                 "exact": true
               },
               {
-                "name": "Patient Orders",
+                "path": "/account/basic",
                 "icon": "smile",
-                "path": "/profile/basic",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__basic' */'/Users/meiacevedo/backup-correct-layout/src/pages/profile/basic'), loading: LoadingComponent}),
+                "name": "Order Details",
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__basic' */'/Users/meiacevedo/backup-correct-layout/src/pages/basic'), loading: LoadingComponent}),
                 "exact": true
               },
               {
-                "name": "Order Details",
+                "name": "Patient Orders",
                 "icon": "smile",
                 "path": "/account/OrderDetails",
                 "exact": true
@@ -100,11 +100,11 @@ export function getRoutes() {
             ]
           },
           {
-            "path": "/library",
+            "path": "/projects",
             "icon": "form",
             "name": "Library",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__search__projects' */'/Users/meiacevedo/backup-correct-layout/src/pages/list/search/projects'), loading: LoadingComponent}),
-            "routes": []
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__projects' */'/Users/meiacevedo/backup-correct-layout/src/pages/projects'), loading: LoadingComponent}),
+            "exact": true
           },
           {
             "path": "/form",
@@ -164,15 +164,15 @@ export function getRoutes() {
                 "path": "/list/.list/basic-list",
                 "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__basic-list' */'/Users/meiacevedo/backup-correct-layout/src/pages/list/basic-list'), loading: LoadingComponent}),
                 "exact": true
-              },
-              {
-                "name": "card-list",
-                "icon": "smile",
-                "path": "/list/card-list",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__card-list' */'/Users/meiacevedo/backup-correct-layout/src/pages/list/card-list'), loading: LoadingComponent}),
-                "exact": true
               }
             ]
+          },
+          {
+            "name": "Store Page",
+            "icon": "shopping",
+            "path": "/card-list",
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__card-list' */'/Users/meiacevedo/backup-correct-layout/src/pages/card-list'), loading: LoadingComponent}),
+            "exact": true
           },
           {
             "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__404' */'/Users/meiacevedo/backup-correct-layout/src/pages/404'), loading: LoadingComponent}),

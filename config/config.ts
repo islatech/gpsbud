@@ -78,13 +78,13 @@ export default defineConfig({
                 },
                 {
                   // patient profile - store products
-                  name: 'Patient Orders',
+                  path: 'basic',
                   icon: 'smile',
-                  path: '/profile/basic',
-                  component: './profile/basic',
+                  name: 'Order Details',
+                  component: './basic',
                 },
                 {
-                  name: 'Order Details',
+                  name: 'Patient Orders',
                   icon: 'smile',
                   path: '/account/OrderDetails',
                   // component: './account/PatientOrders',
@@ -116,11 +116,11 @@ export default defineConfig({
               ],
             },
             {
-              path: '/library',
+              path: 'projects',
               icon: 'form',
               name: 'Library',
-              component: './list/search/projects',
-              routes: [
+              component: './projects',
+              // routes: [
                 // {
                 //   name: '',
                 //   icon: 'smile',
@@ -140,7 +140,7 @@ export default defineConfig({
                 //   path: '/form/step-form',
                 //   component: './form/step-form',
                 // }
-              ],
+              // ],
             },
             {
               path: '/form',
@@ -201,16 +201,16 @@ export default defineConfig({
                   component: './list/basic-list',
                 },
                 
-                {
-                  // store page
-                  name: 'card-list',
-                  icon: 'smile',
-                  path: '/list/card-list',
-                  component: './list/card-list',
-                },
+                
               ],
             },
-            
+            {
+                  // store page
+                  name: 'Store Page',
+                  icon: 'shopping',
+                  path: '/card-list',
+                  component: './card-list',
+                },
             // {
             //   name: 'result',
             //   icon: 'CheckCircleOutlined',

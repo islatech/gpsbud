@@ -5,7 +5,6 @@ import { GridContent } from '@ant-design/pro-layout';
 import { Link, connect, Dispatch } from 'umi';
 import { RouteChildrenProps } from 'react-router';
 import { ModalState } from './model';
-import Projects from './components/Projects';
 import Articles from './components/Articles';
 import Applications from './components/Applications';
 import { CurrentUser, TagType } from './data.d';
@@ -44,7 +43,7 @@ interface CenterProps extends RouteChildrenProps {
   currentUserLoading: boolean;
 }
 interface CenterState {
-  tabKey?: 'articles' | 'applications' | 'projects';
+  tabKey?: 'articles' | 'applications' ;
 }
 
 const TagList: React.FC<{ tags: CurrentUser['tags'] }> = ({ tags }) => {
@@ -147,9 +146,6 @@ class Center extends Component<CenterProps, CenterState> {
   };
 
   renderChildrenByTabKey = (tabKey: CenterState['tabKey']) => {
-    if (tabKey === 'projects') {
-      return <Projects />;
-    }
     if (tabKey === 'applications') {
       return <Applications />;
     }

@@ -105,30 +105,30 @@ class Basic extends Component<BasicProps, BasicState> {
       //     };
       //   },
       // },
-      {
-        title: 'Type',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Name/Strain',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Attribute',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Effects',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
+      // {
+      //   title: 'Type',
+      //   dataIndex: 'name',
+      //   key: 'name',
+      //   render: renderContent,
+      // },
+      // {
+      //   title: 'Name/Strain',
+      //   dataIndex: 'name',
+      //   key: 'name',
+      //   render: renderContent,
+      // },
+      // {
+      //   title: 'Attribute',
+      //   dataIndex: 'name',
+      //   key: 'name',
+      //   render: renderContent,
+      // },
+      // {
+      //   title: 'Effects',
+      //   dataIndex: 'name',
+      //   key: 'name',
+      //   render: renderContent,
+      // },
       // {
       //   title: 'Product Barcode',
       //   dataIndex: 'barcode',
@@ -142,18 +142,18 @@ class Basic extends Component<BasicProps, BasicState> {
       //   align: 'right' as 'left' | 'right' | 'center',
       //   render: renderContent,
       // },
-      {
-        title: 'Quantity',
-        dataIndex: 'num',
-        key: 'num',
-        align: 'right' as 'left' | 'right' | 'center',
-        render: (text: React.ReactNode, row: any, index: number) => {
-          if (index < basicGoods.length) {
-            return text;
-          }
-          return <span style={{ fontWeight: 600 }}>{text}</span>;
-        },
-      },
+      // {
+      //   title: 'Quantity',
+      //   dataIndex: 'num',
+      //   key: 'num',
+      //   align: 'right' as 'left' | 'right' | 'center',
+      //   render: (text: React.ReactNode, row: any, index: number) => {
+      //     if (index < basicGoods.length) {
+      //       return text;
+      //     }
+      //     return <span style={{ fontWeight: 600 }}>{text}</span>;
+      //   },
+      // },
       // {
       //   title: 'Amount',
       //   dataIndex: 'amount',

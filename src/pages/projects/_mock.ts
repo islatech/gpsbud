@@ -1,8 +1,10 @@
 import { Request, Response } from 'express';
 import { ListItemDataType } from './data.d';
 
+
+
 const titles = [
-  'Lemon Haze',
+  'Gold Haze',
   'Acapulco Gold',
   'Sour Diesel',
   'Blue Dream',
@@ -51,6 +53,10 @@ const user = [
   'Tam SIU-Yee',
   'Zhongni',
 ];
+
+// function newFunction() {
+//   import from = ; './projects';
+// }
 
 function fakeList(count: number): ListItemDataType[] {
   const list = [];

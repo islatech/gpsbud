@@ -6,8 +6,9 @@ import AvatarList from './components/AvatarList';
 import { StateType } from './model';
 import { ListItemDataType } from './data.d';
 import StandardFormRow from './components/StandardFormRow';
-import TagSelect from './components/TagSelect';
 import styles from './style.less';
+// import _mock from './_mock';
+
 
 const { Option } = Select;
 const FormItem = Form.Item;
@@ -86,6 +87,8 @@ const Projects: FC<ProjectsProps> = ({
     },
   };
 
+ 
+  
   return (
     <div className={styles.coverCardList}>
       <Card bordered={false}>
@@ -122,22 +125,19 @@ const Projects: FC<ProjectsProps> = ({
           </StandardFormRow>
           <StandardFormRow>
             <Row gutter={16}>
-              <Col lg={8} md={10} sm={10} xs={24}>
+              <Col lg={20} md={20} sm={20} xs={24}>
                 {/* search bar for library */}
-                <FormItem {...formItemLayout} label="Author" name="author">
-                  <Select placeholder="Unlimited" style={{ maxWidth: 200, width: '100%' }}>
+                {/* <FormItem {...formItemLayout} label="Author" name="author"> */}
+                  {/* <Select placeholder="Unlimited" style={{ maxWidth: 200, width: '100%' }}>
                     <Option value="lisa">Wang Zhaojun</Option>
-                  </Select>
-                </FormItem>
+                  </Select> */}
+                  
+                    <input placeholder="Search for strains, effects, flavors…" type="text" value="" />
+          
+
+                {/* </FormItem> */}
+                
               </Col>
-              {/* <Col lg={8} md={10} sm={10} xs={24}>
-                <FormItem {...formItemLayout} label="Praise" name="rate">
-                  <Select placeholder="Unlimited" style={{ maxWidth: 200, width: '100%' }}>
-                    <Option value="good">Excellent</Option>
-                    <Option value="normal">Ordinary</Option>
-                  </Select>
-                </FormItem>
-              </Col> */}
             </Row>
           </StandardFormRow>
         </Form>
