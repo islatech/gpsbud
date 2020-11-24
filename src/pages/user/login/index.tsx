@@ -2,7 +2,7 @@ import { AlipayCircleOutlined, TaobaoCircleOutlined, WeiboCircleOutlined } from 
 import { Alert, Checkbox } from 'antd';
 import React, { useState } from 'react';
 import { Dispatch, Link, connect } from 'umi';
-import { StateType } from '@/models/userAndLogin'';
+import { StateType } from '@/models/userAndLogin';
 import styles from './style.less';
 import { LoginParamsType } from '@/services/login';
 import LoginFrom from './components/Login';
