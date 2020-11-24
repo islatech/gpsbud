@@ -65,21 +65,21 @@ const defaultFooterDom = (
     copyright={`${new Date().getFullYear()} producedb by Ant gold suit`}
     links={[
       {
-        key: 'Ant Design Pro',
-        title: 'Ant Design Pro',
-        href: 'https://pro.ant.design',
+        key: 'GPSBud',
+        title: 'GpsBud',
+        href: 'https:/gpsbud.com',
         blankTarget: true,
       },
       {
         key: 'github',
         title: <GithubOutlined />,
-        href: 'https://github.com/ant-design/ant-design-pro',
+        href: 'https://github.com/islatech/gpsbud',
         blankTarget: true,
       },
       {
-        key: 'Ant Design',
-        title: 'Ant Design',
-        href: 'https://ant.design',
+        key: 'Island Tech',
+        title: 'Island Tech',
+        href: 'https://islandtech.xyz',
         blankTarget: true,
       },
     ]}

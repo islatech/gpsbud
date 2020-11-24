@@ -5,11 +5,18 @@ import proxy from './proxy';
 import routes from './routes';
 
 const { REACT_APP_ENV } = process.env;
+
 export default defineConfig({
   hash: true,
   antd: {},
   dva: {
     hmr: true,
+  },
+  layout: {
+    name: 'GPSBud',
+    locale: true,
+    siderWidth: 208,
+    ...defaultSettings,
   },
   locale: {
     // default zh-CN
@@ -19,14 +26,14 @@ export default defineConfig({
     baseNavigator: true,
   },
   dynamicImport: {
-    loading: '@/components/PageLoading/index',
+    loading: '@/components/PageLoading/',
   },
   targets: {
     ie: 11,
   },
   // umi routes: https://umijs.org/docs/routing
   routes,
-  // Theme for antd: https://ant.design/docs/react/customize-theme-cn
+  // Theme for antd: https://ant.design/docs/react/customize-theme
   theme: {
     // ...darkTheme,
     'primary-color': defaultSettings.primaryColor,
@@ -38,4 +45,5 @@ export default defineConfig({
   manifest: {
     basePath: '/',
   },
+  exportStatic: {},
 });
