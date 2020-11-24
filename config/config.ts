@@ -13,7 +13,7 @@ export default defineConfig({
   },
   locale: {
     // default zh-CN
-    default: 'zh-CN',
+    default: 'en-US',
     // default true, when it is true, will use `navigator.language` overwrite default
     antd: true,
     baseNavigator: true,
@@ -25,7 +25,7 @@ export default defineConfig({
     ie: 11,
   },
   // umi routes: https://umijs.org/docs/routing
-  routes: routes,
+  routes,
   // Theme for antd: https://ant.design/docs/react/customize-theme-cn
   theme: {
     // ...darkTheme,
