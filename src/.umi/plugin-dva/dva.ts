@@ -11,21 +11,21 @@ import ModelRegister2 from '/Users/meiacevedo/backup-correct-layout/src/models/r
 import ModelSetting3 from '/Users/meiacevedo/backup-correct-layout/src/models/setting.ts';
 import ModelUser4 from '/Users/meiacevedo/backup-correct-layout/src/models/user.ts';
 import ModelUserandlogin5 from '/Users/meiacevedo/backup-correct-layout/src/models/userandlogin.ts';
-import ModelModel6 from '/Users/meiacevedo/backup-correct-layout/src/pages/account/center/model.ts';
-import ModelModel7 from '/Users/meiacevedo/backup-correct-layout/src/pages/account/settings/model.ts';
-import ModelModel8 from '/Users/meiacevedo/backup-correct-layout/src/pages/basic/model.ts';
+import ModelModel6 from '/Users/meiacevedo/backup-correct-layout/src/pages/account/basic/model.ts';
+import ModelModel7 from '/Users/meiacevedo/backup-correct-layout/src/pages/account/center/model.ts';
+import ModelModel8 from '/Users/meiacevedo/backup-correct-layout/src/pages/account/settings/model.ts';
 import ModelModel9 from '/Users/meiacevedo/backup-correct-layout/src/pages/card-list/model.ts';
 import ModelModel10 from '/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/analysis/model.ts';
 import ModelModel11 from '/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/monitor/model.ts';
-import ModelModel12 from '/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/workplace/model.ts';
-import ModelModel13 from '/Users/meiacevedo/backup-correct-layout/src/pages/form/advanced-form/model.ts';
-import ModelModel14 from '/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/model.ts';
-import ModelModel15 from '/Users/meiacevedo/backup-correct-layout/src/pages/form/step-form/model.ts';
-import ModelModel16 from '/Users/meiacevedo/backup-correct-layout/src/pages/list/basic-list/model.ts';
-import ModelModel17 from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/applications/model.ts';
-import ModelModel18 from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/articles/model.ts';
-import ModelModel19 from '/Users/meiacevedo/backup-correct-layout/src/pages/profile/advanced/model.ts';
-import ModelModel20 from '/Users/meiacevedo/backup-correct-layout/src/pages/projects/model.ts';
+import ModelModel12 from '/Users/meiacevedo/backup-correct-layout/src/pages/form/advanced-form/model.ts';
+import ModelModel13 from '/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/model.ts';
+import ModelModel14 from '/Users/meiacevedo/backup-correct-layout/src/pages/list/basic-list/model.ts';
+import ModelModel15 from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/applications/model.ts';
+import ModelModel16 from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/articles/model.ts';
+import ModelModel17 from '/Users/meiacevedo/backup-correct-layout/src/pages/profile/advanced/model.ts';
+import ModelModel18 from '/Users/meiacevedo/backup-correct-layout/src/pages/projects/model.ts';
+import ModelModel19 from '/Users/meiacevedo/backup-correct-layout/src/pages/step-form/model.ts';
+import ModelModel20 from '/Users/meiacevedo/backup-correct-layout/src/pages/workplace/model.ts';
 
 let app:any = null;
 
