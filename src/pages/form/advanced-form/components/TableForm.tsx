@@ -88,7 +88,7 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
       }
       const target = getRowByKey(key) || ({} as any);
       if (!target.workId || !target.name || !target.department) {
-        message.error('Please fill in the full member information.');
+        message.error('Please fill all the boxes.');
         (e.target as HTMLInputElement).focus();
         setLoading(false);
         return;
@@ -135,10 +135,30 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
 
   const columns = [
     {
-      title: 'Member Name',
+      title: 'Type',
+      dataIndex: 'type',
+      key: 'type',
+      width: '17%',
+      render: (text: string, record: TableFormDateType) => {
+        if (record.editable) {
+          return (
+            <Input
+              value={text}
+              autoFocus
+              onChange={(e) => handleFieldChange(e, 'type', record.key)}
+              onKeyPress={(e) => handleKeyPress(e, record.key)}
+              placeholder="Suppository"
+            />
+          );
+        }
+        return text;
+      },
+    },
+    {
+      title: 'Name/Strain',
       dataIndex: 'name',
       key: 'name',
-      width: '20%',
+      width: '17%',
       render: (text: string, record: TableFormDateType) => {
         if (record.editable) {
           return (
@@ -155,46 +175,67 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
       },
     },
     {
-      title: 'Work Number',
-      dataIndex: 'workId',
-      key: 'workId',
-      width: '20%',
+      title: 'Attribute',
+      dataIndex: 'attribute',
+      key: 'attribute',
+      width: '17%',
       render: (text: string, record: TableFormDateType) => {
         if (record.editable) {
           return (
             <Input
               value={text}
+              onChange={(e) => handleFieldChange(e, 'attribute', record.key)}
+              onKeyPress={(e) => handleKeyPress(e, record.key)}
+              placeholder="Attribute"
+            />
+          );
+        }
+        return text;
+      },
+    },
+    {
+      title: 'Effects',
+      dataIndex: 'symptons',
+      key: 'symptons',
+      width: '17%',
+      render: (text: string, record: TableFormDateType) => {
+        if (record.editable) {
+          return (
+            <Input
+              value={text}
+              autoFocus
+              onChange={(e) => handleFieldChange(e, 'symptons', record.key)}
+              onKeyPress={(e) => handleKeyPress(e, record.key)}
+              placeholder="Member Name"
+            />
+          );
+        }
+        return text;
+      },
+    },
+    {
+      title: 'Quantity',
+      dataIndex: 'workId',
+      key: 'workId',
+      width: '17%',
+      render: (number: string, record: TableFormDateType) => {
+        if (record.editable) {
+          return (
+            <Input
+              value={number}
               onChange={(e) => handleFieldChange(e, 'workId', record.key)}
               onKeyPress={(e) => handleKeyPress(e, record.key)}
               placeholder="Work Number"
             />
           );
         }
-        return text;
-      },
-    },
-    {
-      title: 'Department',
-      dataIndex: 'department',
-      key: 'department',
-      width: '40%',
-      render: (text: string, record: TableFormDateType) => {
-        if (record.editable) {
-          return (
-            <Input
-              value={text}
-              onChange={(e) => handleFieldChange(e, 'department', record.key)}
-              onKeyPress={(e) => handleKeyPress(e, record.key)}
-              placeholder="Department"
-            />
-          );
-        }
-        return text;
+        return number;
       },
     },
     {
       title: 'Operation',
       key: 'action',
+      width: '20%',
       render: (text: string, record: TableFormDateType) => {
         if (!!record.editable && loading) {
           return null;
