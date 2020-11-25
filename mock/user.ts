@@ -3,9 +3,9 @@ import { Request, Response } from 'express';
 function getFakeCaptcha(req: Request, res: Response) {
   return res.json('captcha-xxx');
 }
-// The code is compatible with local service mock and static data for the deployment site
+// 代码中会兼容本地 service mock 以及部署站点的静态数据
 export default {
-  // Support values for Object and Array
+  // 支持值为 Object 和 Array
   'GET /api/currentUser': {
     name: 'maced',
     avatar: 'https://s3.amazonaws.com/profile_photos/1195271994730893.EyG5TTIoO6NJebL0iY9n_128x128.png',
@@ -56,7 +56,7 @@ export default {
     address: '123 Street Address, San Juan, Puerto Rico 00926',
     phone: '555-555-5555',
   },
-  // GET POST can be omitted
+  // GET POST 可省略
   'GET /api/users': [
     {
       key: '1',
