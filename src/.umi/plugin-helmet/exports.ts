@@ -1,3 +1,3 @@
 // @ts-nocheck
 // @ts-ignore
-export { Helmet } from '/Users/meiacevedo/backup-correct-layout/node_modules/react-helmet';
+export { Helmet } from '/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/react-helmet';
