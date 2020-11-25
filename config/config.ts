@@ -60,35 +60,35 @@ export default defineConfig({
           authority: ['admin', 'user'],
           routes: [
                 {
-                name: 'account',
+                name: 'Patients Account',
                 icon: 'user',
                 path: '/account',
                 routes: [
+                  {
+                    name: 'Profile Settings',
+                    icon: 'smile',
+                    path: '/account/settings',
+                    component: './account/settings',
+                },
+                {
+                  name: 'Patient Orders',
+                  icon: 'smile',
+                  path: './account/patients-orders',
+                  // component: './account/PatientOrders',
+                  },
+                  {
+                    // patient profile - store products
+                    path: 'basic',
+                    icon: 'smile',
+                    name: 'Order Details',
+                    component: './account/basic',
+                  },
                   {
                     name: 'center',
                     icon: 'smile',
                     path: '/account/center',
                     component: './account/center',
                   },
-                  {
-                    name: 'settings',
-                    icon: 'smile',
-                    path: '/account/settings',
-                    component: './account/settings',
-                },
-                {
-                  // patient profile - store products
-                  path: 'basic',
-                  icon: 'smile',
-                  name: 'Order Details',
-                  component: './basic',
-                },
-                {
-                  name: 'Patient Orders',
-                  icon: 'smile',
-                  path: '/account/OrderDetails',
-                  // component: './account/PatientOrders',
-              },
               ],
             },
             {
@@ -115,37 +115,11 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              path: 'projects',
-              icon: 'form',
-              name: 'Library',
-              component: './projects',
-              // routes: [
-                // {
-                //   name: '',
-                //   icon: 'smile',
-                //   path: '/list/search/projects',
-                //   // component: './list/search/projects',
-                // },
-                // {
-                //   // product details
-                //   name: 'advanced-form',
-                //   icon: 'smile',
-                //   path: '/form/advanced-form',
-                //   component: './form/advanced-form',
-                // },
-                // {
-                //   name: 'step-form',
-                //   icon: 'smile',
-                //   path: '/form/step-form',
-                //   component: './form/step-form',
-                // }
-              // ],
-            },
+            
             {
               path: '/form',
-              icon: 'form',
-              name: 'form',
+              icon: 'user',
+              name: 'Caregivers Account',
               routes: [
                 {
                   path: '/',
@@ -159,17 +133,11 @@ export default defineConfig({
                 },
                 {
                   // product details
-                  name: 'advanced-form',
+                  name: 'Store Products',
                   icon: 'smile',
                   path: '/form/advanced-form',
                   component: './form/advanced-form',
                 },
-                {
-                  name: 'step-form',
-                  icon: 'smile',
-                  path: '/form/step-form',
-                  component: './form/step-form',
-                }
               ],
             },
             {
@@ -211,6 +179,24 @@ export default defineConfig({
                   path: '/card-list',
                   component: './card-list',
                 },
+                {
+                  name: 'Checkout',
+                  icon: 'wallet',
+                  path: '/step-form',
+                  component: './step-form',
+                },
+                {
+                  name: 'Order Summary',
+                  icon: 'form',
+                  path: '/workplace',
+                  component: './workplace',
+              },
+              {
+                path: 'projects',
+                icon: 'book',
+                name: 'Library',
+                component: './projects',
+              },
             // {
             //   name: 'result',
             //   icon: 'CheckCircleOutlined',
@@ -245,7 +231,8 @@ export default defineConfig({
   // Theme for antd: https://ant.design/docs/react/customize-theme-cn
   theme: {
     // ...darkTheme,
-    'primary-color': defaultSettings.primaryColor,
+    'primary-color': '#66A186',
+    // 'secondary-color': '#66A186',
   },
   // @ts-ignore
   title: false,
