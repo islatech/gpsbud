@@ -86,7 +86,7 @@ export default clientRender();
 
         // Umi UI Bubble
         require('/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/@umijs/preset-ui/lib/bubble').default({
-          port: 3000,
+          port: 3001,
           path: '/Users/xcesiv/work/code/src/github.com/islatech/gpsbud',
           currentProject: '',
           isBigfish: undefined,
