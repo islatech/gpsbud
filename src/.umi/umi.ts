@@ -5,8 +5,8 @@ import '../global.tsx';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/meiacevedo/backup-correct-layout/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/meiacevedo/backup-correct-layout/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
@@ -15,7 +15,7 @@ import { _onCreate } from './plugin-locale/locale';
 _onCreate();
 (() => {
   // Runtime block add component
-  window.GUmiUIFlag = require('/Users/meiacevedo/backup-correct-layout/node_modules/@umijs/plugin-ui-blocks/lib/sdk/flagBabelPlugin/GUmiUIFlag.js').default;
+  window.GUmiUIFlag = require('/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/@umijs/plugin-ui-blocks/lib/sdk/flagBabelPlugin/GUmiUIFlag.js').default;
 
   // Enable/Disable block add edit mode
   window.addEventListener(
@@ -74,7 +74,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.2.27',
+      version: '3.2.28',
     };
   
 
@@ -85,9 +85,9 @@ export default clientRender();
         if (isIE) return;
 
         // Umi UI Bubble
-        require('/Users/meiacevedo/backup-correct-layout/node_modules/@umijs/preset-ui/lib/bubble').default({
-          port: 3000,
-          path: '/Users/meiacevedo/backup-correct-layout',
+        require('/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/@umijs/preset-ui/lib/bubble').default({
+          port: 3001,
+          path: '/Users/xcesiv/work/code/src/github.com/islatech/gpsbud',
           currentProject: '',
           isBigfish: undefined,
         });

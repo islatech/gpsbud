@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType, dynamic } from '/Users/meiacevedo/backup-correct-layout/node_modules/@umijs/runtime';
+import { ApplyPluginsType, dynamic } from '/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 import LoadingComponent from '@/components/PageLoading/index';
@@ -9,11 +9,11 @@ export function getRoutes() {
   const routes = [
   {
     "path": "/",
-    "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts__BlankLayout' */'/Users/meiacevedo/backup-correct-layout/src/layouts/BlankLayout'), loading: LoadingComponent}),
+    "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts__BlankLayout' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/layouts/BlankLayout'), loading: LoadingComponent}),
     "routes": [
       {
         "path": "/user",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts__UserLayout' */'/Users/meiacevedo/backup-correct-layout/src/layouts/UserLayout'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts__UserLayout' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/layouts/UserLayout'), loading: LoadingComponent}),
         "routes": [
           {
             "path": "/user",
@@ -24,25 +24,25 @@ export function getRoutes() {
             "name": "register-result",
             "icon": "smile",
             "path": "/user/register-result",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__user__register-result' */'/Users/meiacevedo/backup-correct-layout/src/pages/user/register-result'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__user__register-result' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/user/register-result'), loading: LoadingComponent}),
             "exact": true
           },
           {
             "name": "register",
             "icon": "smile",
             "path": "/user/register",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__user__register' */'/Users/meiacevedo/backup-correct-layout/src/pages/user/register'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__user__register' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/user/register'), loading: LoadingComponent}),
             "exact": true
           },
           {
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__404' */'/Users/meiacevedo/backup-correct-layout/src/pages/404'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__404' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/404'), loading: LoadingComponent}),
             "exact": true
           }
         ]
       },
       {
         "path": "/",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts__BasicLayout' */'/Users/meiacevedo/backup-correct-layout/src/layouts/BasicLayout'), loading: LoadingComponent}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts__BasicLayout' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/layouts/BasicLayout'), loading: LoadingComponent}),
         "Routes": [
           "src/pages/Authorized"
         ],
@@ -60,7 +60,7 @@ export function getRoutes() {
                 "name": "Profile Settings",
                 "icon": "smile",
                 "path": "/account/settings",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__settings' */'/Users/meiacevedo/backup-correct-layout/src/pages/account/settings'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__settings' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/account/settings'), loading: LoadingComponent}),
                 "exact": true
               },
               {
@@ -73,14 +73,14 @@ export function getRoutes() {
                 "path": "/account/basic",
                 "icon": "smile",
                 "name": "Order Details",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__basic' */'/Users/meiacevedo/backup-correct-layout/src/pages/account/basic'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__basic' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/account/basic'), loading: LoadingComponent}),
                 "exact": true
               },
               {
                 "name": "center",
                 "icon": "smile",
                 "path": "/account/center",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__center' */'/Users/meiacevedo/backup-correct-layout/src/pages/account/center'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__center' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/account/center'), loading: LoadingComponent}),
                 "exact": true
               }
             ]
@@ -94,7 +94,7 @@ export function getRoutes() {
                 "name": "advanced",
                 "icon": "smile",
                 "path": "/profile/advanced",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__advanced' */'/Users/meiacevedo/backup-correct-layout/src/pages/profile/advanced'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__profile__advanced' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/profile/advanced'), loading: LoadingComponent}),
                 "exact": true
               }
             ]
@@ -113,14 +113,14 @@ export function getRoutes() {
                 "name": "basic-form",
                 "icon": "smile",
                 "path": "/form/basic-form",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__form__basic-form' */'/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__form__basic-form' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/form/basic-form'), loading: LoadingComponent}),
                 "exact": true
               },
               {
                 "name": "Store Products",
                 "icon": "smile",
                 "path": "/form/advanced-form",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__form__advanced-form' */'/Users/meiacevedo/backup-correct-layout/src/pages/form/advanced-form'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__form__advanced-form' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/form/advanced-form'), loading: LoadingComponent}),
                 "exact": true
               }
             ]
@@ -134,21 +134,21 @@ export function getRoutes() {
                 "name": "applications",
                 "icon": "smile",
                 "path": "/list/search/applications",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__search__applications' */'/Users/meiacevedo/backup-correct-layout/src/pages/list/search/applications'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__search__applications' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/list/search/applications'), loading: LoadingComponent}),
                 "exact": true
               },
               {
                 "name": "table-list",
                 "icon": "smile",
                 "path": "/list/table-list",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__table-list' */'/Users/meiacevedo/backup-correct-layout/src/pages/list/table-list'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__table-list' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/list/table-list'), loading: LoadingComponent}),
                 "exact": true
               },
               {
                 "name": "basic-list",
                 "icon": "smile",
                 "path": "/list/.list/basic-list",
-                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__basic-list' */'/Users/meiacevedo/backup-correct-layout/src/pages/list/basic-list'), loading: LoadingComponent}),
+                "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__list__basic-list' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/list/basic-list'), loading: LoadingComponent}),
                 "exact": true
               }
             ]
@@ -157,32 +157,32 @@ export function getRoutes() {
             "name": "Store Page",
             "icon": "shopping",
             "path": "/card-list",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__card-list' */'/Users/meiacevedo/backup-correct-layout/src/pages/card-list'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__card-list' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/card-list'), loading: LoadingComponent}),
             "exact": true
           },
           {
             "name": "Checkout",
             "icon": "wallet",
             "path": "/step-form",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__step-form' */'/Users/meiacevedo/backup-correct-layout/src/pages/step-form'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__step-form' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/step-form'), loading: LoadingComponent}),
             "exact": true
           },
           {
             "name": "Order Summary",
             "icon": "form",
             "path": "/workplace",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__workplace' */'/Users/meiacevedo/backup-correct-layout/src/pages/workplace'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__workplace' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/workplace'), loading: LoadingComponent}),
             "exact": true
           },
           {
             "path": "/projects",
             "icon": "book",
             "name": "Library",
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__projects' */'/Users/meiacevedo/backup-correct-layout/src/pages/projects'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__projects' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/projects'), loading: LoadingComponent}),
             "exact": true
           },
           {
-            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__404' */'/Users/meiacevedo/backup-correct-layout/src/pages/404'), loading: LoadingComponent}),
+            "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__404' */'/Users/xcesiv/work/code/src/github.com/islatech/gpsbud/src/pages/404'), loading: LoadingComponent}),
             "exact": true
           }
         ]
