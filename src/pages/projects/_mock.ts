@@ -4,7 +4,7 @@ import { ListItemDataType } from './data.d';
 
 
 const titles = [
-  'Gold Haze',
+  'Lemon Haze',
   'Acapulco Gold',
   'Sour Diesel',
   'Blue Dream',

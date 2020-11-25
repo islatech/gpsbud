@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Request, Response } from 'express';
+// import { Request, Response } from 'express';
 import { ListItemDataType } from './data.d';
 
 const titles = [
