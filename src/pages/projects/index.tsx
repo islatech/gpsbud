@@ -1,4 +1,4 @@
-import { Card, Col, Form, List, Row, Select, Typography } from 'antd';
+import { Card, Col, Form, Input, List, Row, Select, Typography } from 'antd';
 import React, { FC, useEffect } from 'react';
 import { connect, Dispatch } from 'umi';
 import moment from 'moment';
@@ -126,17 +126,9 @@ const Projects: FC<ProjectsProps> = ({
           <StandardFormRow>
             <Row gutter={16}>
               <Col lg={20} md={20} sm={20} xs={24}>
-                {/* search bar for library */}
-                {/* <FormItem {...formItemLayout} label="Author" name="author"> */}
-                  {/* <Select placeholder="Unlimited" style={{ maxWidth: 200, width: '100%' }}>
-                    <Option value="lisa">Wang Zhaojun</Option>
-                  </Select> */}
-                  
-                    <input placeholder="Search for strains, effects, flavors…" type="text" value="" />
-          
-
-                {/* </FormItem> */}
-                
+              <Form.Item id="searchBar">
+                <Input type="text" placeholder="Search for strains, effects, flavors…" />
+              </Form.Item>
               </Col>
             </Row>
           </StandardFormRow>
