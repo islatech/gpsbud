@@ -109,6 +109,7 @@ dist
 
 # Ignore sketch files
 **/**/**/**/*.sketch
+sketch/
 
 #lock files
 package-lock.json
@@ -118,3 +119,15 @@ yarn.lock
 # umi file
 .umi
 **/.umi
+
+# Igmore research files
+research/
+research/*.pdf
+
+# Ignore gpsbud-web-html-demo code
+gpsbud-code
+gpsbud-code/
+gpsbud-code/*
+src/gpsbud-code
+src/gpsbud-code/
+src/gpsbud-code/*
