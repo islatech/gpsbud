@@ -12,6 +12,37 @@ import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
 
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+const links = [
+  {
+    title: 'Operation 1',
+    href: '',
+  },
+  {
+    title: 'Operation 2',
+    href: '',
+  },
+  {
+    title: 'Operation三',
+    href: '',
+  },
+  {
+    title: 'Operation四',
+    href: '',
+  },
+  {
+    title: 'Operation五',
+    href: '',
+  },
+  {
+    title: 'Operation六',
+    href: '',
+  },
+];
+=======
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
 // const links = [
 //   {
 //     title: 'Operation 1',
@@ -38,6 +69,10 @@ import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d
 //     href: '',
 //   },
 // ];
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
 
 interface WorkplaceProps {
   currentUser?: CurrentUser;
@@ -62,9 +97,9 @@ const PageHeaderContent: React.FC<{ currentUser: CurrentUser }> = ({ currentUser
       </div>
       <div className={styles.content}>
         <div className={styles.contentTitle}>
-          Welcome，
+          早安，
           {currentUser.name}
-          ，have a wonderful day！
+          ，祝你开心每一天！
         </div>
         <div>
           {currentUser.title} |{currentUser.group}
@@ -76,15 +111,15 @@ const PageHeaderContent: React.FC<{ currentUser: CurrentUser }> = ({ currentUser
 
 const ExtraContent: React.FC<{}> = () => (
   <div className={styles.extraContent}>
-    {/* <div className={styles.statItem}>
-      <Statistic title="Projects Number" value={56} />
+    <div className={styles.statItem}>
+      <Statistic title="Projects数" value={56} />
     </div>
     <div className={styles.statItem}>
-      <Statistic title="Team Rank Within" value={8} suffix="/ 24" />
+      <Statistic title="Team内排名" value={8} suffix="/ 24" />
     </div>
     <div className={styles.statItem}>
-      <Statistic title="Projects Access" value={2223} />
-    </div> */}
+      <Statistic title="Projects访问" value={2223} />
+    </div>
   </div>
 );
 
@@ -136,37 +171,37 @@ class Workplace extends Component<WorkplaceProps> {
   };
   
 
-  // render() {
-  //   const {
-  //     currentUser,
-  //     activities,
-  //     projectNotice,
-  //     projectLoading,
-  //     activitiesLoading,
-  //     radarData,
-  //   } = this.props;
+  render() {
+    const {
+      currentUser,
+      activities,
+      projectNotice,
+      projectLoading,
+      activitiesLoading,
+      radarData,
+    } = this.props;
 
-  //   if (!currentUser || !currentUser.userid) {
-  //     return null;
-  //   }
-  //   function onChange(value) {
-  //     console.log('changed', value);
-  //   };
-  //   function formatNumber(value) {
-  //     value += '';
-  //     const list = value.split('.');
-  //     const prefix = list[0].charAt(0) === '-' ? '-' : '';
-  //     let num = prefix ? list[0].slice(1) : list[0];
-  //     let result = '';
-  //     while (num.length > 3) {
-  //       result = `,${num.slice(-3)}${result}`;
-  //       num = num.slice(0, num.length - 3);
-  //     }
-  //     if (num) {
-  //       result = num + result;
-  //     }
-  //     return `${prefix}${result}${list[1] ? `.${list[1]}` : ''}`;
-  //   }
+    if (!currentUser || !currentUser.userid) {
+      return null;
+    }
+    function onChange(value) {
+      console.log('changed', value);
+    };
+    function formatNumber(value) {
+      value += '';
+      const list = value.split('.');
+      const prefix = list[0].charAt(0) === '-' ? '-' : '';
+      let num = prefix ? list[0].slice(1) : list[0];
+      let result = '';
+      while (num.length > 3) {
+        result = `,${num.slice(-3)}${result}`;
+        num = num.slice(0, num.length - 3);
+      }
+      if (num) {
+        result = num + result;
+      }
+      return `${prefix}${result}${list[1] ? `.${list[1]}` : ''}`;
+    }
     
     class NumericInput extends React.Component {
       onChange = e => {
@@ -207,7 +242,7 @@ class Workplace extends Component<WorkplaceProps> {
             <Card
               className={styles.projectList}
               style={{ marginBottom: 24 }}
-              title="Review Items"
+              title="进行中的Projects"
               bordered={false}
               // extra={<Link to="/">All Projects</Link>}
               loading={projectLoading}
@@ -253,39 +288,72 @@ class Workplace extends Component<WorkplaceProps> {
               bodyStyle={{ padding: 0 }}
               bordered={false}
               className={styles.activeCard}
-              title="Donation Method"
+              title="Dynamics"
               loading={activitiesLoading}
             >
-              <br />
-              {/* <List<ActivitiesType>
+              <List<ActivitiesType>
                 loading={activitiesLoading}
                 renderItem={(item) => this.renderActivities(item)}
                 dataSource={activities}
                 className={styles.activitiesList}
                 size="large"
-              /> */}
+              />
             </Card>
           </Col>
           <Col xl={8} lg={24} md={24} sm={24} xs={24}>
             <Card
               style={{ marginBottom: 24 }}
-              title="Donation Summary"
+              title="Quick start / 便捷导航"
               bordered={false}
               bodyStyle={{ padding: 0 }}
             >
-              <br />
-              {/* <EditableLinkGroup onAdd={() => {}} links={links} linkElement={Link} /> */}
+              <EditableLinkGroup onAdd={() => {}} links={links} linkElement={Link} />
             </Card>
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+            <Card
+              style={{ marginBottom: 24 }}
+              bordered={false}
+              title="XX 指数"
+              loading={radarData.length === 0}
+            >
+              <div className={styles.chart}>
+                <Radar hasLegend height={343} data={radarData} />
+              </div>
+            </Card>
+            <Card
+              bodyStyle={{ paddingTop: 12, paddingBottom: 12 }}
+              bordered={false}
+              title="Team"
+              loading={projectLoading}
+            >
+              <div className={styles.members}>
+                <Row gutter={48}>
+                  {projectNotice.map((item) => (
+                    <Col span={12} key={`members-item-${item.id}`}>
+                      <Link to={item.href}>
+                        <Avatar src={item.logo} size="small" />
+                        <span className={styles.member}>{item.member}</span>
+                      </Link>
+                    </Col>
+                  ))}
+                </Row>
+              </div>
+            </Card>
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
           </Col>
         </Row>
       </PageContainer>
     
-    )
-      };
-      };
-    // }
-    // },
-
+    ););
+      }
+      }
+  
+    }
+}
 
 
 
