@@ -26,6 +26,7 @@ import ModelModel17 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/
 import ModelModel18 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/projects/model.ts';
 import ModelModel19 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced/model.ts';
 import ModelModel20 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic/model.ts';
+import ModelModel21 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/workplace/model.ts';
 
 let app:any = null;
 
@@ -70,6 +71,7 @@ app.model({ namespace: 'model', ...ModelModel17 });
 app.model({ namespace: 'model', ...ModelModel18 });
 app.model({ namespace: 'model', ...ModelModel19 });
 app.model({ namespace: 'model', ...ModelModel20 });
+app.model({ namespace: 'model', ...ModelModel21 });
   return app;
 }
 

@@ -27,6 +27,7 @@ export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/articles/mo
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/projects/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/workplace/model';
 
 export interface Action<T = any> {
   type: T
