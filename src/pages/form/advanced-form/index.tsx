@@ -163,7 +163,18 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
         <Card title="Product Image" className={styles.card} bordered={false}>
         
           <Row gutter={24}>
-            <Col lg={24} md={24} sm={24}>
+            <Col lg={10} md={24} sm={24}>
+            <div>
+              <Dragger  {...props}>
+                  <p id="draggerItem" className="ant-upload-drag-icon">
+                    <InboxOutlined />
+                  </p>
+                  <p className="ant-upload-text">Click this area to upload image</p>
+                  
+              </Dragger>
+            </div>
+            </Col>
+            <Col lg={10} md={24} sm={24}>
             <div>
               <Dragger  {...props}>
                   <p id="draggerItem" className="ant-upload-drag-icon">
