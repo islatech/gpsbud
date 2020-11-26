@@ -6,27 +6,27 @@ import { EffectsCommandMap, SubscriptionAPI } from 'dva';
 import { match } from 'react-router-dom';
 import { Location, LocationState, History } from 'history';
 
-export * from '/Users/meiacevedo/backup-correct-layout/src/models/global';
-export * from '/Users/meiacevedo/backup-correct-layout/src/models/login';
-export * from '/Users/meiacevedo/backup-correct-layout/src/models/register';
-export * from '/Users/meiacevedo/backup-correct-layout/src/models/setting';
-export * from '/Users/meiacevedo/backup-correct-layout/src/models/user';
-export * from '/Users/meiacevedo/backup-correct-layout/src/models/userandlogin';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/account/center/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/account/settings/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/analysis/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/monitor/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/workplace/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/form/advanced-form/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/form/step-form/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/list/basic-list/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/list/card-list/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/applications/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/articles/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/list/search/projects/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/profile/advanced/model';
-export * from '/Users/meiacevedo/backup-correct-layout/src/pages/profile/basic/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/global';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/login';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/register';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/setting';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/user';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/userandlogin';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/center/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/workplace/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/advanced-form/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/basic-list/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/card-list/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/applications/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/articles/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/projects/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic/model';
 
 export interface Action<T = any> {
   type: T

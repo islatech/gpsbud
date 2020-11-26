@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createBrowserHistory } from '/Users/meiacevedo/backup-correct-layout/node_modules/@umijs/runtime';
+import { createBrowserHistory } from '/Users/meiacevedo/GitHub/gpsbud/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"

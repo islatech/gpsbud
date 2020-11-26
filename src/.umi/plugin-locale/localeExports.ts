@@ -3,11 +3,11 @@ import {
   createIntl,
   IntlShape,
   MessageDescriptor,
-} from '/Users/meiacevedo/backup-correct-layout/node_modules/react-intl';
+} from '/Users/meiacevedo/GitHub/gpsbud/node_modules/react-intl';
 import { ApplyPluginsType } from 'umi';
 import { event, LANG_CHANGE_EVENT } from './locale';
 // @ts-ignore
-import warning from '/Users/meiacevedo/backup-correct-layout/node_modules/warning/warning.js';
+import warning from '/Users/meiacevedo/GitHub/gpsbud/node_modules/warning/warning.js';
 
 import { plugin } from '../core/plugin';
 
@@ -34,7 +34,7 @@ export {
   defineMessages,
   injectIntl,
   useIntl,
-} from '/Users/meiacevedo/backup-correct-layout/node_modules/react-intl';
+} from '/Users/meiacevedo/GitHub/gpsbud/node_modules/react-intl';
 
 let g_intl: IntlShape;
 
@@ -43,7 +43,7 @@ const useLocalStorage = true;
 export const localeInfo: {[key: string]: any} = {
   'en-US': {
     messages: {
-      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/account/settings/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/analysis/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/monitor/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/editor/flow/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/editor/koni/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/editor/mind/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/exception/500/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/step-form/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/result/fail/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/result/success/locales/en-US.ts')),
+      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/flow/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/koni/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/mind/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/exception/500/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/result/fail/locales/en-US.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/result/success/locales/en-US.ts')),
     },
     locale: 'en-US',
     antd: {
@@ -53,7 +53,7 @@ export const localeInfo: {[key: string]: any} = {
   },
   'pt-BR': {
     messages: {
-      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/analysis/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/monitor/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/exception/500/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/step-form/locales/pt-BR.ts')),
+      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/exception/500/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/locales/pt-BR.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/locales/pt-BR.ts')),
     },
     locale: 'pt-BR',
     antd: {
@@ -63,7 +63,7 @@ export const localeInfo: {[key: string]: any} = {
   },
   'zh-CN': {
     messages: {
-      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/account/settings/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/analysis/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/monitor/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/editor/flow/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/editor/koni/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/editor/mind/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/exception/500/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/step-form/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/result/fail/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/result/success/locales/zh-CN.ts')),
+      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/flow/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/koni/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/editor/mind/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/exception/500/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/result/fail/locales/zh-CN.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/result/success/locales/zh-CN.ts')),
     },
     locale: 'zh-CN',
     antd: {
@@ -73,7 +73,7 @@ export const localeInfo: {[key: string]: any} = {
   },
   'zh-TW': {
     messages: {
-      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/account/settings/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/analysis/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/dashboard/monitor/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/exception/500/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/basic-form/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/form/step-form/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/result/fail/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/backup-correct-layout/src/pages/result/success/locales/zh-TW.ts')),
+      ...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/exception/500/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/result/fail/locales/zh-TW.ts')),...((locale) => locale.__esModule ? locale.default : locale)(require('/Users/meiacevedo/GitHub/gpsbud/src/pages/result/success/locales/zh-TW.ts')),
     },
     locale: 'zh-TW',
     antd: {
@@ -135,11 +135,11 @@ export const getIntl = (locale?: string, changeIntl?: boolean) => {
     `The current popular language does not exist, please check the locales folder!`,
   );
   // 使用 zh-CN
-  if (localeInfo["zh-CN"]) return createIntl(localeInfo["zh-CN"]);
+  if (localeInfo["en-US"]) return createIntl(localeInfo["en-US"]);
 
   // 如果还没有，返回一个空的
   return createIntl({
-    locale: "zh-CN",
+    locale: "en-US",
     messages: {},
   });
 };
@@ -179,7 +179,7 @@ export const getLocale = () => {
   browserLang = isNavigatorLanguageValid
     ? navigator.language.split('-').join('-')
     : '';
-  return lang || browserLang || "zh-CN";
+  return lang || browserLang || "en-US";
 };
 
 
