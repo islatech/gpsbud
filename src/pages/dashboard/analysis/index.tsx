@@ -227,5 +227,5 @@ export default connect(
   }) => ({
     dashboardAndanalysis,
     loading: loading.effects['dashboardAndanalysis/fetch'],
-  })
+  }),
 )(Analysis);

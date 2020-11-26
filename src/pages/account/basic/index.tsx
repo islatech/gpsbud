@@ -62,7 +62,7 @@ class Basic extends Component<BasicProps, BasicState> {
 
   render() {
     const { profileAndbasic, loading } = this.props;
-    const { basicGoods, /* basicProgress */ } = profileAndbasic;
+    const { basicGoods /* basicProgress */ } = profileAndbasic;
     let goodsData: typeof basicGoods = [];
     if (basicGoods.length) {
       let num = 0;
@@ -77,7 +77,6 @@ class Basic extends Component<BasicProps, BasicState> {
         amount,
       });
     }
-
 
     const renderContent = (value: any, row: any, index: any) => {
       const obj: {
@@ -94,26 +93,26 @@ class Basic extends Component<BasicProps, BasicState> {
     };
 
     const goodsColumns = [
-       {
-         title: 'Order Number',
-         dataIndex: 'id',
-         key: 'id',
-         render: (text: React.ReactNode, row: any, index: number) => {
-           if (index < basicGoods.length) {
-             return <a href="">{text}</a>;
-           }
-           return {
-             children: <span style={{ fontWeight: 600 }}>Total</span>,
-             props: {
-               colSpan: 4,
-             },
-           };
-         },
-       },
-       {
-         title: 'Type',
-         dataIndex: 'name',
-         key: 'name',
+      {
+        title: 'Order Number',
+        dataIndex: 'id',
+        key: 'id',
+        render: (text: React.ReactNode, row: any, index: number) => {
+          if (index < basicGoods.length) {
+            return <a href="">{text}</a>;
+          }
+          return {
+            children: <span style={{ fontWeight: 600 }}>Total</span>,
+            props: {
+              colSpan: 4,
+            },
+          };
+        },
+      },
+      {
+        title: 'Type',
+        dataIndex: 'name',
+        key: 'name',
         render: renderContent,
       },
       {
@@ -165,14 +164,13 @@ class Basic extends Component<BasicProps, BasicState> {
         key: 'amount',
         align: 'right' as 'left' | 'right' | 'center',
         render: (text: React.ReactNode, row: any, index: number) => {
-           if (index < basicGoods.length) {
-             return text;
-           }
-           return <span style={{ fontWeight: 600 }}>{text}</span>;
-         },
-       },
+          if (index < basicGoods.length) {
+            return text;
+          }
+          return <span style={{ fontWeight: 600 }}>{text}</span>;
+        },
+      },
     ];
-
 
     return (
       <PageContainer>

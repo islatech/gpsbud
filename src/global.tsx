@@ -5,7 +5,6 @@ import { useIntl } from 'umi';
 
 import defaultSettings from '../config/defaultSettings';
 
-
 const { pwa } = defaultSettings;
 
 // if pwa is true

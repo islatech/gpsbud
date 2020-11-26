@@ -62,7 +62,7 @@ class Basic extends Component<BasicProps, BasicState> {
 
   render() {
     const { profileAndbasic, loading } = this.props;
-    const { basicGoods, /* basicProgress */ } = profileAndbasic;
+    const { basicGoods /* basicProgress */ } = profileAndbasic;
     let goodsData: typeof basicGoods = [];
     if (basicGoods.length) {
       let num = 0;

@@ -1,4 +1,4 @@
-import { Avatar, Card, Col, List, Skeleton, Row, /* Statistic */ } from 'antd';
+import { Avatar, Card, Col, List, Skeleton, Row /* Statistic */ } from 'antd';
 import React, { Component } from 'react';
 
 import { Link, Dispatch, connect } from 'umi';
@@ -37,7 +37,6 @@ const links = [
   },
 ];
 */
-
 
 interface WorkplaceProps {
   currentUser?: CurrentUser;

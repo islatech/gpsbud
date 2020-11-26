@@ -1,14 +1,6 @@
 import React, { FC, useRef, useState, useEffect } from 'react';
-import { DownOutlined} from '@ant-design/icons';
-import {
-  Avatar,
-  Card,
-  Dropdown,
-  List,
-  Menu,
-  Modal,
-  Progress
-} from 'antd';
+import { DownOutlined } from '@ant-design/icons';
+import { Avatar, Card, Dropdown, List, Menu, Modal, Progress } from 'antd';
 
 import { findDOMNode } from 'react-dom';
 import { PageContainer } from '@ant-design/pro-layout';
@@ -88,7 +80,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
     pageSize: 5,
     total: 50,
   };
-/*
+  /*
   const showModal = () => {
     setVisible(true);
     setCurrent(undefined);
@@ -117,7 +109,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
       });
     }
   };
-/*
+  /*
   const extraContent = (
     <div className={styles.extraContent}>
       <RadioGroup defaultValue="all">

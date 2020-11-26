@@ -7,8 +7,6 @@ import styles from './index.less';
 
 const { CheckableTag } = Tag;
 
-
-
 export interface TagSelectOptionProps {
   value?: string | number;
   style?: React.CSSProperties;
@@ -133,12 +131,15 @@ class TagSelect extends Component<TagSelectProps, TagSelectState> {
     node.type &&
     (node.type.isTagSelectOption || node.type.displayName === 'TagSelectOption');
 
-
   render() {
     const { value, expand } = this.state;
     const { children, hideCheckAll, className, style, expandable, actionsText = {} } = this.props;
     const checkedAll = this.getAllTags().length === value.length;
-    const { expandText = 'Expand', collapseText = 'Put it away', selectAllText = 'All of them' } = actionsText;
+    const {
+      expandText = 'Expand',
+      collapseText = 'Put it away',
+      selectAllText = 'All of them',
+    } = actionsText;
 
     const cls = classNames(styles.tagSelect, className, {
       [styles.hasExpandTag]: expandable,

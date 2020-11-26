@@ -16,7 +16,7 @@ import {
   Popover,
   Steps,
   Table,
-  Tooltip
+  Tooltip,
 } from 'antd';
 import { GridContent, PageContainer, RouteContext } from '@ant-design/pro-layout';
 import React, { Component, Fragment } from 'react';
@@ -46,8 +46,6 @@ const mobileMenu = (
     <Menu.Item key="">Option 3</Menu.Item>
   </Menu>
 );
-
-
 
 const action = (
   <RouteContext.Consumer>
@@ -81,7 +79,6 @@ const action = (
     }}
   </RouteContext.Consumer>
 );
-
 
 /*
 const extra = (
@@ -137,7 +134,10 @@ const popoverContent = (
   <div style={{ width: 160 }}>
     Wu plus
     <span className={styles.textSecondary} style={{ float: 'right' }}>
-      <Badge status="default" text={<span style={{ color: 'rgba(0, 0, 0, 0.45)' }}>Not responding</span>} />
+      <Badge
+        status="default"
+        text={<span style={{ color: 'rgba(0, 0, 0, 0.45)' }}>Not responding</span>}
+      />
     </span>
     <div className={styles.textSecondary} style={{ marginTop: 4 }}>
       Time: 2 hours and 25 minutes
@@ -238,14 +238,12 @@ class Advanced extends Component<
     this.setState({ operationKey: key });
   };
 
-
   onTabChange = (tabActiveKey: string) => {
     this.setState({ tabActiveKey });
   };
 
   render() {
-    const { operationKey,
-    tabActiveKey  } = this.state;
+    const { operationKey, tabActiveKey } = this.state;
     const { profileAndadvanced, loading } = this.props;
     const { advancedOperation1, advancedOperation2, advancedOperation3 } = profileAndadvanced;
     const contentList = {
@@ -315,11 +313,14 @@ class Advanced extends Component<
             <Card title="User information" style={{ marginBottom: 24 }} bordered={false}>
               <Descriptions style={{ marginBottom: 24 }}>
                 <Descriptions.Item label="User name">Pay a little</Descriptions.Item>
-                <Descriptions.Item label="Membership card number">32943898021309809423</Descriptions.Item>
+                <Descriptions.Item label="Membership card number">
+                  32943898021309809423
+                </Descriptions.Item>
                 <Descriptions.Item label="ID">3321944288191034921</Descriptions.Item>
                 <Descriptions.Item label="Contact information">18112345678</Descriptions.Item>
                 <Descriptions.Item label="Contact address">
-                Qu Lili 18100000000 intersection of gongzhan road, huanggushan road, Xihu district, Hangzhou City, Zhejiang province
+                  Qu Lili 18100000000 intersection of gongzhan road, huanggushan road, Xihu
+                  district, Hangzhou City, Zhejiang province
                 </Descriptions.Item>
               </Descriptions>
               <Descriptions style={{ marginBottom: 24 }} title="Information Group">
@@ -346,17 +347,21 @@ class Advanced extends Component<
                 <Descriptions style={{ marginBottom: 16 }} title="Group name">
                   <Descriptions.Item label="Responsible person">Lin Dongdong</Descriptions.Item>
                   <Descriptions.Item label="Character code">1234567</Descriptions.Item>
-                  <Descriptions.Item label="Department">XX Company - XX Department</Descriptions.Item>
+                  <Descriptions.Item label="Department">
+                    XX Company - XX Department
+                  </Descriptions.Item>
                   <Descriptions.Item label="Expiration Time">2017-08-08</Descriptions.Item>
                   <Descriptions.Item label="Description">
-                  This description is very long very long very long very long very long very long very long very long very long very long very long very long very long very long...
+                    This description is very long very long very long very long very long very long
+                    very long very long very long very long very long very long very long very
+                    long...
                   </Descriptions.Item>
                 </Descriptions>
                 <Divider style={{ margin: '16px 0' }} />
                 <Descriptions style={{ marginBottom: 16 }} title="Group name" column={1}>
                   <Descriptions.Item label="Scientific Name">
-                    Citrullus lanatus (Thunb.) Matsum. et
-                    Nakai annual vine; stems,branches stout, with obvious edges.Tendrils are thicker..
+                    Citrullus lanatus (Thunb.) Matsum. et Nakai annual vine; stems,branches stout,
+                    with obvious edges.Tendrils are thicker..
                   </Descriptions.Item>
                 </Descriptions>
                 <Divider style={{ margin: '16px 0' }} />

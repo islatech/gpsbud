@@ -9,7 +9,6 @@ import StandardFormRow from './components/StandardFormRow';
 import styles from './style.less';
 // import _mock from './_mock';
 
-
 // const { Option } = Select;
 // const FormItem = Form.Item;
 const { Paragraph } = Typography;
@@ -89,7 +88,6 @@ const Projects: FC<ProjectsProps> = ({
   };
 */
 
-
   return (
     <div className={styles.coverCardList}>
       <Card bordered={false}>
@@ -129,9 +127,9 @@ const Projects: FC<ProjectsProps> = ({
           <StandardFormRow title="Strain Library">
             <Row gutter={16}>
               <Col lg={20} md={20} sm={20} xs={24}>
-              <Form.Item id="searchBar">
-                <Input type="text" placeholder="Search for strains, effects, flavors…" />
-              </Form.Item>
+                <Form.Item id="searchBar">
+                  <Input type="text" placeholder="Search for strains, effects, flavors…" />
+                </Form.Item>
               </Col>
             </Row>
           </StandardFormRow>

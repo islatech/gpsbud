@@ -103,7 +103,9 @@ const OperationModal: FC<OperationModalProps> = (props) => {
         <Form.Item
           name="subDescription"
           label="Product Description"
-          rules={[{ message: 'Please enter at least a five character Product Description！', min: 5 }]}
+          rules={[
+            { message: 'Please enter at least a five character Product Description！', min: 5 },
+          ]}
         >
           <TextArea rows={4} placeholder="Please enter at least 5 characters" />
         </Form.Item>

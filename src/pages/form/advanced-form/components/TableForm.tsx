@@ -42,7 +42,7 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
     }
   };
 
- /*
+  /*
   const newMember = () => {
     const newData = data?.map((item) => ({ ...item })) || [];
 
@@ -249,7 +249,10 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
               <span>
                 <a onClick={(e) => saveRow(e, record.key)}>Add</a>
                 <Divider type="vertical" />
-                <Popconfirm title="Do you want to delete this line?" onConfirm={() => remove(record.key)}>
+                <Popconfirm
+                  title="Do you want to delete this line?"
+                  onConfirm={() => remove(record.key)}
+                >
                   <a>Delete</a>
                 </Popconfirm>
               </span>
@@ -267,7 +270,10 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
           <span>
             <a onClick={(e) => toggleEditable(e, record.key)}>Edit</a>
             <Divider type="vertical" />
-            <Popconfirm title="Do you want to delete this line?" onConfirm={() => remove(record.key)}>
+            <Popconfirm
+              title="Do you want to delete this line?"
+              onConfirm={() => remove(record.key)}
+            >
               <a>Delete</a>
             </Popconfirm>
           </span>

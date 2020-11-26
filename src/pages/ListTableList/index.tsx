@@ -174,7 +174,8 @@ const TableList: React.FC<{}> = () => {
             <div>
               Selected <a style={{ fontWeight: 600 }}>{selectedRowsState.length}</a> 项&nbsp;&nbsp;
               <span>
-              Total number of service calls {selectedRowsState.reduce((pre, item) => pre + item.callNo, 0)} Million
+                Total number of service calls{' '}
+                {selectedRowsState.reduce((pre, item) => pre + item.callNo, 0)} Million
               </span>
             </div>
           }

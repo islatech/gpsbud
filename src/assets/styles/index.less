@@ -1,6 +1,5 @@
-@import "variables";
-@import "dashboard";
-
+@import 'variables';
+@import 'dashboard';
 
 .app {
   display: flex;
@@ -27,11 +26,9 @@
     height: calc(100vh - 64px - 60px);
     margin-top: 64px;
 
-
     .ant-layout {
       height: 100%;
       overflow-y: auto;
-
     }
 
     .ant-layout-sider {
@@ -71,7 +68,7 @@
         }
       }
       .theme-selector-dropdown {
-          min-height: 72px;
+        min-height: 72px;
       }
       .color-row {
         padding: 5px 5px 5px 20px;
@@ -119,7 +116,6 @@
           // .anticon {
           //
           // }
-
         }
         .color-row {
           padding: 0;
@@ -139,11 +135,10 @@
             }
           }
         }
-
       }
     }
     .ant-layout-content {
-    min-height: 280px;
+      min-height: 280px;
       // background-color: @body-background;
       padding: 20px;
       .ant-breadcrumb {
@@ -159,7 +154,6 @@
     padding: 0 20px;
   }
 }
-
 
 .logo {
   position: relative;
@@ -229,11 +223,10 @@
 }
 
 .theme-edit {
-  .preview-header, .preview {
+  .preview-header,
+  .preview {
     padding-right: 380px;
   }
-
-
 }
 
 .preview {
@@ -290,7 +283,6 @@
     color: @select-item-selected-option-color;
   }
 }
-
 
 .ant-spin-nested-loading {
   .ant-spin.ant-spin-lg.ant-spin-spinning {

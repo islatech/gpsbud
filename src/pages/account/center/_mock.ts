@@ -123,7 +123,8 @@ export default {
     email: 'antdesign@alipay.com',
     signature: 'All rivers run into sea, tolerance is great',
     title: 'Interaction expert',
-    group: 'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
+    group:
+      'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
     tags: [
       {
         key: '0',

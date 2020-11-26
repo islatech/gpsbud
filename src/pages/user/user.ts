@@ -8,12 +8,14 @@ export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
     name: 'maced',
-    avatar: 'https://s3.amazonaws.com/profile_photos/1195271994730893.EyG5TTIoO6NJebL0iY9n_128x128.png',
+    avatar:
+      'https://s3.amazonaws.com/profile_photos/1195271994730893.EyG5TTIoO6NJebL0iY9n_128x128.png',
     userid: '00000004',
     email: 'maced@islandtech.xyz',
     signature: 'All rivers run into sea, tolerance is great',
     title: 'Interaction expert',
-    group: 'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
+    group:
+      'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
     tags: [
       {
         key: '0',
@@ -62,19 +64,19 @@ export default {
       key: '1',
       name: 'xcesiv',
       age: 30,
-    address: '123 Street Address, San Juan, Puerto Rico 00926',
+      address: '123 Street Address, San Juan, Puerto Rico 00926',
     },
     {
       key: '2',
       name: 'coqui',
       age: 30,
-    address: '123 Street Address, San Juan, Puerto Rico 00926',
+      address: '123 Street Address, San Juan, Puerto Rico 00926',
     },
     {
       key: '3',
       name: 'twizzle',
       age: 30,
-    address: '123 Street Address, San Juan, Puerto Rico 00926',
+      address: '123 Street Address, San Juan, Puerto Rico 00926',
     },
   ],
   'POST /api/login/account': (req: Request, res: Response) => {

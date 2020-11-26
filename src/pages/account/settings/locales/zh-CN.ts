@@ -34,7 +34,8 @@ export default {
   'accountandsettings.security.email': '备用邮箱',
   'accountandsettings.security.email-description': '已绑定邮箱：',
   'accountandsettings.security.mfa': 'MFA 设备',
-  'accountandsettings.security.mfa-description': '未绑定 MFA 设备，绑定后，可以进行二次Confirmation',
+  'accountandsettings.security.mfa-description':
+    '未绑定 MFA 设备，绑定后，可以进行二次Confirmation',
   'accountandsettings.security.modify': '修改',
   'accountandsettings.security.set': '设置',
   'accountandsettings.security.bind': '绑定',
