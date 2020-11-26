@@ -13,6 +13,7 @@ import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
 
 <<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
 const links = [
   {
     title: 'Operation 1',
@@ -40,6 +41,8 @@ const links = [
   },
 ];
 =======
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
 // const links = [
 //   {
 //     title: 'Operation 1',
@@ -66,6 +69,9 @@ const links = [
 //     href: '',
 //   },
 // ];
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
+=======
 >>>>>>> Stashed changes:src/pages/workplace/index.tsx
 
 interface WorkplaceProps {
@@ -304,6 +310,7 @@ class Workplace extends Component<WorkplaceProps> {
               <EditableLinkGroup onAdd={() => {}} links={links} linkElement={Link} />
             </Card>
 <<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
             <Card
               style={{ marginBottom: 24 }}
               bordered={false}
@@ -333,6 +340,8 @@ class Workplace extends Component<WorkplaceProps> {
                 </Row>
               </div>
             </Card>
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
 =======
 >>>>>>> Stashed changes:src/pages/workplace/index.tsx
           </Col>

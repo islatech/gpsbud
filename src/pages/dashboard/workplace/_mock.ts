@@ -133,6 +133,7 @@ for (let i = 0; i < 20; i += 1) {
 
 const titles = [
 <<<<<<< Updated upstream:src/pages/dashboard/workplace/_mock.ts
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/_mock.ts
   'Alipay',
   'Angular',
   'Ant Design',
@@ -142,6 +143,8 @@ const titles = [
   'Vue',
   'Webpack',
 =======
+=======
+>>>>>>> Stashed changes:src/pages/workplace/_mock.ts
   'Golden Goat',
   'Lemon Haze',
   // 'Ant Design',
@@ -150,6 +153,9 @@ const titles = [
   // 'React',
   // 'Vue',
   // 'Webpack',
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/_mock.ts
+>>>>>>> Stashed changes:src/pages/workplace/_mock.ts
+=======
 >>>>>>> Stashed changes:src/pages/workplace/_mock.ts
 ];
 const avatars = [
