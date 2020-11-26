@@ -72,7 +72,7 @@ export function getRoutes() {
               {
                 "path": "/account/basic",
                 "icon": "smile",
-                "name": "Order Details",
+                "name": "Details",
                 "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__account__basic' */'/Users/meiacevedo/GitHub/gpsbud/src/pages/account/basic'), loading: LoadingComponent}),
                 "exact": true
               },
