@@ -6,7 +6,6 @@ type DefaultSettings = ProSettings & {
 
 const proSettings: DefaultSettings = {
   navTheme: 'light',
-  // 拂晓蓝
   primaryColor: '#016A3A',
   layout: 'side',
   contentWidth: 'Fluid',
@@ -16,7 +15,7 @@ const proSettings: DefaultSettings = {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: 'GPSBud',
   pwa: false,
   iconfontUrl: '',
 };

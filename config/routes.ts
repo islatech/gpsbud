@@ -55,7 +55,7 @@ export default [
                   // patient profile - store products
                   path: 'basic',
                   icon: 'smile',
-                  name: 'Details',
+                  name: 'Order Details',
                   component: './account/basic',
                 },
                 {
