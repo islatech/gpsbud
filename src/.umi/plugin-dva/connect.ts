@@ -12,11 +12,12 @@ export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/register';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/setting';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/user';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/models/userandlogin';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/basic/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/center/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/card-list/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/model';
-export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/workplace/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/advanced-form/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/model';
@@ -27,6 +28,8 @@ export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/articles/mo
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/projects/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/projects/model';
+export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/step-form/model';
 export * from '/Users/meiacevedo/GitHub/gpsbud/src/pages/workplace/model';
 
 export interface Action<T = any> {

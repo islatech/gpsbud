@@ -11,22 +11,25 @@ import ModelRegister2 from '/Users/meiacevedo/GitHub/gpsbud/src/models/register.
 import ModelSetting3 from '/Users/meiacevedo/GitHub/gpsbud/src/models/setting.ts';
 import ModelUser4 from '/Users/meiacevedo/GitHub/gpsbud/src/models/user.ts';
 import ModelUserandlogin5 from '/Users/meiacevedo/GitHub/gpsbud/src/models/userandlogin.ts';
-import ModelModel6 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/center/model.ts';
-import ModelModel7 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/model.ts';
-import ModelModel8 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/model.ts';
-import ModelModel9 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/model.ts';
-import ModelModel10 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/workplace/model.ts';
-import ModelModel11 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/advanced-form/model.ts';
-import ModelModel12 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/model.ts';
-import ModelModel13 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/model.ts';
-import ModelModel14 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/basic-list/model.ts';
-import ModelModel15 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/card-list/model.ts';
-import ModelModel16 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/applications/model.ts';
-import ModelModel17 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/articles/model.ts';
-import ModelModel18 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/projects/model.ts';
-import ModelModel19 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced/model.ts';
-import ModelModel20 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic/model.ts';
-import ModelModel21 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/workplace/model.ts';
+import ModelModel6 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/basic/model.ts';
+import ModelModel7 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/center/model.ts';
+import ModelModel8 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/account/settings/model.ts';
+import ModelModel9 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/card-list/model.ts';
+import ModelModel10 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/analysis/model.ts';
+import ModelModel11 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/dashboard/monitor/model.ts';
+import ModelModel12 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/advanced-form/model.ts';
+import ModelModel13 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/basic-form/model.ts';
+import ModelModel14 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/form/step-form/model.ts';
+import ModelModel15 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/basic-list/model.ts';
+import ModelModel16 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/card-list/model.ts';
+import ModelModel17 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/applications/model.ts';
+import ModelModel18 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/articles/model.ts';
+import ModelModel19 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/list/search/projects/model.ts';
+import ModelModel20 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/advanced/model.ts';
+import ModelModel21 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/profile/basic/model.ts';
+import ModelModel22 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/projects/model.ts';
+import ModelModel23 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/step-form/model.ts';
+import ModelModel24 from '/Users/meiacevedo/GitHub/gpsbud/src/pages/workplace/model.ts';
 
 let app:any = null;
 
@@ -72,6 +75,9 @@ app.model({ namespace: 'model', ...ModelModel18 });
 app.model({ namespace: 'model', ...ModelModel19 });
 app.model({ namespace: 'model', ...ModelModel20 });
 app.model({ namespace: 'model', ...ModelModel21 });
+app.model({ namespace: 'model', ...ModelModel22 });
+app.model({ namespace: 'model', ...ModelModel23 });
+app.model({ namespace: 'model', ...ModelModel24 });
   return app;
 }
 
