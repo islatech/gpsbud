@@ -15,7 +15,7 @@ const operationTabList = [
     key: 'articles',
     tab: (
       <span>
-        Articles <span style={{ fontSize: 14 }}></span>
+        Articles <span style={{ fontSize: 14 }} />
       </span>
     ),
   },
@@ -43,7 +43,7 @@ interface CenterProps extends RouteChildrenProps {
   currentUserLoading: boolean;
 }
 interface CenterState {
-  tabKey?: 'articles' | 'applications' ;
+  tabKey?: 'articles' | 'applications';
 }
 
 const TagList: React.FC<{ tags: CurrentUser['tags'] }> = ({ tags }) => {

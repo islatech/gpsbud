@@ -1,4 +1,4 @@
-import { Card, Col, Form, Input, List, Row, Select, Typography } from 'antd';
+import { Card, Col, Form, Input, List, Row, /* Select, */ Typography } from 'antd';
 import React, { FC, useEffect } from 'react';
 import { connect, Dispatch } from 'umi';
 import moment from 'moment';
@@ -9,9 +9,8 @@ import StandardFormRow from './components/StandardFormRow';
 import styles from './style.less';
 // import _mock from './_mock';
 
-
-const { Option } = Select;
-const FormItem = Form.Item;
+// const { Option } = Select;
+// const FormItem = Form.Item;
 const { Paragraph } = Typography;
 
 interface ProjectsProps {
@@ -80,15 +79,15 @@ const Projects: FC<ProjectsProps> = ({
     />
   );
 
+  /*
   const formItemLayout = {
     wrapperCol: {
       xs: { span: 24 },
       sm: { span: 16 },
     },
   };
+*/
 
- 
-  
   return (
     <div className={styles.coverCardList}>
       <Card bordered={false}>
@@ -105,8 +104,9 @@ const Projects: FC<ProjectsProps> = ({
             });
           }}
         >
-          <StandardFormRow title="Strain Library">
-            {/* <FormItem name="category">
+          {/*
+          <StandardFormRow >
+            <FormItem name="category">
               <TagSelect expandable>
                 <TagSelect.Option value="cat1">Category 1</TagSelect.Option>
                 <TagSelect.Option value="cat2">Category 2</TagSelect.Option>
@@ -121,14 +121,15 @@ const Projects: FC<ProjectsProps> = ({
                 <TagSelect.Option value="cat11">Category 11</TagSelect.Option>
                 <TagSelect.Option value="cat12">Category 12</TagSelect.Option>
               </TagSelect>
-            </FormItem> */}
+            </FormItem>
           </StandardFormRow>
-          <StandardFormRow>
+          */}
+          <StandardFormRow title="Strain Library">
             <Row gutter={16}>
               <Col lg={20} md={20} sm={20} xs={24}>
-              <Form.Item id="searchBar">
-                <Input type="text" placeholder="Search for strains, effects, flavors…" />
-              </Form.Item>
+                <Form.Item id="searchBar">
+                  <Input type="text" placeholder="Search for strains, effects, flavors…" />
+                </Form.Item>
               </Col>
             </Row>
           </StandardFormRow>

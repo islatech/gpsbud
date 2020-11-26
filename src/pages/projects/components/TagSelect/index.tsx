@@ -62,6 +62,8 @@ class TagSelect extends Component<TagSelectProps, TagSelectState> {
     },
   };
 
+  static Option: TagSelectOptionType = TagSelectOption;
+
   static getDerivedStateFromProps(nextProps: TagSelectProps) {
     if ('value' in nextProps) {
       return { value: nextProps.value || [] };
@@ -129,13 +131,15 @@ class TagSelect extends Component<TagSelectProps, TagSelectState> {
     node.type &&
     (node.type.isTagSelectOption || node.type.displayName === 'TagSelectOption');
 
-  static Option: TagSelectOptionType = TagSelectOption;
-
   render() {
     const { value, expand } = this.state;
     const { children, hideCheckAll, className, style, expandable, actionsText = {} } = this.props;
     const checkedAll = this.getAllTags().length === value.length;
-    const { expandText = 'Expand', collapseText = 'Put it away', selectAllText = 'All of them' } = actionsText;
+    const {
+      expandText = 'Expand',
+      collapseText = 'Put it away',
+      selectAllText = 'All of them',
+    } = actionsText;
 
     const cls = classNames(styles.tagSelect, className, {
       [styles.hasExpandTag]: expandable,

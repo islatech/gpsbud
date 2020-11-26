@@ -115,13 +115,9 @@ const Step1: React.FC<Step1Props> = (props) => {
       <div className={styles.desc}>
         <h3>Description</h3>
         <h4>Transfer to Alipay account</h4>
-        <p>
-        If necessary, some common questions about the product can be put here.
-        </p>
+        <p>If necessary, some common questions about the product can be put here.</p>
         <h4>Transfer to bank card</h4>
-        <p>
-          If necessary, some common questions about the product can be put here.
-        </p>
+        <p>If necessary, some common questions about the product can be put here.</p>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
-import { PlusOutlined } from '@ant-design/icons';
-import { Button, Divider, Input, Popconfirm, Table, message } from 'antd';
+// import { PlusOutlined } from '@ant-design/icons';
+import { /* Button, */ Divider, Input, Popconfirm, Table, message } from 'antd';
 import React, { FC, useState } from 'react';
 
 import styles from '../style.less';
@@ -20,7 +20,7 @@ interface TableFormProps {
 const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
   const [clickedCancel, setClickedCancel] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
   const [cacheOriginData, setCacheOriginData] = useState({});
   const [data, setData] = useState(value);
 
@@ -41,6 +41,8 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
       setData(newData);
     }
   };
+
+  /*
   const newMember = () => {
     const newData = data?.map((item) => ({ ...item })) || [];
 
@@ -56,6 +58,7 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
     setIndex(index + 1);
     setData(newData);
   };
+  */
 
   const remove = (key: string) => {
     const newData = data?.filter((item) => item.key !== key) as TableFormDateType[];
@@ -246,7 +249,10 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
               <span>
                 <a onClick={(e) => saveRow(e, record.key)}>Add</a>
                 <Divider type="vertical" />
-                <Popconfirm title="Do you want to delete this line?" onConfirm={() => remove(record.key)}>
+                <Popconfirm
+                  title="Do you want to delete this line?"
+                  onConfirm={() => remove(record.key)}
+                >
                   <a>Delete</a>
                 </Popconfirm>
               </span>
@@ -264,7 +270,10 @@ const TableForm: FC<TableFormProps> = ({ value, onChange }) => {
           <span>
             <a onClick={(e) => toggleEditable(e, record.key)}>Edit</a>
             <Divider type="vertical" />
-            <Popconfirm title="Do you want to delete this line?" onConfirm={() => remove(record.key)}>
+            <Popconfirm
+              title="Do you want to delete this line?"
+              onConfirm={() => remove(record.key)}
+            >
               <a>Delete</a>
             </Popconfirm>
           </span>

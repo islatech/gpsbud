@@ -8,7 +8,7 @@ import {
   Badge,
   Button,
   Card,
-  Statistic,
+  // Statistic,
   Descriptions,
   Divider,
   Dropdown,
@@ -17,7 +17,6 @@ import {
   Steps,
   Table,
   Tooltip,
-  Empty,
 } from 'antd';
 import { GridContent, PageContainer, RouteContext } from '@ant-design/pro-layout';
 import React, { Component, Fragment } from 'react';
@@ -81,13 +80,16 @@ const action = (
   </RouteContext.Consumer>
 );
 
+/*
 const extra = (
   <div className={styles.moreInfo}>
     <Statistic title="Status" value="Pending approval" />
     <Statistic title="Order amount" value={568.08} prefix="$" />
   </div>
 );
+*/
 
+/*
 const description = (
   <RouteContext.Consumer>
     {({ isMobile }) => (
@@ -104,6 +106,7 @@ const description = (
     )}
   </RouteContext.Consumer>
 );
+*/
 
 const desc1 = (
   <div className={classNames(styles.textSecondary, styles.stepDescription)}>
@@ -131,7 +134,10 @@ const popoverContent = (
   <div style={{ width: 160 }}>
     Wu plus
     <span className={styles.textSecondary} style={{ float: 'right' }}>
-      <Badge status="default" text={<span style={{ color: 'rgba(0, 0, 0, 0.45)' }}>Not responding</span>} />
+      <Badge
+        status="default"
+        text={<span style={{ color: 'rgba(0, 0, 0, 0.45)' }}>Not responding</span>}
+      />
     </span>
     <div className={styles.textSecondary} style={{ marginTop: 4 }}>
       Time: 2 hours and 25 minutes
@@ -217,6 +223,7 @@ class Advanced extends Component<
 > {
   public state: AdvancedState = {
     operationKey: 'tab1',
+    //
     tabActiveKey: 'detail',
   };
 
@@ -268,11 +275,11 @@ class Advanced extends Component<
     return (
       <PageContainer
         title="Single Number：234231029431"
-        // extra={action}
-        // className={styles.pageHeader}
+        extra={action}
+        className={styles.pageHeader}
         // content={description}
         // extraContent={extra}
-        // tabActiveKey={tabActiveKey}
+        tabActiveKey={tabActiveKey}
         // onTabChange={this.onTabChange}
         // tabList={[
         //   {
@@ -306,11 +313,14 @@ class Advanced extends Component<
             <Card title="User information" style={{ marginBottom: 24 }} bordered={false}>
               <Descriptions style={{ marginBottom: 24 }}>
                 <Descriptions.Item label="User name">Pay a little</Descriptions.Item>
-                <Descriptions.Item label="Membership card number">32943898021309809423</Descriptions.Item>
+                <Descriptions.Item label="Membership card number">
+                  32943898021309809423
+                </Descriptions.Item>
                 <Descriptions.Item label="ID">3321944288191034921</Descriptions.Item>
                 <Descriptions.Item label="Contact information">18112345678</Descriptions.Item>
                 <Descriptions.Item label="Contact address">
-                Qu Lili 18100000000 intersection of gongzhan road, huanggushan road, Xihu district, Hangzhou City, Zhejiang province
+                  Qu Lili 18100000000 intersection of gongzhan road, huanggushan road, Xihu
+                  district, Hangzhou City, Zhejiang province
                 </Descriptions.Item>
               </Descriptions>
               <Descriptions style={{ marginBottom: 24 }} title="Information Group">
@@ -337,17 +347,21 @@ class Advanced extends Component<
                 <Descriptions style={{ marginBottom: 16 }} title="Group name">
                   <Descriptions.Item label="Responsible person">Lin Dongdong</Descriptions.Item>
                   <Descriptions.Item label="Character code">1234567</Descriptions.Item>
-                  <Descriptions.Item label="Department">XX Company - XX Department</Descriptions.Item>
+                  <Descriptions.Item label="Department">
+                    XX Company - XX Department
+                  </Descriptions.Item>
                   <Descriptions.Item label="Expiration Time">2017-08-08</Descriptions.Item>
                   <Descriptions.Item label="Description">
-                  This description is very long very long very long very long very long very long very long very long very long very long very long very long very long very long...
+                    This description is very long very long very long very long very long very long
+                    very long very long very long very long very long very long very long very
+                    long...
                   </Descriptions.Item>
                 </Descriptions>
                 <Divider style={{ margin: '16px 0' }} />
                 <Descriptions style={{ marginBottom: 16 }} title="Group name" column={1}>
                   <Descriptions.Item label="Scientific Name">
-                    Citrullus lanatus (Thunb.) Matsum. et
-                    Nakai annual vine; stems,branches stout, with obvious edges.Tendrils are thicker..
+                    Citrullus lanatus (Thunb.) Matsum. et Nakai annual vine; stems,branches stout,
+                    with obvious edges.Tendrils are thicker..
                   </Descriptions.Item>
                 </Descriptions>
                 <Divider style={{ margin: '16px 0' }} />

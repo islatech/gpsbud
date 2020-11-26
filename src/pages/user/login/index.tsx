@@ -3,8 +3,8 @@ import { Alert, Checkbox } from 'antd';
 import React, { useState } from 'react';
 import { Dispatch, Link, connect } from 'umi';
 import { StateType } from '@/models/userandlogin';
-import styles from './style.less';
 import { LoginParamsType } from '@/services/login';
+import styles from './style.less';
 import LoginFrom from './components/Login';
 
 const { Tab, UserName, Password, Mobile, Captcha, Submit } = LoginFrom;
