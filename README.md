@@ -9,7 +9,7 @@ To get started with this template simply download the code and run it
 ```
 git clone https://github.com/islatech/gpsbud
 
-git checkout correct-layout
+cd gpsbud
 
 npm install
 
