@@ -78,99 +78,99 @@ class Basic extends Component<BasicProps, BasicState> {
       });
     }
 
-    const renderContent = (value: any, row: any, index: any) => {
-      const obj: {
-        children: any;
-        props: { colSpan?: number };
-      } = {
-        children: value,
-        props: {},
-      };
-      if (index === basicGoods.length) {
-        obj.props.colSpan = 0;
-      }
-      return obj;
-    };
+    // const renderContent = (value: any, row: any, index: any) => {
+    //   const obj: {
+    //     children: any;
+    //     props: { colSpan?: number };
+    //   } = {
+    //     children: value,
+    //     props: {},
+    //   };
+    //   if (index === basicGoods.length) {
+    //     obj.props.colSpan = 0;
+    //   }
+    //   return obj;
+    // };
 
-    const goodsColumns = [
-      {
-        title: 'Order Number',
-        dataIndex: 'id',
-        key: 'id',
-        render: (text: React.ReactNode, row: any, index: number) => {
-          if (index < basicGoods.length) {
-            return <a href="">{text}</a>;
-          }
-          return {
-            children: <span style={{ fontWeight: 600 }}>Total</span>,
-            props: {
-              colSpan: 4,
-            },
-          };
-        },
-      },
-      {
-        title: 'Type',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Name/Strain',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Attribute',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Effects',
-        dataIndex: 'name',
-        key: 'name',
-        render: renderContent,
-      },
-      {
-        title: 'Product Barcode',
-        dataIndex: 'barcode',
-        key: 'barcode',
-        render: renderContent,
-      },
-      {
-        title: 'Unit Price',
-        dataIndex: 'price',
-        key: 'price',
-        align: 'right' as 'left' | 'right' | 'center',
-        render: renderContent,
-      },
-      {
-        title: 'Quantity',
-        dataIndex: 'num',
-        key: 'num',
-        align: 'right' as 'left' | 'right' | 'center',
-        render: (text: React.ReactNode, row: any, index: number) => {
-          if (index < basicGoods.length) {
-            return text;
-          }
-          return <span style={{ fontWeight: 600 }}>{text}</span>;
-        },
-      },
-      {
-        title: 'Amount',
-        dataIndex: 'amount',
-        key: 'amount',
-        align: 'right' as 'left' | 'right' | 'center',
-        render: (text: React.ReactNode, row: any, index: number) => {
-          if (index < basicGoods.length) {
-            return text;
-          }
-          return <span style={{ fontWeight: 600 }}>{text}</span>;
-        },
-      },
-    ];
+    // const goodsColumns = [
+    //   {
+    //     title: 'Order Number',
+    //     dataIndex: 'id',
+    //     key: 'id',
+    //     render: (text: React.ReactNode, row: any, index: number) => {
+    //       if (index < basicGoods.length) {
+    //         return <a href="">{text}</a>;
+    //       }
+    //       return {
+    //         children: <span style={{ fontWeight: 600 }}>Total</span>,
+    //         props: {
+    //           colSpan: 4,
+    //         },
+    //       };
+    //     },
+    //   },
+    //   {
+    //     title: 'Type',
+    //     dataIndex: 'name',
+    //     key: 'name',
+    //     render: renderContent,
+    //   },
+    //   {
+    //     title: 'Name/Strain',
+    //     dataIndex: 'name',
+    //     key: 'name',
+    //     render: renderContent,
+    //   },
+    //   {
+    //     title: 'Attribute',
+    //     dataIndex: 'name',
+    //     key: 'name',
+    //     render: renderContent,
+    //   },
+    //   {
+    //     title: 'Effects',
+    //     dataIndex: 'name',
+    //     key: 'name',
+    //     render: renderContent,
+    //   },
+    //   {
+    //     title: 'Product Barcode',
+    //     dataIndex: 'barcode',
+    //     key: 'barcode',
+    //     render: renderContent,
+    //   },
+    //   {
+    //     title: 'Unit Price',
+    //     dataIndex: 'price',
+    //     key: 'price',
+    //     align: 'right' as 'left' | 'right' | 'center',
+    //     render: renderContent,
+    //   },
+    //   {
+    //     title: 'Quantity',
+    //     dataIndex: 'num',
+    //     key: 'num',
+    //     align: 'right' as 'left' | 'right' | 'center',
+    //     render: (text: React.ReactNode, row: any, index: number) => {
+    //       if (index < basicGoods.length) {
+    //         return text;
+    //       }
+    //       return <span style={{ fontWeight: 600 }}>{text}</span>;
+    //     },
+    //   },
+    //   {
+    //     title: 'Amount',
+    //     dataIndex: 'amount',
+    //     key: 'amount',
+    //     align: 'right' as 'left' | 'right' | 'center',
+    //     render: (text: React.ReactNode, row: any, index: number) => {
+    //       if (index < basicGoods.length) {
+    //         return text;
+    //       }
+    //       return <span style={{ fontWeight: 600 }}>{text}</span>;
+    //     },
+    //   },
+    // ];
 
     return (
       <PageContainer>
@@ -191,15 +191,15 @@ class Basic extends Component<BasicProps, BasicState> {
             <Descriptions.Item label="Remarks">None</Descriptions.Item> */}
           </Descriptions>
           <Divider style={{ marginBottom: 32 }} />
-          <div className={styles.title}>Store Products</div>
+          {/* <div className={styles.title}>Store Products</div>
           <Table
             style={{ marginBottom: 24 }}
             pagination={false}
             loading={loading}
             dataSource={goodsData}
-            columns={goodsColumns}
+            // columns={goodsColumns}
             rowKey="id"
-          />
+          /> */}
           {/* <div className={styles.title}>Return progress</div>
           <Table
             style={{ marginBottom: 16 }}
