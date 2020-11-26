@@ -71,11 +71,11 @@ class Basic extends Component<BasicProps, BasicState> {
         num += Number(item.num);
         amount += Number(item.amount);
       });
-      goodsData = basicGoods.concat({
-        id: 'Total',
-        num,
-        amount,
-      });
+      // goodsData = basicGoods.concat({
+      //   id: 'Total',
+      //   num,
+      //   amount,
+      // });
     }
     const renderContent = (value: any, row: any, index: any) => {
       const obj: {
