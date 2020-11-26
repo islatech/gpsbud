@@ -1,5 +1,5 @@
 import { StarTwoTone, LikeOutlined, MessageFilled } from '@ant-design/icons';
-import { List, Tag } from 'antd';
+import { List /* , Tag */ } from 'antd';
 import React from 'react';
 
 import { connect } from 'umi';

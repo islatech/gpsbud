@@ -133,7 +133,7 @@ class TagCloud extends Component<TagCloudProps, TagCloudState> {
         fields: ['name', 'value'],
         imageMask: this.imageMask,
         font: 'Verdana',
-        size: [w, h], //Width and height settings are best adjusted according to imageMask
+        size: [w, h], // Width and height settings are best adjusted according to imageMask
         padding: 0,
         timeInterval: 5000, // max execute time
         rotate() {

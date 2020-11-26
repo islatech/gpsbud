@@ -1,41 +1,43 @@
-import { Avatar, Card, Col, List, Skeleton, Row, Statistic } from 'antd';
+import { Avatar, Card, Col, List, Skeleton, Row, /* Statistic */ } from 'antd';
 import React, { Component } from 'react';
 
 import { Link, Dispatch, connect } from 'umi';
 import { PageContainer } from '@ant-design/pro-layout';
 import moment from 'moment';
-import Radar from './components/Radar';
+// import Radar from './components/Radar';
 import { ModalState } from './model';
-import EditableLinkGroup from './components/EditableLinkGroup';
+// import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
 
-// const links = [
-//   {
-//     title: 'Operation 1',
-//     href: '',
-//   },
-//   {
-//     title: 'Operation 2',
-//     href: '',
-//   },
-//   {
-//     title: 'Operation三',
-//     href: '',
-//   },
-//   {
-//     title: 'Operation四',
-//     href: '',
-//   },
-//   {
-//     title: 'Operation五',
-//     href: '',
-//   },
-//   {
-//     title: 'Operation六',
-//     href: '',
-//   },
-// ];
+/*
+const links = [
+ {
+   title: 'Operation 1',
+   href: '',
+ },
+ {
+   title: 'Operation 2',
+   href: '',
+  },
+  {
+    title: 'Operation三',
+    href: '',
+  },
+  {
+    title: 'Operation四',
+    href: '',  },
+ {
+   title: 'Operation五',
+   href: '',
+  },
+  {
+    title: 'Operation六',
+    href: '',
+  },
+];
+*/
+
 
 interface WorkplaceProps {
   currentUser?: CurrentUser;
@@ -136,11 +138,11 @@ class Workplace extends Component<WorkplaceProps> {
   render() {
     const {
       currentUser,
-      activities,
+      // activities,
       projectNotice,
       projectLoading,
       activitiesLoading,
-      radarData,
+      // radarData,
     } = this.props;
 
     if (!currentUser || !currentUser.userid) {
@@ -222,7 +224,7 @@ class Workplace extends Component<WorkplaceProps> {
               {/* <div className={styles.chart}>
                 <Radar hasLegend height={343} data={radarData} />
               </div> */}
-            {/* </Card> */} 
+            {/* </Card> */}
             {/* <Card
               bodyStyle={{ paddingTop: 12, paddingBottom: 12 }}
               bordered={false}

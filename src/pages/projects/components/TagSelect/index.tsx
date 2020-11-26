@@ -7,6 +7,8 @@ import styles from './index.less';
 
 const { CheckableTag } = Tag;
 
+
+
 export interface TagSelectOptionProps {
   value?: string | number;
   style?: React.CSSProperties;
@@ -61,6 +63,8 @@ class TagSelect extends Component<TagSelectProps, TagSelectState> {
       selectAllText: 'All of them',
     },
   };
+
+  static Option: TagSelectOptionType = TagSelectOption;
 
   static getDerivedStateFromProps(nextProps: TagSelectProps) {
     if ('value' in nextProps) {
@@ -129,7 +133,6 @@ class TagSelect extends Component<TagSelectProps, TagSelectState> {
     node.type &&
     (node.type.isTagSelectOption || node.type.displayName === 'TagSelectOption');
 
-  static Option: TagSelectOptionType = TagSelectOption;
 
   render() {
     const { value, expand } = this.state;

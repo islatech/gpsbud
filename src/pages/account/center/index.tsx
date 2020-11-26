@@ -15,7 +15,7 @@ const operationTabList = [
     key: 'articles',
     tab: (
       <span>
-        Articles <span style={{ fontSize: 14 }}></span>
+        Articles <span style={{ fontSize: 14 }} />
       </span>
     ),
   },

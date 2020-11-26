@@ -8,7 +8,7 @@ import {
   Badge,
   Button,
   Card,
-  Statistic,
+  // Statistic,
   Descriptions,
   Divider,
   Dropdown,
@@ -16,8 +16,7 @@ import {
   Popover,
   Steps,
   Table,
-  Tooltip,
-  Empty,
+  Tooltip
 } from 'antd';
 import { GridContent, PageContainer, RouteContext } from '@ant-design/pro-layout';
 import React, { Component, Fragment } from 'react';
@@ -47,6 +46,8 @@ const mobileMenu = (
     <Menu.Item key="">Option 3</Menu.Item>
   </Menu>
 );
+
+
 
 const action = (
   <RouteContext.Consumer>
@@ -81,13 +82,17 @@ const action = (
   </RouteContext.Consumer>
 );
 
+
+/*
 const extra = (
   <div className={styles.moreInfo}>
     <Statistic title="Status" value="Pending approval" />
     <Statistic title="Order amount" value={568.08} prefix="$" />
   </div>
 );
+*/
 
+/*
 const description = (
   <RouteContext.Consumer>
     {({ isMobile }) => (
@@ -104,6 +109,7 @@ const description = (
     )}
   </RouteContext.Consumer>
 );
+*/
 
 const desc1 = (
   <div className={classNames(styles.textSecondary, styles.stepDescription)}>
@@ -217,6 +223,7 @@ class Advanced extends Component<
 > {
   public state: AdvancedState = {
     operationKey: 'tab1',
+    //
     tabActiveKey: 'detail',
   };
 
@@ -231,12 +238,14 @@ class Advanced extends Component<
     this.setState({ operationKey: key });
   };
 
+
   onTabChange = (tabActiveKey: string) => {
     this.setState({ tabActiveKey });
   };
 
   render() {
-    const { operationKey, tabActiveKey } = this.state;
+    const { operationKey,
+    tabActiveKey  } = this.state;
     const { profileAndadvanced, loading } = this.props;
     const { advancedOperation1, advancedOperation2, advancedOperation3 } = profileAndadvanced;
     const contentList = {
@@ -268,11 +277,11 @@ class Advanced extends Component<
     return (
       <PageContainer
         title="Single Number：234231029431"
-        // extra={action}
-        // className={styles.pageHeader}
+        extra={action}
+        className={styles.pageHeader}
         // content={description}
         // extraContent={extra}
-        // tabActiveKey={tabActiveKey}
+        tabActiveKey={tabActiveKey}
         // onTabChange={this.onTabChange}
         // tabList={[
         //   {

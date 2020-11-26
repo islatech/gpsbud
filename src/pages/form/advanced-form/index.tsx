@@ -1,5 +1,5 @@
-import { LoadingOutlined,CloseCircleOutlined, PlusOutlined } from '@ant-design/icons';
-import { Button, Card, Col, DatePicker, Form, Input, message, Popover, Row, Select, TimePicker, Upload } from 'antd';
+import { CloseCircleOutlined } from '@ant-design/icons';
+import { Button, Card, Col, Form, Input, Popover, Row} from 'antd';
 import React, { FC, useState } from 'react';
 import { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
 import { connect, Dispatch } from 'umi';
@@ -9,8 +9,8 @@ import styles from './style.less';
 
 type InternalNamePath = (string | number)[];
 
-const { Option } = Select;
-const { RangePicker } = DatePicker;
+// const { Option } = Select;
+// const { RangePicker } = DatePicker;
 
 const fieldLabels = {
   // name: 'Warehouse Name',
@@ -131,13 +131,15 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
   const onFinishFailed = (errorInfo: any) => {
     setError(errorInfo.errorFields);
   };
-  function getBase64(img, callback) {
+  /*
+  function getBase64({ img, callback }: { img: Blob; callback: { (imageUrl: any): void; (arg0: string | ArrayBuffer | null): any; }; }) {
     const reader = new FileReader();
     reader.addEventListener('load', () => callback(reader.result));
     reader.readAsDataURL(img);
   }
-  
-  function beforeUpload(file) {
+I */
+/*
+  function beforeUpload(file: { type: string; size: number; }) {
     const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
     if (!isJpgOrPng) {
       message.error('You can only upload JPG/PNG file!');
@@ -148,12 +150,13 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
     }
     return isJpgOrPng && isLt2M;
   }
-  
+  */
+/*
   class Avatar extends React.Component {
     state = {
       loading: false,
     };
-  
+
     handleChange = info => {
       if (info.file.status === 'uploading') {
         this.setState({ loading: true });
@@ -161,15 +164,17 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
       }
       if (info.file.status === 'done') {
         // Get this url from response in real world.
-        getBase64(info.file.originFileObj, imageUrl =>
-          this.setState({
-            imageUrl,
-            loading: false,
-          }),
+        getBase64({
+            img: info.file.originFileObj, callback: imageUrl => this.setState({
+              imageUrl,
+              loading: false,
+            })
+          },
         );
       }
     };
-  
+
+
     render() {
       const { loading, imageUrl } = this.state;
       const uploadButton = (
@@ -179,7 +184,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
         </div>
       );
       return (
-        
+
         <Upload
           name="avatar"
           listType="picture-card"
@@ -194,6 +199,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
       );
     }
   }
+  */
   return (
     <Form
       form={form}
@@ -206,7 +212,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
       <PageContainer content="Upload all of your store products and keep track of them.">
         <Card title="Product Image" className={styles.card} bordered={false}>
           <Row gutter={16}>
-            
+
           {/* <Upload
         name="avatar"
         listType="picture-card"
@@ -216,7 +222,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
         icon={<PlusOutlined/>}
       >
         {/* {imageUrl ? <img src={imageUrl} alt="avatar" style={{ width: '100%' }} /> : uploadButton} */}
-      
+
       {/* <Upload
         name="avatar"
         listType="picture-card"
@@ -226,8 +232,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
         icon={<PlusOutlined/>}
       >
         {/* {imageUrl ? <img src={imageUrl} alt="avatar" style={{ width: '100%' }} /> : uploadButton} */}
-      
-      
+
+
             {/* <Col lg={6} md={12} sm={24}>
               <Form.Item
                 label={fieldLabels.name}
@@ -264,8 +270,8 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
               </Form.Item>
             </Col> */}
           </Row>
-          
-           
+
+
         </Card>
         <Card title="Basic Info" className={styles.card} bordered={false}>
           <Row gutter={16}>

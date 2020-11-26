@@ -108,13 +108,13 @@ Provide experience solutions that span design and development。
                   </List.Item>
                 );
               }
-              // return (
-              //   <List.Item>
-              //     <Button type="dashed" className={styles.newButton}>
-              //       <PlusOutlined /> New products
-              //     </Button>
-              //   </List.Item>
-              // );
+               return (
+                 <List.Item>
+                   <Button type="dashed" className={styles.newButton}>
+                     <PlusOutlined /> New products
+                   </Button>
+                 </List.Item>
+               );
             }}
           />
         </div>
