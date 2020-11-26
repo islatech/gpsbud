@@ -134,35 +134,35 @@ for (let i = 0; i < 20; i += 1) {
 const titles = [
   'Golden Goat',
   'Lemon Haze',
-  // 'Ant Design',
-  // 'Ant Design Pro',
-  // 'Bootstrap',
-  // 'React',
-  // 'Vue',
-  // 'Webpack',
+  'Ant Design',
+  'Ant Design Pro',
+  'Bootstrap',
+  'React',
+  'Vue',
+  'Webpack',
 ];
 const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png', // Alipay
   'https://gw.alipayobjects.com/zos/rmsportal/zOsKZmFRdUtvpqCImOVY.png', // Angular
-  // 'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png', // Ant Design
-  // 'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
-  // 'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
-  // 'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
-  // 'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
-  // 'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
+  'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png', // Ant Design
+  'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
+  'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
+  'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
 ];
 
 const avatars2 = [
   'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
   'https://gw.alipayobjects.com/zos/rmsportal/cnrhVkzwxjPwAaCfPbdc.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/ubnKSIfAJTxIgXOKlciN.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/WhxKECPNujWoWEFNdnJE.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/psOgztMplJMGpVEqfcgF.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/ZpBqSxLxVEXfcUNoPKrz.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/laiEnJdGHVOhJrUShBaJ.png',
-  // 'https://gw.alipayobjects.com/zos/rmsportal/UrQsqscbKEpNuJcvBZBu.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/ubnKSIfAJTxIgXOKlciN.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/WhxKECPNujWoWEFNdnJE.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/psOgztMplJMGpVEqfcgF.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/ZpBqSxLxVEXfcUNoPKrz.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/laiEnJdGHVOhJrUShBaJ.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/UrQsqscbKEpNuJcvBZBu.png',
 ];
 
 const getNotice = [
@@ -186,46 +186,46 @@ const getNotice = [
     href: '',
     memberLink: '',
   },
-  // {
-  //   id: 'xxx3',
-  //   title: titles[2],
-  //   logo: avatars[2],
-  //   description: 'There were so many taverns in town, and she walked into my taverns.',
-  //   updatedAt: new Date(),
-  //   member: 'Secondary 2 girls group',
-  //   href: '',
-  //   memberLink: '',
-  // },
-  // {
-  //   id: 'xxx4',
-  //   title: titles[3],
-  //   logo: avatars[3],
-  //   description: 'At that time, I just thought about what I wanted, never wanted what I had.',
-  //   updatedAt: new Date('2017-07-23'),
-  //   member: 'Programmer daily',
-  //   href: '',
-  //   memberLink: '',
-  // },
-  // {
-  //   id: 'xxx5',
-  //   title: titles[4],
-  //   logo: avatars[4],
-  //   description: 'Winter is coming',
-  //   updatedAt: new Date('2017-07-23'),
-  //   member: 'High force grid design day group',
-  //   href: '',
-  //   memberLink: '',
-  // },
-  // {
-  //   id: 'xxx6',
-  //   title: titles[5],
-  //   logo: avatars[5],
-  //   description: 'Life is like a box of chocolate, and the results are often unexpected',
-  //   updatedAt: new Date('2017-07-23'),
-  //   member: 'I lied to you to learn computers',
-  //   href: '',
-  //   memberLink: '',
-  // },
+  {
+    id: 'xxx3',
+    title: titles[2],
+    logo: avatars[2],
+    description: 'There were so many taverns in town, and she walked into my taverns.',
+    updatedAt: new Date(),
+    member: 'Secondary 2 girls group',
+    href: '',
+    memberLink: '',
+  },
+  {
+    id: 'xxx4',
+    title: titles[3],
+    logo: avatars[3],
+    description: 'At that time, I just thought about what I wanted, never wanted what I had.',
+    updatedAt: new Date('2017-07-23'),
+    member: 'Programmer daily',
+    href: '',
+    memberLink: '',
+  },
+  {
+    id: 'xxx5',
+    title: titles[4],
+    logo: avatars[4],
+    description: 'Winter is coming',
+    updatedAt: new Date('2017-07-23'),
+    member: 'High force grid design day group',
+    href: '',
+    memberLink: '',
+  },
+  {
+    id: 'xxx6',
+    title: titles[5],
+    logo: avatars[5],
+    description: 'Life is like a box of chocolate, and the results are often unexpected',
+    updatedAt: new Date('2017-07-23'),
+    member: 'I lied to you to learn computers',
+    href: '',
+    memberLink: '',
+  },
 ];
 
 const getActivities = [
