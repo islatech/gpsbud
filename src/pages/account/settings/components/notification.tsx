@@ -1,7 +1,7 @@
- import { List, Switch } from 'antd';
+import { List, Switch } from 'antd';
 import React, { Component, Fragment } from 'react';
 
-import { FormattedMessage, formatMessage } from 'umi';
+import { FormattedMessage, /* formatMessage */ } from 'umi';
 
 type Unpacked<T> = T extends (infer U)[] ? U : T;
 
@@ -10,30 +10,24 @@ class NotificationView extends Component {
     const Action = (
       <Switch
         checkedChildren={<FormattedMessage id="accountandsettings.settings.open" defaultMessage="Qu Lili" />}
-        unCheckedChildren={formatMessage({ id: 'accountandsettings.settings.close' })}
+        unCheckedChildren={<FormattedMessage id="accountandsettings.settings.close" defaultMessage="Qu Lili" />}
         defaultChecked
       />
     );
     return [
       {
-        title: formatMessage({ id: 'accountandsettings.notification.password' }, {}),
-        description: formatMessage(
-          { id: 'accountandsettings.notification.password-description' },
-          {},
-        ),
+        title: [<FormattedMessage id="accountandsettings.notification.password" defaultMessage="Qu Lili" />],
+        description: [<FormattedMessage id="accountandsettings.notification.password-description" defaultMessage="Qu Lili" />],
         actions: [Action],
       },
       {
-        title: formatMessage({ id: 'accountandsettings.notification.messages' }, {}),
-        description: formatMessage(
-          { id: 'accountandsettings.notification.messages-description' },
-          {},
-        ),
+        title: [<FormattedMessage id="accountandsettings.notification.messages" defaultMessage="Qu Lili" />],
+        description: [<FormattedMessage id="accountandsettings.notification.messages-description" defaultMessage="Qu Lili" />],
         actions: [Action],
       },
       {
-        title: formatMessage({ id: 'accountandsettings.notification.todo' }, {}),
-        description: formatMessage({ id: 'accountandsettings.notification.todo-description' }, {}),
+        title: [<FormattedMessage id="accountandsettings.notification.todo" defaultMessage="Qu Lili" />],
+        description: [<FormattedMessage id="accountandsettings.notification.todo-description" defaultMessage="Qu Lili" />],
         actions: [Action],
       },
     ];
@@ -46,7 +40,7 @@ class NotificationView extends Component {
         <List<Unpacked<typeof data>>
           itemLayout="horizontal"
           dataSource={data}
-          renderItem={(item) => (
+          renderItem={(item: { actions: any; title: any; description: any; }) => (
             <List.Item actions={item.actions}>
               <List.Item.Meta title={item.title} description={item.description} />
             </List.Item>

@@ -90,7 +90,6 @@ export default [
               },
             ],
           },
-
           {
             path: '/form',
             icon: 'user',
