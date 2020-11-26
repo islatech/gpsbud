@@ -1,6 +1,8 @@
 import { Avatar, Card, Col, List, Skeleton, Row, Statistic } from 'antd';
 import React, { Component } from 'react';
-
+import { CloseCircleOutlined } from '@ant-design/icons';
+import { Input, Tooltip } from 'antd';
+import { InputNumber } from 'antd';
 import { Link, Dispatch, connect } from 'umi';
 import { PageContainer } from '@ant-design/pro-layout';
 import moment from 'moment';
@@ -10,6 +12,7 @@ import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
 
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
 const links = [
   {
     title: 'Operation 1',
@@ -36,6 +39,34 @@ const links = [
     href: '',
   },
 ];
+=======
+// const links = [
+//   {
+//     title: 'Operation 1',
+//     href: '',
+//   },
+//   {
+//     title: 'Operation 2',
+//     href: '',
+//   },
+//   {
+//     title: 'Operation三',
+//     href: '',
+//   },
+//   {
+//     title: 'Operation四',
+//     href: '',
+//   },
+//   {
+//     title: 'Operation五',
+//     href: '',
+//   },
+//   {
+//     title: 'Operation六',
+//     href: '',
+//   },
+// ];
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
 
 interface WorkplaceProps {
   currentUser?: CurrentUser;
@@ -132,6 +163,7 @@ class Workplace extends Component<WorkplaceProps> {
       </List.Item>
     );
   };
+  
 
   render() {
     const {
@@ -146,6 +178,54 @@ class Workplace extends Component<WorkplaceProps> {
     if (!currentUser || !currentUser.userid) {
       return null;
     }
+    function onChange(value) {
+      console.log('changed', value);
+    };
+    function formatNumber(value) {
+      value += '';
+      const list = value.split('.');
+      const prefix = list[0].charAt(0) === '-' ? '-' : '';
+      let num = prefix ? list[0].slice(1) : list[0];
+      let result = '';
+      while (num.length > 3) {
+        result = `,${num.slice(-3)}${result}`;
+        num = num.slice(0, num.length - 3);
+      }
+      if (num) {
+        result = num + result;
+      }
+      return `${prefix}${result}${list[1] ? `.${list[1]}` : ''}`;
+    }
+    
+    class NumericInput extends React.Component {
+      onChange = e => {
+        const { value } = e.target;
+        const reg = /^-?\d*(\.\d*)?$/;
+        if ((!isNaN(value) && reg.test(value)) || value === '' || value === '-') {
+          this.props.onChange(value);
+        }
+      };
+    
+      // '.' at the end or only '-' in the input box.
+      onBlur = () => {
+        const { value, onBlur, onChange } = this.props;
+        let valueTemp = value;
+        if (value.charAt(value.length - 1) === '.' || value === '-') {
+          valueTemp = value.slice(0, -1);
+        }
+        onChange(valueTemp.replace(/0*(\d+)/, '$1'));
+        if (onBlur) {
+          onBlur();
+        }
+      };
+    
+      render() {
+        const { value } = this.props;
+        const title = value ? (
+          <span className="numeric-input-title">{value !== '-' ? formatNumber(value) : '-'}</span>
+        ) : (
+          'Input a number'
+        );
     return (
       <PageContainer
         content={<PageHeaderContent currentUser={currentUser} />}
@@ -158,30 +238,42 @@ class Workplace extends Component<WorkplaceProps> {
               style={{ marginBottom: 24 }}
               title="进行中的Projects"
               bordered={false}
-              extra={<Link to="/">All Projects</Link>}
+              // extra={<Link to="/">All Projects</Link>}
               loading={projectLoading}
               bodyStyle={{ padding: 0 }}
             >
+              
               {projectNotice.map((item) => (
                 <Card.Grid className={styles.projectGrid} key={item.id}>
+                  <CloseCircleOutlined className={styles.removeIcon}/>
                   <Card bodyStyle={{ padding: 0 }} bordered={false}>
                     <Card.Meta
                       title={
                         <div className={styles.cardTitle}>
-                          <Avatar size="small" src={item.logo} />
+                          <Avatar size="large" src={item.logo} />
                           <Link to={item.href}>{item.title}</Link>
                         </div>
                       }
                       description={item.description}
                     />
-                    <div className={styles.projectItemContent}>
-                      <Link to={item.memberLink}>{item.member || ''}</Link>
-                      {item.updatedAt && (
-                        <span className={styles.datetime} title={item.updatedAt}>
-                          {moment(item.updatedAt).fromNow()}
-                        </span>
-                      )}
-                    </div>
+                    <div><InputNumber min={1} max={10} defaultValue={3} onChange={onChange} /></div>
+                    <div>return (
+                        <Tooltip
+                          trigger={['focus']}
+                          title={title}
+                          placement="topLeft"
+                          overlayClassName="numeric-input"
+                        >
+                          <Input
+                            {...this.props}
+                            onChange={this.onChange}
+                            onBlur={this.onBlur}
+                            placeholder="Input a number"
+                            maxLength={25}
+                          />
+                        </Tooltip>
+                        </div>
+                    
                   </Card>
                 </Card.Grid>
               ))}
@@ -211,6 +303,7 @@ class Workplace extends Component<WorkplaceProps> {
             >
               <EditableLinkGroup onAdd={() => {}} links={links} linkElement={Link} />
             </Card>
+<<<<<<< Updated upstream:src/pages/dashboard/workplace/index.tsx
             <Card
               style={{ marginBottom: 24 }}
               bordered={false}
@@ -240,12 +333,20 @@ class Workplace extends Component<WorkplaceProps> {
                 </Row>
               </div>
             </Card>
+=======
+>>>>>>> Stashed changes:src/pages/workplace/index.tsx
           </Col>
         </Row>
       </PageContainer>
-    );
-  }
+    
+    ););
+      }
+      }
+  
+    }
 }
+
+
 
 export default connect(
   ({
