@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from 'react';
 import moment from 'moment';
-import { Modal, Result, Button, Form, DatePicker, Input, Select } from 'antd';
+import { Modal, Result, Button, Form, DatePicker, Input /* , Select */ } from 'antd';
 import { BasicListItemDataType } from '../data.d';
 import styles from '../style.less';
 
@@ -103,7 +103,9 @@ const OperationModal: FC<OperationModalProps> = (props) => {
         <Form.Item
           name="subDescription"
           label="Product Description"
-          rules={[{ message: 'Please enter at least a five character Product Description！', min: 5 }]}
+          rules={[
+            { message: 'Please enter at least a five character Product Description！', min: 5 },
+          ]}
         >
           <TextArea rows={4} placeholder="Please enter at least 5 characters" />
         </Form.Item>

@@ -11,6 +11,7 @@ import { getTimeDistance } from './utils/utils';
 import { AnalysisData } from './data.d';
 import styles from './style.less';
 import InputBasic from './InputBasic';
+
 const IntroduceRow = React.lazy(() => import('./components/IntroduceRow'));
 const SalesCard = React.lazy(() => import('./components/SalesCard'));
 const TopSearch = React.lazy(() => import('./components/TopSearch'));
@@ -34,7 +35,9 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
     currentTabKey: '',
     rangePickerValue: getTimeDistance('year'),
   };
+
   reqRef: number = 0;
+
   timeoutId: number = 0;
 
   componentDidMount() {
@@ -60,11 +63,13 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
       salesType: e.target.value,
     });
   };
+
   handleTabChange = (key: string) => {
     this.setState({
       currentTabKey: key,
     });
   };
+
   handleRangePickerChange = (rangePickerValue: RangePickerValue) => {
     const { dispatch } = this.props;
     this.setState({
@@ -74,6 +79,7 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
       type: 'dashboardAndanalysis/fetchSalesData',
     });
   };
+
   selectDate = (type: 'today' | 'week' | 'month' | 'year') => {
     const { dispatch } = this.props;
     this.setState({
@@ -83,6 +89,7 @@ class Analysis extends Component<AnalysisProps, AnalysisState> {
       type: 'dashboardAndanalysis/fetchSalesData',
     });
   };
+
   isActive = (type: 'today' | 'week' | 'month' | 'year') => {
     const { rangePickerValue } = this.state;
 
@@ -220,5 +227,5 @@ export default connect(
   }) => ({
     dashboardAndanalysis,
     loading: loading.effects['dashboardAndanalysis/fetch'],
-  })
+  }),
 )(Analysis);

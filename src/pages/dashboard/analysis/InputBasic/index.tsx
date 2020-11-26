@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./index.less";
-import { Input } from "antd";
+import React from 'react';
+import { Input } from 'antd';
+import styles from './index.less';
 
 export default () => (
   <div className={styles.container}>

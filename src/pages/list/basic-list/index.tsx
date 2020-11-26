@@ -1,19 +1,6 @@
 import React, { FC, useRef, useState, useEffect } from 'react';
-import { DownOutlined, PlusOutlined } from '@ant-design/icons';
-import {
-  Avatar,
-  Button,
-  Card,
-  Col,
-  Dropdown,
-  Input,
-  List,
-  Menu,
-  Modal,
-  Progress,
-  Radio,
-  Row,
-} from 'antd';
+import { DownOutlined } from '@ant-design/icons';
+import { Avatar, Card, Dropdown, List, Menu, Modal, Progress } from 'antd';
 
 import { findDOMNode } from 'react-dom';
 import { PageContainer } from '@ant-design/pro-layout';
@@ -24,9 +11,9 @@ import { StateType } from './model';
 import { BasicListItemDataType } from './data.d';
 import styles from './style.less';
 
-const RadioButton = Radio.Button;
-const RadioGroup = Radio.Group;
-const { Search } = Input;
+// const RadioButton = Radio.Button;
+// const RadioGroup = Radio.Group;
+// const { Search } = Input;
 
 interface BasicListProps {
   listAndbasicList: StateType;
@@ -34,6 +21,7 @@ interface BasicListProps {
   loading: boolean;
 }
 
+/*
 const Info: FC<{
   title: React.ReactNode;
   value: React.ReactNode;
@@ -45,7 +33,7 @@ const Info: FC<{
     {bordered && <em />}
   </div>
 );
-
+*/
 const ListContent = ({
   data: { owner, createdAt, percent, status },
 }: {
@@ -92,12 +80,12 @@ export const BasicList: FC<BasicListProps> = (props) => {
     pageSize: 5,
     total: 50,
   };
-
+  /*
   const showModal = () => {
     setVisible(true);
     setCurrent(undefined);
   };
-
+*/
   const showEditModal = (item: BasicListItemDataType) => {
     setVisible(true);
     setCurrent(item);
@@ -109,7 +97,6 @@ export const BasicList: FC<BasicListProps> = (props) => {
       payload: { id },
     });
   };
-
   const editAndDelete = (key: string, currentItem: BasicListItemDataType) => {
     if (key === 'edit') showEditModal(currentItem);
     else if (key === 'delete') {
@@ -122,7 +109,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
       });
     }
   };
-
+  /*
   const extraContent = (
     <div className={styles.extraContent}>
       <RadioGroup defaultValue="all">
@@ -133,6 +120,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
       <Search className={styles.extraContentSearch} placeholder="Please enter" onSearch={() => ({})} />
     </div>
   );
+*/
 
   const MoreBtn: React.FC<{
     item: BasicListItemDataType;
@@ -200,7 +188,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
               </Col>
             </Row>
           </Card> */}
-          
+
           <Card
             className={styles.listCard}
             bordered={false}
@@ -218,7 +206,7 @@ export const BasicList: FC<BasicListProps> = (props) => {
               <PlusOutlined />
               Add
             </Button> */}
-            
+
             <List
               size="large"
               rowKey="id"

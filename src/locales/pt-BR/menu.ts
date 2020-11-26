@@ -27,7 +27,7 @@ export default {
   'menu.list.card-list': 'Lista de Card',
   'menu.list.search-list': 'Lista de Busca',
   'menu.list.search-list.articles': 'Lista de Busca(artigos)',
-  'menu.list.search-list.projects': 'Lista de Busca(projetos)',
+  'menu.list.projects': 'Lista de Busca(projetos)',
   'menu.list.search-list.applications': 'Lista de Busca(aplicações)',
   'menu.profile': 'Perfil',
   'menu.profile.basic': 'Perfil Básico',

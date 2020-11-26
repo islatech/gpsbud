@@ -133,7 +133,11 @@ class TagSelect extends Component<TagSelectProps, TagSelectState> {
     const { value, expand } = this.state;
     const { children, hideCheckAll, className, style, expandable, actionsText = {} } = this.props;
     const checkedAll = this.getAllTags().length === value.length;
-    const { expandText = 'Expand', collapseText = 'Put it away', selectAllText = 'All of them' } = actionsText;
+    const {
+      expandText = 'Expand',
+      collapseText = 'Put it away',
+      selectAllText = 'All of them',
+    } = actionsText;
 
     const cls = classNames(styles.tagSelect, className, {
       [styles.hasExpandTag]: expandable,

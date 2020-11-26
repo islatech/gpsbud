@@ -27,7 +27,7 @@ export default {
   'menu.list.card-list': '卡片列表',
   'menu.list.search-list': '搜索列表',
   'menu.list.search-list.articles': '搜索列表（Articles）',
-  'menu.list.search-list.projects': '搜索列表（項目）',
+  'menu.list.projects': '搜索列表（項目）',
   'menu.list.search-list.applications': '搜索列表（應用）',
   'menu.profile': '詳情頁',
   'menu.profile.basic': '基礎詳情頁',

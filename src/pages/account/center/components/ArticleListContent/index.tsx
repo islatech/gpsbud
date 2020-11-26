@@ -1,6 +1,6 @@
-import { Avatar } from 'antd';
+// import { Avatar } from 'antd';
 import React from 'react';
-import moment from 'moment';
+// import moment from 'moment';
 import styles from './index.less';
 
 export interface ApplicationsProps {
@@ -12,9 +12,7 @@ export interface ApplicationsProps {
     href?: string;
   };
 }
-const ArticleListContent: React.FC<ApplicationsProps> = ({
-  data: { content, updatedAt, avatar, owner, href },
-}) => (
+const ArticleListContent: React.FC<ApplicationsProps> = ({ data: { content } }) => (
   <div className={styles.listContent}>
     <div className={styles.description}>{content}</div>
     {/* <div className={styles.extra}>

@@ -23,7 +23,7 @@ const genList = (current: number, pageSize: number) => {
       // review the code for this one
       // updatedAt: new Date('2020-06-24'),
       callNo: Math.floor(Math.random() * 1000),
-      status: (Math.floor(Math.random() * 10) % 4).toString(),
+      status: (Math.floor(Math.random() * 10) % 2).toString(),
       updatedAt: new Date(),
       createdAt: new Date(),
       progress: Math.ceil(Math.random() * 100),
