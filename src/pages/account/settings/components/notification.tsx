@@ -1,7 +1,7 @@
  import { List, Switch } from 'antd';
 import React, { Component, Fragment } from 'react';
 
-import { formatMessage } from 'umi';
+import { FormattedMessage, formatMessage } from 'umi';
 
 type Unpacked<T> = T extends (infer U)[] ? U : T;
 
@@ -9,7 +9,7 @@ class NotificationView extends Component {
   getData = () => {
     const Action = (
       <Switch
-        checkedChildren={formatMessage({ id: 'accountandsettings.settings.open' })}
+        checkedChildren={<FormattedMessage id="accountandsettings.settings.open" defaultMessage="Qu Lili" />}
         unCheckedChildren={formatMessage({ id: 'accountandsettings.settings.close' })}
         defaultChecked
       />

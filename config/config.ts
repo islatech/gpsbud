@@ -1,6 +1,6 @@
 // https://umijs.org/config/
 import { defineConfig } from 'umi';
-// import defaultSettings from './defaultSettings';
+import defaultSettings from './defaultSettings';
 import proxy from './proxy';
 import routes from './routes';
 const { REACT_APP_ENV } = process.env;
@@ -12,7 +12,7 @@ export default defineConfig({
   },
   locale: {
     // default zh-CN
-    default: 'zh-CN',
+    default: 'en-US',
     // default true, when it is true, will use `navigator.language` overwrite default
     antd: true,
     baseNavigator: true,
@@ -29,7 +29,8 @@ export default defineConfig({
   theme: {
     // ...darkTheme,
     'primary-color': '#66A186',
-    // 'secondary-color': '#66A186',
+    'info-color': '#66A186',
+    'default-color': defaultSettings.primaryColor
   },
   // @ts-ignore
   title: false,

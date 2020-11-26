@@ -35,18 +35,18 @@ export default [
         authority: ['admin', 'user'],
         routes: [
               {
-              name: 'Patients Account',
+              name: 'Patient',
               icon: 'user',
               path: '/account',
               routes: [
                 {
-                  name: 'Profile Settings',
+                  name: 'Settings',
                   icon: 'smile',
                   path: '/account/settings',
                   component: './account/settings',
               },
               {
-                name: 'Patient Orders',
+                name: 'Orders',
                 icon: 'smile',
                 path: './account/patients-orders',
                 // component: './account/PatientOrders',
@@ -94,7 +94,7 @@ export default [
           {
             path: '/form',
             icon: 'user',
-            name: 'Caregivers Account',
+            name: 'Caregiver',
             routes: [
               {
                 path: '/',
@@ -108,7 +108,7 @@ export default [
               },
               {
                 // product details
-                name: 'Store Products',
+                name: 'Products',
                 icon: 'smile',
                 path: '/form/advanced-form',
                 component: './form/advanced-form',
@@ -149,7 +149,7 @@ export default [
           },
           {
                 // store page
-                name: 'Store Page',
+                name: 'Store',
                 icon: 'shopping',
                 path: '/card-list',
                 component: './card-list',
@@ -161,7 +161,7 @@ export default [
                 component: './step-form',
               },
               {
-                name: 'Order Summary',
+                name: 'Summary',
                 icon: 'form',
                 path: '/workplace',
                 component: './workplace',
