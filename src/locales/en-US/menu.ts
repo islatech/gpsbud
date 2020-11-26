@@ -27,7 +27,7 @@ export default {
   'menu.list.card-list': 'Store Page',
   'menu.list.search-list': 'Search List',
   'menu.list.search-list.articles': 'Search List(articles)',
-  'menu.list.search-list.projects': 'Library',
+  'menu.list.projects': 'Projects',
   'menu.list.search-list.applications': 'Search List(applications)',
   'menu.profile': 'Profile',
   'menu.profile.basic': 'Basic Profile',

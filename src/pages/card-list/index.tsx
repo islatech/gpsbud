@@ -93,7 +93,7 @@ Provide experience solutions that span design and development。
                     <Card
                       hoverable
                       className={styles.card}
-                      actions={[<a key="option1" >Add to Cart</a>]}
+                      actions={[<a key="option1">Add to Cart</a>]}
                     >
                       <Card.Meta
                         avatar={<img alt="" className={styles.cardAvatar} src={item.avatar} />}
@@ -108,13 +108,13 @@ Provide experience solutions that span design and development。
                   </List.Item>
                 );
               }
-              // return (
-              //   <List.Item>
-              //     <Button type="dashed" className={styles.newButton}>
-              //       <PlusOutlined /> New products
-              //     </Button>
-              //   </List.Item>
-              // );
+              return (
+                <List.Item>
+                  <Button type="dashed" className={styles.newButton}>
+                    <PlusOutlined /> New products
+                  </Button>
+                </List.Item>
+              );
             }}
           />
         </div>

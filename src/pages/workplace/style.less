@@ -111,7 +111,7 @@
     height: 24px;
     margin: 12px 0;
     color: @text-color;
-    // transition: all 0.3s;
+    transition: all 0.3s;
     .textOverflow();
     .member {
       margin-left: 12px;
@@ -125,15 +125,7 @@
   }
 }
 
-.removeIcon {
-  width: 1em;
-  height: 1em;
-  color: @primary-color;
-  
-}
-
 .projectList {
-
   :global {
     .ant-card-meta-description {
       height: 44px;
@@ -153,12 +145,12 @@
       line-height: 24px;
       vertical-align: top;
       &:hover {
-        // color: @primary-color;
+        color: @primary-color;
       }
     }
   }
   .projectGrid {
-    width: 100%;
+    width: 33.33%;
   }
   .projectItemContent {
     display: flex;
@@ -167,8 +159,6 @@
     overflow: hidden;
     font-size: 12px;
     line-height: 20px;
-    border: 1px solid @primary-color;
-    text-align: center;
     .textOverflow();
     a {
       display: inline-block;

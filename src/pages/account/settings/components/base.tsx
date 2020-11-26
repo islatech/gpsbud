@@ -1,14 +1,14 @@
 import { UploadOutlined } from '@ant-design/icons';
-import { Button, Input, Select, Upload, Form, message } from 'antd';
+import { Button, Input, /* Select, */ Upload, Form, message } from 'antd';
 import { connect, FormattedMessage, formatMessage } from 'umi';
 import React, { Component } from 'react';
 
 import { CurrentUser } from '../data.d';
-import GeographicView from './GeographicView';
+// import GeographicView from './GeographicView';
 import PhoneView from './PhoneView';
 import styles from './BaseView.less';
 
-const { Option } = Select;
+// const { Option } = Select;
 
 // Avatar component to facilitate independent later, increase the function of cropping and the like
 const AvatarView = ({ avatar }: { avatar: string }) => (
@@ -32,11 +32,15 @@ const AvatarView = ({ avatar }: { avatar: string }) => (
     </Upload>
   </>
 );
+
+/*
 interface SelectItem {
   label: string;
   key: string;
 }
+*/
 
+/*
 const validatorGeographic = (
   _: any,
   value: {
@@ -54,6 +58,7 @@ const validatorGeographic = (
   }
   callback();
 };
+*/
 
 const validatorPhone = (rule: any, value: string, callback: (message?: string) => void) => {
   const values = value.split('-');

@@ -1,60 +1,85 @@
-// import { List, Switch } from 'antd';
-// import React, { Component, Fragment } from 'react';
+import { List, Switch } from 'antd';
+import React, { Component, Fragment } from 'react';
 
-// import { formatMessage } from 'umi';
+import { FormattedMessage /* formatMessage */ } from 'umi';
 
-// type Unpacked<T> = T extends (infer U)[] ? U : T;
+type Unpacked<T> = T extends (infer U)[] ? U : T;
 
-// class NotificationView extends Component {
-//   getData = () => {
-//     const Action = (
-//       <Switch
-//         checkedChildren={formatMessage({ id: 'accountandsettings.settings.open' })}
-//         unCheckedChildren={formatMessage({ id: 'accountandsettings.settings.close' })}
-//         defaultChecked
-//       />
-//     );
-//     return [
-//       {
-//         title: formatMessage({ id: 'accountandsettings.notification.password' }, {}),
-//         description: formatMessage(
-//           { id: 'accountandsettings.notification.password-description' },
-//           {},
-//         ),
-//         actions: [Action],
-//       },
-//       {
-//         title: formatMessage({ id: 'accountandsettings.notification.messages' }, {}),
-//         description: formatMessage(
-//           { id: 'accountandsettings.notification.messages-description' },
-//           {},
-//         ),
-//         actions: [Action],
-//       },
-//       {
-//         title: formatMessage({ id: 'accountandsettings.notification.todo' }, {}),
-//         description: formatMessage({ id: 'accountandsettings.notification.todo-description' }, {}),
-//         actions: [Action],
-//       },
-//     ];
-//   };
+class NotificationView extends Component {
+  getData = () => {
+    const Action = (
+      <Switch
+        checkedChildren={
+          <FormattedMessage id="accountandsettings.settings.open" defaultMessage="Qu Lili" />
+        }
+        unCheckedChildren={
+          <FormattedMessage id="accountandsettings.settings.close" defaultMessage="Qu Lili" />
+        }
+        defaultChecked
+      />
+    );
+    return [
+      {
+        title: [
+          <FormattedMessage
+            id="accountandsettings.notification.password"
+            defaultMessage="Qu Lili"
+          />,
+        ],
+        description: [
+          <FormattedMessage
+            id="accountandsettings.notification.password-description"
+            defaultMessage="Qu Lili"
+          />,
+        ],
+        actions: [Action],
+      },
+      {
+        title: [
+          <FormattedMessage
+            id="accountandsettings.notification.messages"
+            defaultMessage="Qu Lili"
+          />,
+        ],
+        description: [
+          <FormattedMessage
+            id="accountandsettings.notification.messages-description"
+            defaultMessage="Qu Lili"
+          />,
+        ],
+        actions: [Action],
+      },
+      {
+        title: [
+          <FormattedMessage id="accountandsettings.notification.todo" defaultMessage="Qu Lili" />,
+        ],
+        description: [
+          <FormattedMessage
+            id="accountandsettings.notification.todo-description"
+            defaultMessage="Qu Lili"
+          />,
+        ],
+        actions: [Action],
+      },
+    ];
+  };
 
-//   render() {
-//     const data = this.getData();
-//     return (
-//       <Fragment>
-//         <List<Unpacked<typeof data>>
-//           itemLayout="horizontal"
-//           dataSource={data}
-//           renderItem={(item) => (
-//             <List.Item actions={item.actions}>
-//               <List.Item.Meta title={item.title} description={item.description} />
-//             </List.Item>
-//           )}
-//         />
-//       </Fragment>
-//     );
-//   }
-// }
+  render() {
+    const data = this.getData();
+    return (
+      <Fragment>
+        <List<Unpacked<typeof data>>
+          itemLayout="horizontal"
+          dataSource={data}
+          renderItem={(item: { actions: any; title: any; description: any }) => (
+            <List.Item actions={item.actions}>
+              <List.Item.Meta title={item.title} description={item.description} />
+            </List.Item>
+          )}
+        />
+      </Fragment>
+    );
+  }
+}
 
-// export default NotificationView;
+export default NotificationView;

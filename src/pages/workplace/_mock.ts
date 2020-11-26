@@ -133,7 +133,7 @@ for (let i = 0; i < 20; i += 1) {
 
 const titles = [
   'Golden Goat',
-  'Lemon Haze',
+  'Angular',
   'Ant Design',
   'Ant Design Pro',
   'Bootstrap',
@@ -172,7 +172,7 @@ const getNotice = [
     logo: avatars[0],
     description: 'It is an innter thing that they cannot reach, they cannot reach',
     updatedAt: new Date(),
-    member: 'Remove Item',
+    member: 'Science mvoing brick group',
     href: '',
     memberLink: '',
   },
@@ -399,7 +399,8 @@ export default {
     email: 'antdesign@alipay.com',
     signature: 'All rivers run into sea, tolerance is great',
     title: 'Interaction expert',
-    group: 'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
+    group:
+      'Ant gold suit-so-and-so business group－so-and-so platform Department－so-and-so Technology Department－UED',
     tags: [
       {
         key: '0',
