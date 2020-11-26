@@ -120,6 +120,11 @@ yarn.lock
 .umi
 **/.umi
 
+# ignore old assets
+./assets/*
+./assets/images/*
+./assets/html
+
 # Igmore research files
 research/
 research/*.pdf
