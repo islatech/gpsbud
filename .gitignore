@@ -118,3 +118,8 @@ yarn.lock
 # umi file
 .umi
 **/.umi
+
+# ignore old assets
+./assets/*
+./assets/images/*
+./assets/html
