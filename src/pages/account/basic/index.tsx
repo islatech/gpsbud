@@ -207,7 +207,7 @@ class Basic extends Component<BasicProps, BasicState> {
           <Divider style={{ marginBottom: 30 }} />
           <Descriptions title="Donation Information" layout="vertical" style={{ marginBottom: 15 }}>
             
-            <Descriptions.Item label="Donation completed with"> <DollarOutlined /> GPSBud Account</Descriptions.Item>
+            <Descriptions.Item label="Donation completed with"> <DollarOutlined />GPSBud Account</Descriptions.Item>
             <Descriptions.Item label="Minimum donation">0.659 ETH</Descriptions.Item>
             <Descriptions.Item label="Pick-up address">No. 18, wantang road, Xihu district, Hangzhou City, Zhejiang province, China</Descriptions.Item>
             
