@@ -48,8 +48,8 @@ export default [
               {
                 name: 'Orders',
                 icon: 'smile',
-                path: '/account/patients-orders',
-                // component: './account/patients-orders',
+                path: '/account/orders',
+                // component: './account/orders',
                 },
                 {
                   // patient profile - store products
