@@ -24,7 +24,7 @@ for (let i = 0; i < fakeY2.length; i += 1) {
 const salesData = [];
 for (let i = 0; i < 12; i += 1) {
   salesData.push({
-    x: `${i + 1}月`,
+    x: `${i + 1}Month`,
     y: Math.floor(Math.random() * 1000) + 200,
   });
 }
@@ -32,7 +32,7 @@ const searchData = [];
 for (let i = 0; i < 50; i += 1) {
   searchData.push({
     index: i + 1,
-    keyword: `搜索关键词-${i}`,
+    keyword: `Search Keyword-${i}`,
     count: Math.floor(Math.random() * 1000),
     range: Math.floor(Math.random() * 100),
     status: Math.floor((Math.random() * 10) % 2),
@@ -133,36 +133,36 @@ for (let i = 0; i < 20; i += 1) {
 
 const titles = [
   'Golden Goat',
-  'Angular',
-  'Ant Design',
-  'Ant Design Pro',
-  'Bootstrap',
-  'React',
-  'Vue',
-  'Webpack',
+  'Lemon Haze',
+  'White Widow',
+  // 'Ant Design Pro',
+  // 'Bootstrap',
+  // 'React',
+  // 'Vue',
+  // 'Webpack',
 ];
 const avatars = [
-  'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png', // Alipay
+  'file:///Users/meiacevedo/GitHub/gpsbud/src/assets/fruity.png', // Alipay
   'https://gw.alipayobjects.com/zos/rmsportal/zOsKZmFRdUtvpqCImOVY.png', // Angular
   'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png', // Ant Design
-  'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
-  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
-  'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
-  'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
-  'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
+  // 'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
+  // 'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  // 'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
+  // 'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
+  // 'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
 ];
 
 const avatars2 = [
-  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'file:///Users/meiacevedo/GitHub/gpsbud/src/assets/fruity.png',
   'https://gw.alipayobjects.com/zos/rmsportal/cnrhVkzwxjPwAaCfPbdc.png',
   'https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/ubnKSIfAJTxIgXOKlciN.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/WhxKECPNujWoWEFNdnJE.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/psOgztMplJMGpVEqfcgF.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/ZpBqSxLxVEXfcUNoPKrz.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/laiEnJdGHVOhJrUShBaJ.png',
-  'https://gw.alipayobjects.com/zos/rmsportal/UrQsqscbKEpNuJcvBZBu.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/ubnKSIfAJTxIgXOKlciN.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/WhxKECPNujWoWEFNdnJE.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/psOgztMplJMGpVEqfcgF.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/ZpBqSxLxVEXfcUNoPKrz.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/laiEnJdGHVOhJrUShBaJ.png',
+  // 'https://gw.alipayobjects.com/zos/rmsportal/UrQsqscbKEpNuJcvBZBu.png',
 ];
 
 const getNotice = [
@@ -196,36 +196,36 @@ const getNotice = [
     href: '',
     memberLink: '',
   },
-  {
-    id: 'xxx4',
-    title: titles[3],
-    logo: avatars[3],
-    description: 'At that time, I just thought about what I wanted, never wanted what I had.',
-    updatedAt: new Date('2017-07-23'),
-    member: 'Programmer daily',
-    href: '',
-    memberLink: '',
-  },
-  {
-    id: 'xxx5',
-    title: titles[4],
-    logo: avatars[4],
-    description: 'Winter is coming',
-    updatedAt: new Date('2017-07-23'),
-    member: 'High force grid design day group',
-    href: '',
-    memberLink: '',
-  },
-  {
-    id: 'xxx6',
-    title: titles[5],
-    logo: avatars[5],
-    description: 'Life is like a box of chocolate, and the results are often unexpected',
-    updatedAt: new Date('2017-07-23'),
-    member: 'I lied to you to learn computers',
-    href: '',
-    memberLink: '',
-  },
+  // {
+  //   id: 'xxx4',
+  //   title: titles[3],
+  //   logo: avatars[3],
+  //   description: 'At that time, I just thought about what I wanted, never wanted what I had.',
+  //   updatedAt: new Date('2017-07-23'),
+  //   member: 'Programmer daily',
+  //   href: '',
+  //   memberLink: '',
+  // },
+  // {
+  //   id: 'xxx5',
+  //   title: titles[4],
+  //   logo: avatars[4],
+  //   description: 'Winter is coming',
+  //   updatedAt: new Date('2017-07-23'),
+  //   member: 'High force grid design day group',
+  //   href: '',
+  //   memberLink: '',
+  // },
+  // {
+  //   id: 'xxx6',
+  //   title: titles[5],
+  //   logo: avatars[5],
+  //   description: 'Life is like a box of chocolate, and the results are often unexpected',
+  //   updatedAt: new Date('2017-07-23'),
+  //   member: 'I lied to you to learn computers',
+  //   href: '',
+  //   memberLink: '',
+  // },
 ];
 
 const getActivities = [
@@ -280,58 +280,58 @@ const getActivities = [
     },
     template: 'In @{group} New Projects @{project}',
   },
-  {
-    id: 'trend-4',
-    updatedAt: new Date(),
-    user: {
-      name: 'Zhou Xing',
-      avatar: avatars2[4],
-    },
-    project: {
-      name: '5 Monthly daily iteration',
-      link: 'http://github.com/',
-    },
-    template: 'Update @{project} to published status',
-  },
-  {
-    id: 'trend-5',
-    updatedAt: new Date(),
-    user: {
-      name: 'Zhu ',
-      avatar: avatars2[3],
-    },
-    project: {
-      name: 'Engineering efficiency',
-      link: 'http://github.com/',
-    },
-    comment: {
-      name: 'Leave a message',
-      link: 'http://github.com/',
-    },
-    template: 'In @{project} posted @{comment}',
-  },
-  {
-    id: 'trend-6',
-    updatedAt: new Date(),
-    user: {
-      name: 'Brother Lok',
-      avatar: avatars2[5],
-    },
-    group: {
-      name: 'Programmer daily',
-      link: 'http://github.com/',
-    },
-    project: {
-      name: 'Brand iteration',
-      link: 'http://github.com/',
-    },
-    template: 'In @{group} New Projects @{project}',
-  },
+  // {
+  //   id: 'trend-4',
+  //   updatedAt: new Date(),
+  //   user: {
+  //     name: 'Zhou Xing',
+  //     avatar: avatars2[4],
+  //   },
+  //   project: {
+  //     name: '5 Monthly daily iteration',
+  //     link: 'http://github.com/',
+  //   },
+  //   template: 'Update @{project} to published status',
+  // },
+  // {
+  //   id: 'trend-5',
+  //   updatedAt: new Date(),
+  //   user: {
+  //     name: 'Zhu ',
+  //     avatar: avatars2[3],
+  //   },
+  //   project: {
+  //     name: 'Engineering efficiency',
+  //     link: 'http://github.com/',
+  //   },
+  //   comment: {
+  //     name: 'Leave a message',
+  //     link: 'http://github.com/',
+  //   },
+  //   template: 'In @{project} posted @{comment}',
+  // },
+  // {
+  //   id: 'trend-6',
+  //   updatedAt: new Date(),
+  //   user: {
+  //     name: 'Brother Lok',
+  //     avatar: avatars2[5],
+  //   },
+  //   group: {
+  //     name: 'Programmer daily',
+  //     link: 'http://github.com/',
+  //   },
+  //   project: {
+  //     name: 'Brand iteration',
+  //     link: 'http://github.com/',
+  //   },
+  //   template: 'In @{group} New Projects @{project}',
+  // },
 ];
 
 const radarOriginData = [
   {
-    name: '个人',
+    name: 'Personal',
     ref: 10,
     koubei: 8,
     output: 4,
