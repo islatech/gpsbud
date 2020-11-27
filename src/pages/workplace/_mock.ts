@@ -142,7 +142,7 @@ const titles = [
   // 'Webpack',
 ];
 const avatars = [
-  'file:///Users/meiacevedo/GitHub/gpsbud/src/assets/fruity.png', // Alipay
+  '@/assets/fruity.png', // Alipay
   'https://gw.alipayobjects.com/zos/rmsportal/zOsKZmFRdUtvpqCImOVY.png', // Angular
   'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png', // Ant Design
   // 'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png', // Ant Design Pro
@@ -153,7 +153,7 @@ const avatars = [
 ];
 
 const avatars2 = [
-  'file:///Users/meiacevedo/GitHub/gpsbud/src/assets/fruity.png',
+  '@/assets/fruity.png',
   'https://gw.alipayobjects.com/zos/rmsportal/cnrhVkzwxjPwAaCfPbdc.png',
   'https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png',
   // 'https://gw.alipayobjects.com/zos/rmsportal/ubnKSIfAJTxIgXOKlciN.png',
