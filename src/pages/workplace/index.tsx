@@ -10,34 +10,6 @@ import { ModalState } from './model';
 import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
 
-/*
-const links = [
- {
-   title: 'Operation 1',
-   href: '',
- },
- {
-   title: 'Operation 2',
-   href: '',
-  },
-  {
-    title: 'Operation三',
-    href: '',
-  },
-  {
-    title: 'Operation四',
-    href: '',  },
- {
-   title: 'Operation五',
-   href: '',
-  },
-  {
-    title: 'Operation六',
-    href: '',
-  },
-];
-*/
-
 interface WorkplaceProps {
   currentUser?: CurrentUser;
   projectNotice: NoticeType[];
@@ -139,6 +111,7 @@ class Workplace extends Component<WorkplaceProps> {
       currentUser,
       // activities,
       projectNotice,
+      // projectLoading,
       projectLoading,
       activitiesLoading,
       // radarData,

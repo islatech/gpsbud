@@ -145,7 +145,7 @@ const TableList: React.FC<{}> = () => {
             Configuration
           </a>
           <Divider type="vertical" />
-          <a href="">订阅警报</a>
+          <a href="">Subscribe to Alerts</a>
         </>
       ),
     },

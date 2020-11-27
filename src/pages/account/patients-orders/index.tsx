@@ -1,11 +1,47 @@
-import { /* Badge, */ Card, Descriptions, Divider, Table } from 'antd';
+import { /* Badge, */ Breadcrumb, Card, Descriptions, Divider, Layout, Menu, PageHeader, Table } from 'antd';
 import React, { Component } from 'react';
-
 import { PageContainer } from '@ant-design/pro-layout';
 import { connect, Dispatch } from 'umi';
 import { BasicProfileDataType } from './data.d';
 import styles from './style.less';
 
+// README
+// This is not correct. The DOM for us is rendered by ummi. We MUST have a connector at the end to connect with data. This is a rudementary example
+// verus an actual page. It's just not in the correct format. Headers are global components that are rendered else where.
+// In this page we already have a Header and Layout defined. Hence the components/GlobalHeader dir and layouts/BasicLayouts directory.
+// Not sure the intentionals of this code, but I have commented it out.
+// Please read the Ant Design Pro documentation and live by that way more than the general Ant Design docs
+// Review them here: https://pro.ant.design/docs
+
+/*
+import ReactDOM, { render } from 'react-dom';
+import { PageHeaderProps } from 'antd/lib/page-header';
+import { Content, Footer, Header } from 'antd/lib/layout/layout';
+
+const { Header, Content, Footer } = Layout;
+ReactDOM.render (
+  <Layout className="layout">
+    <Header>
+      <div className="logo" />
+      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+        <Menu.Item key="1">nav 1</Menu.Item>
+        <Menu.Item key="2">nav 2</Menu.Item>
+        <Menu.Item key="3">nav 3</Menu.Item>
+      </Menu>
+    </Header>
+    <Content style={{ padding: '0 50px' }}>
+      <Breadcrumb style={{ margin: '16px 0' }}>
+        <Breadcrumb.Item>Home</Breadcrumb.Item>
+        <Breadcrumb.Item>List</Breadcrumb.Item>
+        <Breadcrumb.Item>App</Breadcrumb.Item>
+      </Breadcrumb>
+      <div className="site-layout-content">Content</div>
+    </Content>
+    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+  </Layout>,
+  mountNode,
+);
+*/
 /*
 const progressColumns = [
   {
