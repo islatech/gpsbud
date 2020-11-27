@@ -1,5 +1,5 @@
 import { CloseCircleOutlined, InboxOutlined } from '@ant-design/icons';
-import { Button, Card, Col, Divider, Form, Input, Popover, Row } from 'antd';
+import { Button, Card, Col, Divider, Form, Input, Popover, Row, Select } from 'antd';
 import React, { FC, useState } from 'react';
 import { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
 import { connect, Dispatch } from 'umi';
@@ -150,6 +150,16 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
       }
     },
   };
+  const { Option } = Select;
+
+    const children = [];
+    for (let i = 10; i < 36; i++) {
+      children.push(<Option key={i.toString(36) + i}>{i.toString(36) + i}</Option>);
+    }
+
+    function handleChange(value) {
+      console.log(`selected ${value}`);
+    }
   return (
     <Form
       form={form}
@@ -196,7 +206,9 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                 name="name2"
                 rules={[{ required: true, message: 'Please enter' }]}
               >
-                <Input placeholder="Name of Product" />
+                <Select mode="tags" style={{ width: '100%' }} placeholder="Name of Product" onChange={handleChange}>
+                  {children}
+                </Select>
               </Form.Item>
             </Col>
             <Col xl={{ span: 6, offset: 2 }} lg={{ span: 8 }} md={{ span: 12 }} sm={24}>
@@ -205,7 +217,9 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                 name="url2"
                 rules={[{ required: true, message: 'Please enter a type' }]}
               >
-                <Input placeholder="Hybrid, Sativa..." />
+                <Select mode="tags" style={{ width: '100%' }} placeholder="Hybrid, Sativa..." onChange={handleChange}>
+                  {children}
+                </Select>
               </Form.Item>
             </Col>
             <Col xl={{ span: 8, offset: 2 }} lg={{ span: 10 }} md={{ span: 24 }} sm={24}>
@@ -214,10 +228,12 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                 name="owner2"
                 rules={[{ required: true, message: 'Please list attributes' }]}
               >
-                <Input type="text" placeholder="Please list attributes">
+                <Select mode="tags" style={{ width: '100%' }} placeholder="Write or select attributes" onChange={handleChange}>
+                  {children}
+                </Select>
                   {/* <Option value="xiao">Fu Xiaoxiao</Option>
                   <Option value="mao">Chow Mau Mau</Option> */}
-                </Input>
+                
               </Form.Item>
             </Col>
           </Row>
@@ -228,10 +244,12 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
                 name="approver2"
                 rules={[{ required: true, message: 'Please list effects' }]}
               >
-                <Input type="text" placeholder="Happy, Uplifiting, Hunger...">
+                <Select mode="tags" style={{ width: '100%' }} placeholder="Write or select effects" onChange={handleChange}>
+                  {children}
+                </Select>
                   {/* <Option value="xiao">Fu Xiaoxiao</Option>
                   <Option value="mao">Chow Mau Mau</Option> */}
-                </Input>
+               
               </Form.Item>
             </Col>
             
