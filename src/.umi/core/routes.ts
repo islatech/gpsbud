@@ -66,7 +66,7 @@ export function getRoutes() {
               {
                 "name": "Orders",
                 "icon": "smile",
-                "path": "/account/account/patients-orders",
+                "path": "/account/patients-orders",
                 "exact": true
               },
               {
