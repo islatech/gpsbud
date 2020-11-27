@@ -7,7 +7,7 @@ import { BasicProfileDataType } from './data.d';
 import styles from './style.less';
 import { AntDesignOutlined, DollarOutlined } from '@ant-design/icons';
 
-/*
+ /*
 const progressColumns = [
   {
     title: 'Time',
@@ -78,7 +78,6 @@ class Basic extends Component<BasicProps, BasicState> {
         amount,
       });
     }
-
     // const renderContent = (value: any, row: any, index: any) => {
     //   const obj: {
     //     children: any;
@@ -220,7 +219,6 @@ class Basic extends Component<BasicProps, BasicState> {
           </Descriptions>
          {/* </Row>  */}
         </Card>
-      
     );
   }
 }

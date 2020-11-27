@@ -10,8 +10,6 @@ import { ModalState } from './model';
 import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
 
-
-
 interface WorkplaceProps {
   currentUser?: CurrentUser;
   projectNotice: NoticeType[];
@@ -114,6 +112,7 @@ class Workplace extends Component<WorkplaceProps> {
       // activities,
       projectNotice,
       // projectLoading,
+      projectLoading,
       activitiesLoading,
       // radarData,
     } = this.props;
@@ -133,8 +132,8 @@ class Workplace extends Component<WorkplaceProps> {
               style={{ marginBottom: 24 }}
               title="Review Items"
               bordered={false}
-              // extra={<Link to="/">All Projects</Link>}
-              // loading={projectLoading}
+              extra={<Link to="/">All Projects</Link>}
+              loading={projectLoading}
               bodyStyle={{ padding: 0 }}
             >
               {projectNotice.map((item) => (

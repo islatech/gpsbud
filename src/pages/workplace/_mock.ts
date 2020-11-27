@@ -196,36 +196,36 @@ const getNotice = [
     href: '',
     memberLink: '',
   },
-  // {
-  //   id: 'xxx4',
-  //   title: titles[3],
-  //   logo: avatars[3],
-  //   description: 'At that time, I just thought about what I wanted, never wanted what I had.',
-  //   updatedAt: new Date('2017-07-23'),
-  //   member: 'Programmer daily',
-  //   href: '',
-  //   memberLink: '',
-  // },
-  // {
-  //   id: 'xxx5',
-  //   title: titles[4],
-  //   logo: avatars[4],
-  //   description: 'Winter is coming',
-  //   updatedAt: new Date('2017-07-23'),
-  //   member: 'High force grid design day group',
-  //   href: '',
-  //   memberLink: '',
-  // },
-  // {
-  //   id: 'xxx6',
-  //   title: titles[5],
-  //   logo: avatars[5],
-  //   description: 'Life is like a box of chocolate, and the results are often unexpected',
-  //   updatedAt: new Date('2017-07-23'),
-  //   member: 'I lied to you to learn computers',
-  //   href: '',
-  //   memberLink: '',
-  // },
+  {
+    id: 'xxx4',
+    title: titles[3],
+    logo: avatars[3],
+    description: 'At that time, I just thought about what I wanted, never wanted what I had.',
+    updatedAt: new Date('2017-07-23'),
+    member: 'Programmer daily',
+    href: '',
+    memberLink: '',
+  },
+  {
+    id: 'xxx5',
+    title: titles[4],
+    logo: avatars[4],
+    description: 'Winter is coming',
+    updatedAt: new Date('2017-07-23'),
+    member: 'High force grid design day group',
+    href: '',
+    memberLink: '',
+  },
+  {
+    id: 'xxx6',
+    title: titles[5],
+    logo: avatars[5],
+    description: 'Life is like a box of chocolate, and the results are often unexpected',
+    updatedAt: new Date('2017-07-23'),
+    member: 'I lied to you to learn computers',
+    href: '',
+    memberLink: '',
+  },
 ];
 
 const getActivities = [
@@ -280,53 +280,54 @@ const getActivities = [
     },
     template: 'In @{group} New Projects @{project}',
   },
-  // {
-  //   id: 'trend-4',
-  //   updatedAt: new Date(),
-  //   user: {
-  //     name: 'Zhou Xing',
-  //     avatar: avatars2[4],
-  //   },
-  //   project: {
-  //     name: '5 Monthly daily iteration',
-  //     link: 'http://github.com/',
-  //   },
-  //   template: 'Update @{project} to published status',
-  // },
-  // {
-  //   id: 'trend-5',
-  //   updatedAt: new Date(),
-  //   user: {
-  //     name: 'Zhu ',
-  //     avatar: avatars2[3],
-  //   },
-  //   project: {
-  //     name: 'Engineering efficiency',
-  //     link: 'http://github.com/',
-  //   },
-  //   comment: {
-  //     name: 'Leave a message',
-  //     link: 'http://github.com/',
-  //   },
-  //   template: 'In @{project} posted @{comment}',
-  // },
-  // {
-  //   id: 'trend-6',
-  //   updatedAt: new Date(),
-  //   user: {
-  //     name: 'Brother Lok',
-  //     avatar: avatars2[5],
-  //   },
-  //   group: {
-  //     name: 'Programmer daily',
-  //     link: 'http://github.com/',
-  //   },
-  //   project: {
-  //     name: 'Brand iteration',
-  //     link: 'http://github.com/',
-  //   },
-  //   template: 'In @{group} New Projects @{project}',
-  // },
+
+  {
+    id: 'trend-4',
+    updatedAt: new Date(),
+    user: {
+      name: 'Zhou Xing',
+      avatar: avatars2[4],
+    },
+    project: {
+      name: '5 Monthly daily iteration',
+      link: 'http://github.com/',
+    },
+    template: 'Update @{project} to published status',
+  },
+  {
+    id: 'trend-5',
+    updatedAt: new Date(),
+    user: {
+      name: 'Zhu ',
+      avatar: avatars2[3],
+    },
+    project: {
+      name: 'Engineering efficiency',
+      link: 'http://github.com/',
+    },
+    comment: {
+      name: 'Leave a message',
+      link: 'http://github.com/',
+    },
+    template: 'In @{project} posted @{comment}',
+  },
+  {
+    id: 'trend-6',
+    updatedAt: new Date(),
+    user: {
+      name: 'Brother Lok',
+      avatar: avatars2[5],
+    },
+    group: {
+      name: 'Programmer daily',
+      link: 'http://github.com/',
+    },
+    project: {
+      name: 'Brand iteration',
+      link: 'http://github.com/',
+    },
+    template: 'In @{group} New Projects @{project}',
+  },
 ];
 
 const radarOriginData = [
