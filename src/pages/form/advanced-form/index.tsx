@@ -226,7 +226,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
               <Form.Item
                 label={fieldLabels.owner2}
                 name="owner2"
-                rules={[{ required: true, message: 'Please list attributes' }]}
+                rules={[{ required: true, message: 'Please enter attributes' }]}
               >
                 <Select mode="tags" style={{ width: '100%' }} placeholder="Write or select attributes" onChange={handleChange}>
                   {children}
@@ -242,7 +242,7 @@ const AdvancedForm: FC<AdvancedFormProps> = ({ submitting, dispatch }) => {
               <Form.Item
                 label={fieldLabels.approver2}
                 name="approver2"
-                rules={[{ required: true, message: 'Please list effects' }]}
+                rules={[{ required: true, message: 'Please enter effects' }]}
               >
                 <Select mode="tags" style={{ width: '100%' }} placeholder="Write or select effects" onChange={handleChange}>
                   {children}
