@@ -132,7 +132,7 @@ for (let i = 0; i < 20; i += 1) {
 }
 
 const titles = [
-  'Golden Goat',
+  'Golden Goat | Flower (Units: 7g',
   'Lemon Haze',
   'White Widow',
   // 'Ant Design Pro',
@@ -172,7 +172,7 @@ const getNotice = [
     logo: avatars[0],
     description: 'It is an innter thing that they cannot reach, they cannot reach',
     updatedAt: new Date(),
-    member: 'Science mvoing brick group',
+    member: '0.0285 ETH',
     href: '',
     memberLink: '',
   },
@@ -182,7 +182,7 @@ const getNotice = [
     logo: avatars[1],
     description: 'Hope is a good thing, maybe the best, good things will not die out',
     updatedAt: new Date('2017-07-24'),
-    member: 'The whole team is Wu yanzu',
+    member: '0.0285 ETH',
     href: '',
     memberLink: '',
   },
@@ -192,11 +192,11 @@ const getNotice = [
     logo: avatars[2],
     description: 'There were so many taverns in town, and she walked into my taverns.',
     updatedAt: new Date(),
-    member: 'Secondary 2 girls group',
+    member: '0.0285 ETH',
     href: '',
     memberLink: '',
   },
-  {
+  /*{
     id: 'xxx4',
     title: titles[3],
     logo: avatars[3],
@@ -225,7 +225,7 @@ const getNotice = [
     member: 'I lied to you to learn computers',
     href: '',
     memberLink: '',
-  },
+  },*/
 ];
 
 const getActivities = [
@@ -281,7 +281,7 @@ const getActivities = [
     template: 'In @{group} New Projects @{project}',
   },
 
-  {
+  /*{
     id: 'trend-4',
     updatedAt: new Date(),
     user: {
@@ -327,7 +327,7 @@ const getActivities = [
       link: 'http://github.com/',
     },
     template: 'In @{group} New Projects @{project}',
-  },
+  },*/
 ];
 
 const radarOriginData = [
