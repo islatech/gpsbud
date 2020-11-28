@@ -60,7 +60,6 @@ const Projects: FC<ProjectsProps> = ({
               }
             />
             <div className={styles.cardItemContent}>
-              <span>{moment(item.updatedAt).fromNow()}</span>
               <div className={styles.avatarList}>
                 <AvatarList size="small">
                   {item.members.map((member, i) => (
