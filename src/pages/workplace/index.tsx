@@ -1,14 +1,19 @@
-import { Avatar, Card, Col, List, Skeleton, Row /* Statistic */ } from 'antd';
+import { Avatar, Card, Col, List, Skeleton, Row, /* Statistic */ 
+Button,
+InputNumber} from 'antd';
 import React, { Component } from 'react';
 
 import { Link, Dispatch, connect } from 'umi';
 import { PageContainer } from '@ant-design/pro-layout';
+
 import moment from 'moment';
 // import Radar from './components/Radar';
 import { ModalState } from './model';
 // import EditableLinkGroup from './components/EditableLinkGroup';
 import styles from './style.less';
 import { ActivitiesType, CurrentUser, NoticeType, RadarDataType } from './data.d';
+
+
 
 interface WorkplaceProps {
   currentUser?: CurrentUser;
@@ -132,13 +137,13 @@ class Workplace extends Component<WorkplaceProps> {
               style={{ marginBottom: 24 }}
               title="Review Items"
               bordered={false}
-              extra={<Link to="/">All Projects</Link>}
+              /*extra={<Link to="/">All Projects</Link>}*/
               loading={projectLoading}
               bodyStyle={{ padding: 0 }}
             >
               {projectNotice.map((item) => (
-                <Card.Grid className={styles.projectGrid} key={item.id}>
-                  <Card bodyStyle={{ padding: 0 }} bordered={false}>
+                <Card.Grid  className={styles.projectGrid} key={item.id}>
+                  <Card bodyStyle={{ padding: 20 }} bordered={false}>
                     <Card.Meta
                       title={
                         <div className={styles.cardTitle}>
@@ -146,17 +151,15 @@ class Workplace extends Component<WorkplaceProps> {
                           <Link to={item.href}>{item.title}</Link>
                         </div>
                       }
-                      description={item.description}
+                      // description={item.description}
                     />
-                    <div className={styles.projectItemContent}>
-                      <Link to={item.memberLink}>{item.member || ''}</Link>
-                      {item.updatedAt && (
-                        <span className={styles.datetime} title={item.updatedAt}>
-                          {moment(item.updatedAt).fromNow()}
-                        </span>
-                      )}
+                    
+                    <div className={styles.projectItemContent}>  
+                      <a to={item.memberLink}>{item.member || ''}</a>
                     </div>
+                    
                   </Card>
+                  <br />
                 </Card.Grid>
               ))}
             </Card>
